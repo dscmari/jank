@@ -1,5 +1,6 @@
+import type { JSX, SVGProps } from "react";
 
-export default function Phone() {
+export default function Phone(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <div>
       <svg
@@ -9,6 +10,7 @@ export default function Phone() {
         strokeWidth={1.5}
         stroke="#f5f6fa"
         className="size-4"
+        {...props}
       >
         <path
           strokeLinecap="round"
