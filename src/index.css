@@ -2,38 +2,30 @@
 
 @theme {
   --color-custom-darkblue: #0c2461;
-  --color-custom-red: #EA2027; /*red pigment / dutch pallete  */
+  --color-custom-red: rgb(231,0,53); /* tricor red */
   --color-custom-orange: #fa983a;
   --color-custom-white: #f5f6fa;
   --color-custom-grey: #7f8fa6;
 }
 
 @font-face {
-  font-family: 'Hedvig Serif';
-  src: url('fonts/Hedvig_Letters_Serif/HedvigLettersSerif-Regular-VariableFont_opsz.ttf') format('truetype');
+  font-family: 'Poppins Bold';
+  src: url('fonts/Poppins/Poppins-Bold.ttf') format('truetype');
   font-weight: 400; /* Regular */
   font-style: normal;
   font-display: swap; /* Verbessert das Laden auf langsamen Verbindungen */
 }
 
 @font-face {
-  font-family: 'Stack Sans Headline';
-  src: url('fonts/Stack_Sans_Headline/StackSansHeadline-VariableFont_wght.ttf') format('truetype');
-  font-weight: 400; /* Regular */
-  font-style: normal;
-  font-display: swap; /* Verbessert das Laden auf langsamen Verbindungen */
-}
-
-@font-face {
-  font-family: 'Merriweather';
-  src: url('fonts/Merriweather/Merriweather-VariableFont_opsz,wdth,wght.ttf') format('truetype');
+  font-family: 'Inter';
+  src: url('fonts/Inter/Inter-VariableFont_opsz,wght.ttf') format('truetype');
   font-weight: 400; /* Regular */
   font-style: normal;
   font-display: swap; /* Verbessert das Laden auf langsamen Verbindungen */
 }
 
 :root {
-  font-family: 'Hedvig Serif' ,Helvetica, Arial, sans-serif;
+  font-family: 'Inter' ,Helvetica, Arial, sans-serif;
   color-scheme: light dark;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -45,16 +37,12 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  font-family: 'Merriweather';
+
 }
 
-.logo-headline {
+/* .logo-headline {
  font-family: 'Hedvig Serif', sans-serif;
-}
-
-.cta-button {
-    font-family: 'Stack Sans Headline', 'sans-serif';
-}
+} */
 
 h1 {
   font-size: 1.5rem;
@@ -67,7 +55,7 @@ h2 {
 }
 
 h1, h2, button {
-  font-family: 'Stack Sans Headline', 'sans-serif';
+  font-family: 'Poppins Bold', 'sans-serif';
 }
 
 

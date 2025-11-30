@@ -10,7 +10,7 @@ export default function ATF({ isMobile, isTablet }: Props) {
       {isMobile ? (
         <div className="h-screen">
           <div className="relative h-screen">
-            <h1 className="absolute top-1/2 -translate-y-1/2 text-custom-white !text-5xl/14 text-center headline tracking-tight px-8">
+            <h1 className="absolute top-1/2 -translate-y-1/2 text-custom-white !text-5xl/14 text-center headline tracking-wide px-8">
               Platz 1 bei Google und Chat GPT?
             </h1>
             <img

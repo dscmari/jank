@@ -62,7 +62,7 @@ function App() {
             <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded-4xl w-full flex items-center justify-between">
               <div className="flex gap-2 items-center">
                 <Phone />
-                <span>Jan Krösche</span>
+                <span>Jan Krösche anrufen</span>
               </div>
               <ArrowRight />
             </button>
