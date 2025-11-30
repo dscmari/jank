@@ -9,10 +9,8 @@
 }
 
 @font-face {
-  font-family: 'Poppins Bold';
+  font-family: 'Poppins';
   src: url('fonts/Poppins/Poppins-Bold.ttf') format('truetype');
-  font-weight: 400; /* Regular */
-  font-style: normal;
   font-display: swap; /* Verbessert das Laden auf langsamen Verbindungen */
 }
 
@@ -55,7 +53,7 @@ h2 {
 }
 
 h1, h2, button {
-  font-family: 'Poppins Bold', 'sans-serif';
+  font-family: 'Poppins', 'sans-serif';
 }
 
 
