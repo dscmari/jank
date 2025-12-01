@@ -115,7 +115,7 @@ function App() {
           </section>
           <Contact className="mt-24" />
           <section>
-            <h2 className="mx-8 !mb-12 mt-24">
+            <h2 className="mx-8 !mb-12 mt-24 dark:pt-8">
               Unsere SEO und SEA Leistungen auf einen Blick
             </h2>
             <div className="bg-custom-white mx-8 leading-8 p-8 shadow-2xl rounded-lg ">
@@ -255,7 +255,7 @@ function App() {
           </section>
          <WebsiteCheck/>
           <section className="my-24">
-            <p className="mx-8 text-center">
+            <p className="px-8 text-center dark:py-8">
               Jan Krösche & Team sind Deine SEO und SEA-Spezialisten, die Deinen
               Webauftritt so optimieren, damit Du bei Google, ChatGPT, Copilot
               und Perplexity auf Platz 1 rankst.{" "}
