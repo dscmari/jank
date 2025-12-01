@@ -14,7 +14,7 @@ export default function ATF({ isMobile, isTablet }: Props) {
               Platz 1 bei Google und Chat GPT?
             </h1>
             <img
-              src="/images/test.jpg"
+              src="/images/portraits/39321-4133web.jpg"
               alt="Portrait von Jan Krösche"
               className="w-full max-h-full"
             />

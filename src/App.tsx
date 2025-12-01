@@ -12,6 +12,7 @@ import Magnifier from "./icons/Magnifier";
 import Code from "./icons/Code";
 import Head from "./icons/Head";
 import Diamond from "./icons/Diamond";
+import WebsiteCheck from "./components/WebsiteCheck";
 
 function App() {
   const isMobile = checkIsMobile();
@@ -42,18 +43,21 @@ function App() {
             </button>
           </section>
           <section className="-translate-y-12">
-            <img src="/images/portrait_2.jpg" alt="Portrait Jan Krösche" />
+            <img
+              src="/images/portraits/39321-3981.jpg"
+              alt="Portrait Jan Krösche"
+            />
             <p className="mx-8 mt-2 text-sm text-thin text-center">
               Jan Krösche hat bis 2025 eine der größten
               Onlinemarketing-Agenturen in Deutschland aufgebaut und geleitet.
               Seit 2025 arbeitet er mit einem spezialisierten Team selbständig.
             </p>
-            <p className="my-4 mx-8">
+            <p className="py-4 mx-8">
               Unsere Referenzen sprechen für sich.{" "}
               <span className="underline">Mach Dir selbst ein Bild.</span>{" "}
             </p>
           </section>
-          <section className="bg-custom-white mx-8 mb-32 mt-16 leading-8 p-8 shadow-2xl rounded-lg">
+          <section className="bg-custom-white mx-8 mt-16 leading-8 p-8 shadow-2xl rounded-lg">
             <div className="flex items-center justify-around max-w-screen">
               <img
                 src="/images/website_boosting.jpg"
@@ -74,7 +78,7 @@ function App() {
               <ArrowRight />
             </button>
           </section>
-          <section className="mt-16 mx-8 flex flex-col gap-4">
+          <section className="mt-8 p-8 mt-24 flex flex-col gap-4">
             <h2 className="!mb-0">
               Wir bringen Dich bei Google & ChatGPT ganz nach vorne
             </h2>
@@ -109,9 +113,9 @@ function App() {
               Österreich, Norditalien & der Schweiz für unsere Kunden unterwegs.
             </p>
           </section>
-          <Contact className="my-16" />
+          <Contact className="mt-24" />
           <section>
-            <h2 className="mx-8 !mb-8">
+            <h2 className="mx-8 !mb-12 mt-24">
               Unsere SEO und SEA Leistungen auf einen Blick
             </h2>
             <div className="bg-custom-white mx-8 leading-8 p-8 shadow-2xl rounded-lg ">
@@ -144,28 +148,28 @@ function App() {
               </button>
             </div>
           </section>
-          <section className="mt-16">
+          <section className="mt-24">
             <div className="bg-custom-white mx-8 leading-8 p-8 shadow-2xl rounded-lg ">
               <h2 className="text-center !mb-8">Chat GPT Platz 1</h2>
               <div className="flex flex-col gap-4 pl-4 text-xl">
                 <div className="flex items-center gap-4">
-                  <Diamond />
+                  <Diamond className="h-6 flex-shrink-0" />
                   <span>Chat GPT Optimierung</span>
                 </div>
                 <div className="flex items-center gap-4">
-                  <Diamond />
+                  <Diamond className="h-6 flex-shrink-0" />
                   <span>Google KI-Modus Optimierung</span>
                 </div>
                 <div className="flex items-center gap-4">
-                  <Diamond />
+                  <Diamond className="h-6 flex-shrink-0" />
                   <span>Gimini Optimierung</span>
                 </div>
                 <div className="flex items-center gap-4">
-                  <Diamond />
+                  <Diamond className="h-6 flex-shrink-0" />
                   <span>Perplexity Optimierung</span>
                 </div>
                 <div className="flex items-center gap-4">
-                  <Diamond />
+                  <Diamond className="h-6 flex-shrink-0" />
                   <span>Copilot Optimierung</span>
                 </div>
                 <div className="flex items-center gap-4">
@@ -179,36 +183,36 @@ function App() {
               </button>
             </div>
           </section>
-          <section className="mt-16">
+          <section className="mt-24">
             <div className="bg-custom-white mx-8 leading-8 p-8 shadow-2xl rounded-lg ">
               <h2 className="text-center !mb-8">Bezahlte Werbeanzeigen</h2>
               <div className="flex flex-col gap-4 pl-4 text-xl">
                 <div className="flex items-center gap-4">
-                  <Diamond />
+                  <Diamond className="h-6 flex-shrink-0" />
                   <span>Google Werbung (Google Ads)</span>
                 </div>
                 <div className="flex items-center gap-4">
-                  <Diamond />
+                  <Diamond className="h-6 flex-shrink-0" />
                   <span>Bing Werbung (Bing Ads)</span>
                 </div>
                 <div className="flex items-center gap-4">
-                  <Diamond />
+                  <Diamond className="h-6 flex-shrink-0" />
                   <span>KI Ads</span>
                 </div>
                 <div className="flex items-center gap-4">
-                  <Diamond />
+                  <Diamond className="h-6 flex-shrink-0" />
                   <span>ChatGPT Ads</span>
                 </div>
                 <div className="flex items-center gap-4">
-                  <Diamond />
+                  <Diamond className="h-6 flex-shrink-0" />
                   <span>Copilot Ads</span>
                 </div>
                 <div className="flex items-center gap-4">
-                  <Diamond />
+                  <Diamond className="h-6 flex-shrink-0" />
                   <span>Perplexity Ads</span>
                 </div>
                 <div className="flex items-center gap-4">
-                  <Diamond />
+                  <Diamond className="h-6 flex-shrink-0" />
                   <span>ChatGPT Shopping</span>
                 </div>
               </div>
@@ -218,7 +222,7 @@ function App() {
               </button>
             </div>
           </section>
-          <section className="p-8 mt-32 flex flex-col gap-8">
+          <section className="p-8 mt-24 flex flex-col gap-8">
             <h2 className="">
               Endlich Platz 1 bei Google: So läuft die Zusammenarbeit ab
             </h2>
@@ -249,62 +253,22 @@ function App() {
               </p>
             </div>
           </section>
-          <section className="p-8 mt-16 bg-custom-darkblue text-custom-white">
-            <h2 className="text-center !mb-8">Kostenloser Website Check</h2>
-            <div className="flex flex-col gap-4">
-              <p>
-                Du willst bei Google & ChatGPT auf Platz 1 kommen und mehr
-                Anfragen generieren?{" "}
-              </p>
-              <p>
-                Ich schaue mir Deine Website an und schicke Dir ein paar
-                Optimierungsvorschläge als Datei per Mail zu. Komplett
-                kostenlos.
-              </p>
-            </div>
-            <form action="#" className="my-12 flex flex-col gap-8">
-              <div>
-                <span className="bg-custom-white block text-center text-custom-darkblue text-xl rounded py-2">
-                  Deine Website
-                </span>
-              </div>
-              <div>
-                <span className="bg-custom-white block text-center text-custom-darkblue text-xl rounded py-2">
-                  Deine Mail
-                </span>
-              </div>
-              <div className="flex gap-8">
-                <input type="checkbox" className="min-w-6" />
-                <p className="text-sm">
-                  Ich stimme zu, dass meine Angaben aus diesem Formular zur
-                  Beantwortung meiner Anfrage erhoben und verarbeitet werden.
-                  Mehr Informationen in der Datenschutzerklärung. Die habe ich
-                  gelesen und akzeptiert.*
-                </p>
-              </div>
-              <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded-4xl w-full flex items-center justify-between">
-                <span>Website abschicken</span>
-                <ArrowRight />
-              </button>
-              <p className="text-xs text-center">
-                Der Website Check ist komplett kostenlos
-              </p>
-            </form>
-          </section>
-          <section className="my-16">
+         <WebsiteCheck/>
+          <section className="my-24">
             <p className="mx-8 text-center">
               Jan Krösche & Team sind Deine SEO und SEA-Spezialisten, die Deinen
               Webauftritt so optimieren, damit Du bei Google, ChatGPT, Copilot
               und Perplexity auf Platz 1 rankst.{" "}
             </p>
           </section>
-          <section className="relative shadow-xl">
+          <section className="relative border-b-1 border-slate-200">
             <img
-              src="/images/portrait_2.jpg"
+              src="/images/portraits/39321-4000_02.jpg"
               alt="Portrait Jan Krösche"
-              className="w-full"
+              className="h-96 object-cover"
             />
-            <div className="bg-white absolute right-0 bottom-0 w-full flex items-center justify-center">
+
+            <div className="p-4 bg-white absolute z-10 right-left bottom-0 flex flex-col items-center justify-center rounded-tr-xl h-1/2">
               <div>
                 <img
                   src="/images/jank_logo.jpg"
@@ -312,17 +276,107 @@ function App() {
                   style={{ width: "200px" }}
                 />
               </div>
-              <div className="flex flex-col  p-4 items-end text-xl">
+              <div className="flex flex-col pb-4 text-xl">
                 <span className="block">Jan Krösche</span>
                 <span className="block"></span>0176 55 10 9383
                 <span className="block">jan@jankroesche.de</span>
               </div>
             </div>
+            <div className="absolute bg-white w-full h-12 z-1 bottom-0"></div>
           </section>
-          <button className="mt-16 mx-auto px-4 py-2 bg-custom-red text-custom-white rounded-4xl w-2/3 flex items-center justify-between">
-            <span>Kostenlose SEO Tipps </span>
-            <ArrowRight />
-          </button>
+          <section></section>
+          <section className="mt-24 dark:pt-8">
+            <h2 className="mx-8">
+              Keine Lust mehr, hinter Deinem größten Wettbewerber
+              hinterherzulaufen?
+            </h2>
+            <p className="m-8">
+              Das Spiel im Internet ist ganz einfach. Menschen suchen etwas bei
+              Google oder ChatGPT und klicken auf die Websites, die ganz oben
+              stehen. Die Firmen, die daher auf Platz 1 ranken, gewinnen die
+              meisten Website-Besucher und ergattern sich die meisten Neukunden.
+            </p>
+            <div className="mt-12 bg-custom-white mx-8 leading-8 p-8 shadow-2xl rounded-lg">
+              <h2 className="text-center !mb-8">
+                Wir helfen Dir und Deiner Firma, damit Du
+              </h2>
+              <div className="flex flex-col gap-4 text-xl">
+                <div className="flex items-center gap-4">
+                  <Diamond className="h-6 flex-shrink-0" />
+                  <span>
+                    Für wichtige Keywords auf Platz 1 bei Google stehst
+                  </span>
+                </div>
+                <div className="flex items-center gap-4">
+                  <Diamond className="h-6 flex-shrink-0" />
+                  <span>
+                    Extrem häufig in den KI-Antworten von ChatGPT erscheinst
+                  </span>
+                </div>
+                <div className="flex items-center gap-4">
+                  <Diamond className="h-6 flex-shrink-0" />
+                  <span>Die Nr. 1 Deiner Branche wirst</span>
+                </div>
+                <div className="flex items-center gap-4">
+                  <Diamond className="h-6 flex-shrink-0" />
+                  <span>Mehr Anfragen übers Internet erhältst</span>
+                </div>
+                <div className="flex items-center gap-4">
+                  <Diamond className="h-6 flex-shrink-0" />
+                  <span>Langfristig am Markt bestehen kannst</span>
+                </div>
+                <div className="flex items-center gap-4 min-w-8">
+                  <Diamond className="h-6 flex-shrink-0" />
+                  <span>Deine Website endlich „funktioniert“</span>
+                </div>
+              </div>
+              <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded-4xl w-full flex items-center justify-between">
+                <span>Kostenloser SEO Check</span>
+                <ArrowRight />
+              </button>
+            </div>
+            <p className="mt-24 mx-8">
+              Unsere Aufgabe ist einfach: Wir optimieren Deinen Webauftritt,
+              damit Du bei Google, ChatGPT, Perplexity und anderen KI-Maschinen
+              bestens gefunden werden kannst. Wir kennen die Algorithmen und
+              haben das „SEO-Spiel“ seit 2017 schon Hundertfach durchgespielt.{" "}
+            </p>
+            <div className="mt-12 bg-custom-white mx-8 leading-8 p-8 shadow-2xl rounded-lg ">
+              <h2 className="text-center !mb-8">
+                Unsere Leistungen auf einen Blick
+              </h2>
+              <div className="flex flex-col gap-4 text-xl">
+                <div className="flex items-center gap-4">
+                  <Diamond className="h-6 flex-shrink-0" />
+                  <span>Google Optimierung</span>
+                </div>
+                <div className="flex items-center gap-4">
+                  <Diamond className="h-6 flex-shrink-0" />
+                  <span>YouTube Kanal Optimierung</span>
+                </div>
+                <div className="flex items-center gap-4">
+                  <Diamond className="h-6 flex-shrink-0" />
+                  <span>ChatGPT Optimierung</span>
+                </div>
+                <div className="flex items-center gap-4">
+                  <Diamond className="h-6 flex-shrink-0" />
+                  <span>Copilot Optimierung</span>
+                </div>
+                <div className="flex items-center gap-4">
+                  <Diamond className="h-6 flex-shrink-0" />
+                  <span>Google Werbung schalten (Google Ads)</span>
+                </div>
+                <div className="flex items-center gap-4 min-w-8">
+                  <Diamond className="h-6 flex-shrink-0" />
+                  <span>Bing Werbung schalten (Bing Ads)</span>
+                </div>
+              </div>
+              <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded-4xl w-full flex items-center justify-between">
+                <span>Kostenloser SEO Check</span>
+                <ArrowRight />
+              </button>
+            </div>
+          </section>
           <Footer />
         </div>
       )}
