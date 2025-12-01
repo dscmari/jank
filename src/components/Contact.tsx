@@ -11,12 +11,12 @@ export default function Contact({ className }: Props) {
     <div className={classes}>
       <p>Schnelle Kontaktaufnahme zu Jan Krösche</p>
       <div className="flex items-center gap-4">
-        <Phone className="size-8" />
-        <span className="text-3xl">+49 176 55 10 93 83</span>
+        <Phone className="size-6" />
+        <span className="text-lg">+49 176 55 10 93 83</span>
       </div>
       <div className="flex items-center gap-4">
-        <Mail className="size-8" />
-        <span className="text-3xl">jan@jankroesche.de</span>
+        <Mail className="size-6" />
+        <span className="text-lg">jan@jankroesche.de</span>
       </div>
     </div>
   );
