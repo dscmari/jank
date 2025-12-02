@@ -3,7 +3,6 @@ import checkIsTablet from "./utils/checkIsTablet";
 import Navbar from "./components/Navbar";
 import ATF from "./components/ATF";
 import ArrowRight from "./icons/ArrowRight";
-import Phone from "./icons/Phone";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Maps from "./icons/Maps";
