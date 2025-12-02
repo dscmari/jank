@@ -38,7 +38,7 @@ function App() {
               Wettbewerber.
             </p>
             <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded-4xl w-full flex items-center justify-between">
-              <span>Kostenlose SEO-Check </span>
+              <span>Kostenloser SEO-Check </span>
               <ArrowRight />
             </button>
           </section>
@@ -53,41 +53,29 @@ function App() {
               Seit 2025 arbeitet er mit einem spezialisierten Team selbständig.
             </p>
           </section>
-          <section className="mt-24">
-            <h2 className="mx-8 dark:pt-8">
-              In 3 Schritten bringen wir Dich auf Platz 1
-            </h2>
-            <div className="bg-custom-white mx-8 p-8 mt-8 shadow-2xl rounded-lg flex flex-col gap-4 dark">
-              <div>
-                <h2>Schritt 1</h2>
-                <p>
-                  Wir analysieren die Suchbegriffe, die genau Deine Kunden bei
-                  Google & ChatGPT eingeben
-                </p>
-              </div>
-              <div>
-                <h2>Schritt 2</h2>
-                <p>
-                  Wir optimieren Deine Website und/oder setzen Deine Google
-                  Werbeanzeigen auf
-                </p>
-              </div>
-              <div>
-                <h2>Schritt 3</h2>
-                <p>
-                  Wir bleiben am Ball und verbessern deine Website und Deine
-                  Anzeige laufend, damit du sichtbarer wirst und an deinen
-                  Wettbewerbern vorbeiziehst. Und immer mehr Kunden gewinnst
-                </p>
-              </div>
-
-              <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded-4xl w-full flex items-center justify-between">
-                <div className="flex gap-2 items-center">
-                  <Phone />
-                  <span>Jan Krösche anrufen</span>
-                </div>
-                <ArrowRight />
-              </button>
+          <section className="mt-24 bg-custom-white p-8 mt-8 rounded-lg flex flex-col gap-4 dark">
+            <h2 className="">In 3 Schritten bringen wir Dich auf Platz 1</h2>
+            <div>
+              <h2>Schritt 1</h2>
+              <p>
+                Wir analysieren die Suchbegriffe, die genau Deine Kunden bei
+                Google & ChatGPT eingeben
+              </p>
+            </div>
+            <div>
+              <h2>Schritt 2</h2>
+              <p>
+                Wir optimieren Deine Website und/oder setzen Deine Google
+                Werbeanzeigen auf
+              </p>
+            </div>
+            <div>
+              <h2>Schritt 3</h2>
+              <p>
+                Wir bleiben am Ball und verbessern deine Website und Deine
+                Anzeige laufend, damit du sichtbarer wirst und an deinen
+                Wettbewerbern vorbeiziehst. Und immer mehr Kunden gewinnst
+              </p>
             </div>
           </section>
           <Contact className="mt-24" />
@@ -115,12 +103,14 @@ function App() {
                 </p>
               </div>
               <p className="mt-4">
-                „Wir haben mit Jan Krösche einen idealen Partner im SEO gefunden.
-                Er gibt uns immer neue Vorschläge, wie wir unsere Website
-                verbessern können, um bei Google zu immer mehr Schlagworten
-                sichtbar zu sein.“
+                „Wir haben mit Jan Krösche einen idealen Partner im SEO
+                gefunden. Er gibt uns immer neue Vorschläge, wie wir unsere
+                Website verbessern können, um bei Google zu immer mehr
+                Schlagworten sichtbar zu sein.“
               </p>
-              <span className="font-semibold pt-2 block">Hotelleiter Christoph Grödl</span>
+              <span className="font-semibold pt-2 block">
+                Hotelleiter Christoph Grödl
+              </span>
             </div>
 
             <div>
@@ -152,7 +142,9 @@ function App() {
                 IT-Dienstleister in der ganzen Region. Die Website ist für
                 unsere Neukundengeschäft nicht mehr wegzudenken.“
               </p>
-              <span className="font-semibold pt-2 block">Inhaber Günter Kramer</span>
+              <span className="font-semibold pt-2 block">
+                Inhaber Günter Kramer
+              </span>
             </div>
             <div>
               <h2>Kunststoff-Firma Gregor Hofbauer GmbH aus Türkheim</h2>
@@ -260,7 +252,7 @@ function App() {
                 </div>
               </div>
               <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded-4xl w-full flex items-center justify-between">
-                <span>Kostenloser SEO Check </span>
+                <span>Kostenloser SEO-Check </span>
                 <ArrowRight />
               </button>
             </div>
@@ -295,12 +287,12 @@ function App() {
                 </div>
               </div>
               <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded-4xl w-full flex items-center justify-between">
-                <span>Mehr zu Google Ads</span>
+                <span>Kostenloser KI-SEO-Check</span>
                 <ArrowRight />
               </button>
             </div>
           </section>
-                    <section className="mt-24">
+          <section className="mt-24">
             <div className="bg-custom-white mx-8 leading-8 p-8 shadow-2xl rounded-lg dark">
               <h2 className="text-center !mb-8">Bezahlte Werbeanzeigen</h2>
               <div className="flex flex-col gap-4 pl-4 text-x">
@@ -334,7 +326,7 @@ function App() {
                 </div>
               </div>
               <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded-4xl w-full flex items-center justify-between">
-                <span>Kostenlose SEO Tipps</span>
+                <span>Mehr zu Google Ads</span>
                 <ArrowRight />
               </button>
             </div>
@@ -532,13 +524,6 @@ function App() {
               Jan Krösche veröffentlicht regelmäßig im Fachmagazin „Website
               Boosting“ und hält Vorträge beim Verein Deutscher Ingenieure.
             </p>
-            <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded-4xl w-full flex items-center justify-between">
-              <div className="flex gap-2 items-center">
-                <Phone />
-                <span>Jan Krösche anrufen</span>
-              </div>
-              <ArrowRight />
-            </button>
           </section>
           <section className="mt-24 relative border-b-1 border-slate-200 dark:translate-y-8">
             <img

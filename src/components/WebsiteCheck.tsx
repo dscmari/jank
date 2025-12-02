@@ -32,7 +32,7 @@ export default function WebsiteCheck() {
           </p>
         </div>
         <div>
-          <button className="mt-4 px-4 py-2 text-center bg-custom-white text-custom-black rounded-xl w-full">
+          <button className="leading-8 mt-4 px-4 py-2 text-center bg-custom-white text-custom-black rounded-xl w-full">
             Website abschicken
           </button>
           <p className="text-xs text-center mt-4">
