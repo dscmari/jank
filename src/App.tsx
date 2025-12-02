@@ -115,7 +115,7 @@ function App() {
                 </p>
               </div>
               <p className="mt-4">
-                „Wir habe mit Jan Krösche einen idealen Partner im SEO gefunden.
+                „Wir haben mit Jan Krösche einen idealen Partner im SEO gefunden.
                 Er gibt uns immer neue Vorschläge, wie wir unsere Website
                 verbessern können, um bei Google zu immer mehr Schlagworten
                 sichtbar zu sein.“
@@ -300,6 +300,45 @@ function App() {
               </button>
             </div>
           </section>
+                    <section className="mt-24">
+            <div className="bg-custom-white mx-8 leading-8 p-8 shadow-2xl rounded-lg dark">
+              <h2 className="text-center !mb-8">Bezahlte Werbeanzeigen</h2>
+              <div className="flex flex-col gap-4 pl-4 text-x">
+                <div className="flex items-center gap-4">
+                  <Diamond className="h-6 flex-shrink-0" />
+                  <span>Google Werbung (Google Ads)</span>
+                </div>
+                <div className="flex items-center gap-4">
+                  <Diamond className="h-6 flex-shrink-0" />
+                  <span>Bing Werbung (Bing Ads)</span>
+                </div>
+                <div className="flex items-center gap-4">
+                  <Diamond className="h-6 flex-shrink-0" />
+                  <span>KI Ads</span>
+                </div>
+                <div className="flex items-center gap-4">
+                  <Diamond className="h-6 flex-shrink-0" />
+                  <span>ChatGPT Ads</span>
+                </div>
+                <div className="flex items-center gap-4">
+                  <Diamond className="h-6 flex-shrink-0" />
+                  <span>Copilot Ads</span>
+                </div>
+                <div className="flex items-center gap-4">
+                  <Diamond className="h-6 flex-shrink-0" />
+                  <span>Perplexity Ads</span>
+                </div>
+                <div className="flex items-center gap-4">
+                  <Diamond className="h-6 flex-shrink-0" />
+                  <span>ChatGPT Shopping</span>
+                </div>
+              </div>
+              <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded-4xl w-full flex items-center justify-between">
+                <span>Kostenlose SEO Tipps</span>
+                <ArrowRight />
+              </button>
+            </div>
+          </section>
           <section className="mt-24 bg-custom-white p-8 dark">
             <h2>
               Wir geben unsere Expertise weiter und schulen Firmen aus der
@@ -354,45 +393,6 @@ function App() {
                   Antworten zitiert wird.
                 </p>
               </div>
-            </div>
-          </section>
-          <section className="mt-24">
-            <div className="bg-custom-white mx-8 leading-8 p-8 shadow-2xl rounded-lg dark">
-              <h2 className="text-center !mb-8">Bezahlte Werbeanzeigen</h2>
-              <div className="flex flex-col gap-4 pl-4 text-x">
-                <div className="flex items-center gap-4">
-                  <Diamond className="h-6 flex-shrink-0" />
-                  <span>Google Werbung (Google Ads)</span>
-                </div>
-                <div className="flex items-center gap-4">
-                  <Diamond className="h-6 flex-shrink-0" />
-                  <span>Bing Werbung (Bing Ads)</span>
-                </div>
-                <div className="flex items-center gap-4">
-                  <Diamond className="h-6 flex-shrink-0" />
-                  <span>KI Ads</span>
-                </div>
-                <div className="flex items-center gap-4">
-                  <Diamond className="h-6 flex-shrink-0" />
-                  <span>ChatGPT Ads</span>
-                </div>
-                <div className="flex items-center gap-4">
-                  <Diamond className="h-6 flex-shrink-0" />
-                  <span>Copilot Ads</span>
-                </div>
-                <div className="flex items-center gap-4">
-                  <Diamond className="h-6 flex-shrink-0" />
-                  <span>Perplexity Ads</span>
-                </div>
-                <div className="flex items-center gap-4">
-                  <Diamond className="h-6 flex-shrink-0" />
-                  <span>ChatGPT Shopping</span>
-                </div>
-              </div>
-              <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded-4xl w-full flex items-center justify-between">
-                <span>Kostenlose SEO Tipps</span>
-                <ArrowRight />
-              </button>
             </div>
           </section>
           <section className="p-8 mt-24 flex flex-col gap-8">
