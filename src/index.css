@@ -21,6 +21,13 @@
   src: url('/fonts/Inter/Inter-VariableFont_opsz,wght.ttf') format('truetype-variations');
   font-display: swap; 
 }
+@font-face {
+  font-family: 'Inter';
+  font-weight: 100 900;
+  font-style: italic; /* <--- Tailwind's 'italic' uses this */
+  src: url('/fonts/Inter/Inter-ItalicVariableFont_opsz,wght.ttf') format('truetype-variations');
+  font-display: swap;
+}
 
 :root {
   font-family: 'Inter' ,Helvetica, Arial, sans-serif;
@@ -133,7 +140,7 @@ h1, h2, button {
 }
 
 @media (prefers-color-scheme: dark) {
-    section, section > div {
+    .dark {
         background: var(--color-custom-black);  
     }
 }

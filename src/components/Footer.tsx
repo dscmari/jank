@@ -1,10 +1,7 @@
 export default function Footer() {
   return (
-    <div className="border-t-2 border-slate-200 mt-16 p-8 bg-black text-white">
+    <div className="mt-8 p-8 bg-custom-black text-white">
       <div className="flex flex-col items-center gap-4">
-        <a href="#" className="underline">
-          Kontakt
-        </a>
         <a href="#" className="underline">
           Datenschutz
         </a>
