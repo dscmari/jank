@@ -99,7 +99,7 @@ h1, h2, button {
   -moz-transition: 0.5s ease-in-out;
   -o-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
-    background-color: var(--color-custom-grey);
+  background-color: var(--color-custom-grey);
 }
 
 .burgermenu > span:nth-child(1) {

@@ -1,15 +1,15 @@
 import type { JSX, SVGProps } from "react";
 
-export default function Mail(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
+export default function Mail({ color = "#f5f6fa", ...props }: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
-    <svg
+   <svg
       xmlns="http://www.w3.org/2000/svg"
-      fill="none"
+      fill={color}
       viewBox="0 0 24 24"
       strokeWidth={1.5}
-             stroke="#f5f6fa"
+      stroke="white"
       className="size-4"
-      {...props}
+      {...props} 
     >
       <path
         strokeLinecap="round"

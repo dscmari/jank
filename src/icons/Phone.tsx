@@ -1,17 +1,18 @@
 import type { JSX, SVGProps } from "react";
 
-export default function Phone(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
+export default function Phone({ color = "#f5f6fa", ...props }: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <div>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="#f5f6fa"
-        viewBox="0 0 24 24"
-        strokeWidth={1.5}
-        stroke="#f5f6fa"
-        className="size-4"
-        {...props}
-      >
+   <svg
+      xmlns="http://www.w3.org/2000/svg"
+      // Feste Farben durch die 'color'-Prop ersetzen
+      fill={color}
+      viewBox="0 0 24 24"
+      strokeWidth={1.5}
+      stroke={color}
+      className="size-4"
+      {...props} 
+    >
         <path
           strokeLinecap="round"
           strokeLinejoin="round"
