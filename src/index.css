@@ -31,6 +31,7 @@
 
 :root {
   font-family: 'Inter' ,Helvetica, Arial, sans-serif;
+  color: var(--color-custom-black);
   color-scheme: light dark;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -143,4 +144,11 @@ h1, h2, button {
     .dark {
         background: var(--color-custom-black);  
     }
+}
+
+.desktop-atf {
+  background-image: url("/images/portraits/39321-4000_02.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }

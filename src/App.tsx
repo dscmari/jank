@@ -1,6 +1,6 @@
 import checkIsMobile from "./utils/checkIsMobile";
 import checkIsTablet from "./utils/checkIsTablet";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 import ATF from "./components/ATF";
 import ArrowRight from "./icons/ArrowRight";
 import Footer from "./components/Footer";
