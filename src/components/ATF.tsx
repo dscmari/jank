@@ -26,7 +26,7 @@ export default function ATF({ isMobile, isTablet }: Props) {
           ) : (
             <div className="desktop-atf h-screen bg-red-500 relative">
               <div className="p-8 rounded bg-white/90 max-w-2/5 absolute top-1/2 -translate-y-1/2 left-1/8">
-                <h1 className="mb-8 !text-3xl">
+                <h1 className="mb-8 !text-3xl tracking-wide">
                   Endlich Platz 1 bei Google & ChatGPT mit Deiner Website!
                 </h1>
                 <h2>
