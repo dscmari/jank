@@ -15,10 +15,10 @@ export default function Navbar({ isMobile, isTablet }: Props) {
   return (
     <div>
       {isMobile ? (
-        <div className="relative">
+        <div className="relative ">
           <div
-            className={`h-screen z-100 absolute w-full bg-white flex flex-col transition-transform duration-300 ease-in-out 
-                        ${isMenuOpen ? "" : "translate-x-full"}
+            className={`h-screen left-full z-100 fixed w-full bg-white flex flex-col transition-transform duration-300 ease-in-out 
+                        ${isMenuOpen ? "-translate-x-full" : ""}
                       `}
           >
             <div className="flex items-center justify-between p-4 dark:bg-white">
