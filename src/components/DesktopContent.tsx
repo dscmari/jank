@@ -139,6 +139,9 @@ export default function DesktopContent() {
           </button>
         </div>
       </section>
+      <section>
+        <p>TODO: Unsere SEO und SEA Leistungen auf einen Blick, Hintergrund basic weiss</p>
+      </section>
       <Testimonials />
     </>
   );

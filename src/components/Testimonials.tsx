@@ -2,12 +2,12 @@ import RatingStar from "../icons/RatingStar";
 
 export default function Testimonials() {
   return (
-    <section className="mt-24 bg-custom-white p-8 dark lg:py-32">
+    <section className="mt-24 lg:bg-custom-white p-8 dark lg:py-32">
       <h2 className="lg:text-center lg:!text-3xl tracking-wide">
         Wir haben über 500 Firmenwebsites auf Platz 1 optimiert
       </h2>
       <div className="flex flex-col lg:items-center gap-12 pt-8">
-        <div className="lg:bg-white lg:p-8 lg:w-2/3 lg:rounded">
+        <div className="lg:bg-white p-4 lg:p-8 lg:w-2/3 rounded shadow-lg">
           <div className="flex gap-1">
             <RatingStar />
             <RatingStar />
@@ -52,7 +52,7 @@ export default function Testimonials() {
             </div>
           </div>
         </div>
-        <div className="lg:bg-white lg:p-8 lg:w-2/3 lg:rounded">
+        <div className="lg:bg-white p-4 lg:p-8 lg:w-2/3 rounded shadow-lg">
           <div className="flex gap-1">
             <RatingStar />
             <RatingStar />
@@ -102,7 +102,7 @@ export default function Testimonials() {
             </div>
           </div>
         </div>
-        <div className="lg:bg-white lg:p-8 lg:w-2/3 lg:rounded">
+        <div className="lg:bg-white p-4 lg:p-8 lg:w-2/3 rounded shadow-lg">
           <div className="flex gap-1">
             <RatingStar />
             <RatingStar />
