@@ -25,8 +25,8 @@ export default function ATF({ isMobile, isTablet }: Props) {
             <div>tablet</div>
           ) : (
             <div className="desktop-atf h-screen relative">
-              <div className="p-8 rounded bg-white/90 max-w-2/5 absolute top-1/2 -translate-y-1/2 left-1/8">
-                <h1 className="mb-8 !text-3xl tracking-wide">
+              <div className="p-8 rounded text-custom-white max-w-2/5 absolute top-1/2 -translate-y-1/2 left-1/8">
+                <h1 className="mb-8 !text-5xl/14 tracking-wide">
                   Endlich Platz 1 bei Google & ChatGPT mit Deiner Website!
                 </h1>
                 <h2>
@@ -38,7 +38,7 @@ export default function ATF({ isMobile, isTablet }: Props) {
                   Du die Nr. 1 im Netz wirst. Und mehr Neukunden gewinnst als
                   Deine Wettbewerber.
                 </p>
-                <button className="mt-16 mx-auto p-4 bg-custom-red text-custom-white rounded w-2/3 flex items-center justify-between">
+                <button className="mt-16 p-4 bg-custom-red text-custom-white rounded w-2/3 flex items-center justify-between">
                   <span>Zum Kostenlosen SEO-Check </span>
                   <ArrowRight />
                 </button>

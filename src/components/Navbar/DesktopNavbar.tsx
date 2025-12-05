@@ -10,7 +10,7 @@ export default function DesktopNavbar() {
           alt="Hintergrundbild Jan Krösche"
           style={{ width: "200px" }}
         />
-        <ol className="flex gap-8">
+        <ol className="flex gap-12 text-lg">
           <li>Google Platz 1</li>
           <li>Chapt GPT Platz 1</li>
           <li>Google Ads</li>
