@@ -10,7 +10,6 @@ import Mail from "../icons/Mail";
 import Maps from "../icons/Maps";
 import Phone from "../icons/Phone";
 import Video from "../icons/Video";
-import Carousel from "./carousel/Carousel";
 import Testimonials from "./Testimonials";
 
 export default function DesktopContent() {
