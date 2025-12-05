@@ -144,7 +144,8 @@ h1, h2, button {
 
 @media (prefers-color-scheme: dark) {
     .dark {
-        background: var(--color-custom-black);  
+        background: var(--color-custom-black);
+        color: var(--custom-white)  
     }
 }
 

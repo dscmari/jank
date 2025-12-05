@@ -150,23 +150,23 @@ export default function MobileContent() {
           <h2 className="text-center !mb-8">Chat GPT Platz 1</h2>
           <div className="flex flex-col gap-4 pl-4 text-xl">
             <div className="flex items-center gap-4">
-              <Diamond className="h-6 flex-shrink-0" />
+              <Diamond className="h-4 flex-shrink-0" />
               <span>Chat GPT Optimierung</span>
             </div>
             <div className="flex items-center gap-4">
-              <Diamond className="h-6 flex-shrink-0" />
+              <Diamond className="h-4 flex-shrink-0" />
               <span>Google KI-Modus Optimierung</span>
             </div>
             <div className="flex items-center gap-4">
-              <Diamond className="h-6 flex-shrink-0" />
+              <Diamond className="h-4 flex-shrink-0" />
               <span>Gemini Optimierung</span>
             </div>
             <div className="flex items-center gap-4">
-              <Diamond className="h-6 flex-shrink-0" />
+              <Diamond className="h-4 flex-shrink-0" />
               <span>Perplexity Optimierung</span>
             </div>
             <div className="flex items-center gap-4">
-              <Diamond className="h-6 flex-shrink-0" />
+              <Diamond className="h-4 flex-shrink-0" />
               <span>Copilot Optimierung</span>
             </div>
             <div className="flex items-center gap-4">
@@ -183,33 +183,33 @@ export default function MobileContent() {
       <section className="mt-24">
         <div className="bg-custom-white mx-8 leading-8 p-8 shadow-2xl rounded-lg dark">
           <h2 className="text-center !mb-8">Bezahlte Werbeanzeigen</h2>
-          <div className="flex flex-col gap-4 pl-4 text-x">
+          <div className="flex flex-col gap-4 pl-4 text-xl">
             <div className="flex items-center gap-4">
-              <Diamond className="h-6 flex-shrink-0" />
+              <Diamond className="h-4 flex-shrink-0" />
               <span>Google Werbung (Google Ads)</span>
             </div>
             <div className="flex items-center gap-4">
-              <Diamond className="h-6 flex-shrink-0" />
+              <Diamond className="h-4 flex-shrink-0" />
               <span>Bing Werbung (Bing Ads)</span>
             </div>
             <div className="flex items-center gap-4">
-              <Diamond className="h-6 flex-shrink-0" />
+              <Diamond className="h-4 flex-shrink-0" />
               <span>KI Ads</span>
             </div>
             <div className="flex items-center gap-4">
-              <Diamond className="h-6 flex-shrink-0" />
+              <Diamond className="h-4 flex-shrink-0" />
               <span>ChatGPT Ads</span>
             </div>
             <div className="flex items-center gap-4">
-              <Diamond className="h-6 flex-shrink-0" />
+              <Diamond className="h-4 flex-shrink-0" />
               <span>Copilot Ads</span>
             </div>
             <div className="flex items-center gap-4">
-              <Diamond className="h-6 flex-shrink-0" />
+              <Diamond className="h-4 flex-shrink-0" />
               <span>Perplexity Ads</span>
             </div>
             <div className="flex items-center gap-4">
-              <Diamond className="h-6 flex-shrink-0" />
+              <Diamond className="h-4 flex-shrink-0" />
               <span>ChatGPT Shopping</span>
             </div>
           </div>
@@ -320,29 +320,29 @@ export default function MobileContent() {
           </h2>
           <div className="flex flex-col gap-4 text-xl">
             <div className="flex items-center gap-4">
-              <Diamond className="h-6 flex-shrink-0" />
+              <Diamond className="h-4 flex-shrink-0" />
               <span>Für wichtige Keywords auf Platz 1 bei Google stehst</span>
             </div>
             <div className="flex items-center gap-4">
-              <Diamond className="h-6 flex-shrink-0" />
+              <Diamond className="h-4 flex-shrink-0" />
               <span>
                 Extrem häufig in den KI-Antworten von ChatGPT erscheinst
               </span>
             </div>
             <div className="flex items-center gap-4">
-              <Diamond className="h-6 flex-shrink-0" />
+              <Diamond className="h-4 flex-shrink-0" />
               <span>Die Nr. 1 Deiner Branche wirst</span>
             </div>
             <div className="flex items-center gap-4">
-              <Diamond className="h-6 flex-shrink-0" />
+              <Diamond className="h-4 flex-shrink-0" />
               <span>Mehr Anfragen übers Internet erhältst</span>
             </div>
             <div className="flex items-center gap-4">
-              <Diamond className="h-6 flex-shrink-0" />
+              <Diamond className="h-4 flex-shrink-0" />
               <span>Langfristig am Markt bestehen kannst</span>
             </div>
             <div className="flex items-center gap-4 min-w-8">
-              <Diamond className="h-6 flex-shrink-0" />
+              <Diamond className="h-4 flex-shrink-0" />
               <span>Deine Website endlich „funktioniert“</span>
             </div>
           </div>
@@ -363,27 +363,27 @@ export default function MobileContent() {
           </h2>
           <div className="flex flex-col gap-4 text-xl">
             <div className="flex items-center gap-4">
-              <Diamond className="h-6 flex-shrink-0" />
+              <Diamond className="h-4 flex-shrink-0" />
               <span>Google Optimierung</span>
             </div>
             <div className="flex items-center gap-4">
-              <Diamond className="h-6 flex-shrink-0" />
+              <Diamond className="h-4 flex-shrink-0" />
               <span>YouTube Kanal Optimierung</span>
             </div>
             <div className="flex items-center gap-4">
-              <Diamond className="h-6 flex-shrink-0" />
+              <Diamond className="h-4 flex-shrink-0" />
               <span>ChatGPT Optimierung</span>
             </div>
             <div className="flex items-center gap-4">
-              <Diamond className="h-6 flex-shrink-0" />
+              <Diamond className="h-4 flex-shrink-0" />
               <span>Copilot Optimierung</span>
             </div>
             <div className="flex items-center gap-4">
-              <Diamond className="h-6 flex-shrink-0" />
+              <Diamond className="h-4 flex-shrink-0" />
               <span>Google Werbung schalten (Google Ads)</span>
             </div>
             <div className="flex items-center gap-4 min-w-8">
-              <Diamond className="h-6 flex-shrink-0" />
+              <Diamond className="h-4 flex-shrink-0" />
               <span>Bing Werbung schalten (Bing Ads)</span>
             </div>
           </div>

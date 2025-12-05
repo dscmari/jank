@@ -10,7 +10,7 @@ export default function Magnifier(
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke="rgb(231,0,53)"
-      className="size-6"
+      className="size-4"
       {...props}
     >
       <path

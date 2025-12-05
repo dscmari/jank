@@ -10,7 +10,7 @@ export default function Head(
       stroke="rgb(231,0,53)"
       strokeWidth={1.5}
       viewBox="0 0 256 256"
-      className="size-6"
+      className="size-4"
       {...props}
     >
       <path

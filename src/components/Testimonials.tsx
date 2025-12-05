@@ -3,7 +3,7 @@ import RatingStar from "../icons/RatingStar";
 export default function Testimonials() {
   return (
     <section className="mt-24 lg:bg-custom-white p-8 dark lg:py-32">
-      <h2 className="lg:text-center lg:!text-3xl tracking-wide">
+      <h2 className="lg:text-center lg:!text-2xl tracking-wide">
         Wir haben über 500 Firmenwebsites auf Platz 1 optimiert
       </h2>
       <div className="flex flex-col lg:items-center gap-12 pt-8">
