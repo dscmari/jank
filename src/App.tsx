@@ -13,7 +13,7 @@ function App() {
     <>
       <Navbar isMobile={isMobile} isTablet={isTablet} />
       <ATF isMobile={isMobile} isTablet={isTablet} />
-      {isMobile ? <MobileContent /> : <DesktopContent />}
+      {isMobile ? <MobileContent /> : isTablet ? <div>isTabletContent</div> : <DesktopContent />}
     </>
   );
 }
