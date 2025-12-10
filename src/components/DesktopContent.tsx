@@ -11,6 +11,7 @@ import Maps from "../icons/Maps";
 import Phone from "../icons/Phone";
 import Video from "../icons/Video";
 import Testimonials from "./Testimonials";
+import WebsiteCheck from "./WebsiteCheck";
 
 export default function DesktopContent() {
   return (
@@ -33,7 +34,7 @@ export default function DesktopContent() {
         </div>
 
         <div className="flex gap-12 pt-12">
-          <div className="flex flex-col max-w-1/4">
+          <div className="flex flex-col flex-1">
             <h3 className="text-xl font-semibold tracking-wide mb-4">
               Schritt 1 (Besser sprechende Namen)
             </h3>
@@ -42,7 +43,7 @@ export default function DesktopContent() {
               Google & ChatGPT eingeben
             </p>
           </div>
-          <div className="flex flex-col max-w-1/4">
+          <div className="flex flex-col flex-1">
             <h3 className="text-xl font-semibold tracking-wide mb-4">
               Schritt 2 (Besser sprechende Namen)
             </h3>
@@ -51,7 +52,7 @@ export default function DesktopContent() {
               Werbeanzeigen auf
             </p>
           </div>
-          <div className="flex flex-col max-w-1/4">
+          <div className="flex flex-col flex-1">
             <h3 className="text-xl font-semibold tracking-wide mb-4">
               Schritt 3 (Besser sprechende Namen)
             </h3>
@@ -62,16 +63,16 @@ export default function DesktopContent() {
             </p>
           </div>
         </div>
-        <div className="flex gap-8 pt-12">
+        <div className="flex gap-8 text-custom-red p-2 mt-12">
           <div className="flex gap-2 items-center">
-            <Phone color="" className="size-8" />
-            <span className="text-xl">+49 0176 55109383</span>
+            <Phone color="rgb(231,0,53)" className="size-6" />
+            <span className="text-3xl font-semibold">+49 0176 55109383</span>
           </div>
           <div className="flex gap-2 items-center">
-            <Mail color="custom-black" className="size-8" />
+            <Mail color1="rgb(231,0,53)" color2="#f5f6fa" className="size-6" />
             <a
               href="mailto:max.mustermann@ihre-domain.de"
-              className="text-xl underline"
+              className="text-3xl font-semibold underline"
             >
               jan@jankroesche.de
             </a>
@@ -108,9 +109,10 @@ export default function DesktopContent() {
               <Magnifier className="size-14" />
               <p>
                 {" "}
-                Jan Krösche & Team sind Deine SEO und SEA-Spezialisten, die
-                Deinen Webauftritt so optimieren, damit Du bei Google, ChatGPT,
-                Copilot und Perplexity auf Platz 1 rankst.
+                Jan Krösche & Team sind Deine SEO, GEO und Ads Spezialisten,
+                damit Du bei Google und ChatGPT die sichtbarste Firma Deiner
+                Branche wirst. Und endlich mehr Neukunden-Anfragen über die
+                Website erhälst
               </p>
             </div>
             <div className="flex items-center gap-4">
@@ -146,9 +148,7 @@ export default function DesktopContent() {
         </div>
       </section>
       <section className="my-32">
-        <h2 className="text-center !text-2xl">
-          Unsere SEO und SEA Leistungen auf einen Blick
-        </h2>
+        <h2 className="text-center !text-2xl">Das machen wir alles für Dich</h2>
         <div className="flex gap-4 mt-12">
           <div className="flex-1 flex flex-col justify-between bg-custom-white mx-8 leading-8 p-8 shadow-2xl rounded-lg dark">
             <div>
@@ -259,9 +259,8 @@ export default function DesktopContent() {
         </div>
       </section>
       <Testimonials />
-      <section className="px-32 pb-48 pt-32">
-        <h2 className="bg-green-500">Sehr viel Text im Abschnitt, Slider?</h2>
-        <div className="max-w-2/3">
+      <section className="px-32 pt-32">
+        <div className="">
           <p className="pb-8 text-3xl/10 tracking-wide font-semibold">
             Wir geben unsere <span className="text-custom-red">Expertise </span>
             weiter und schulen Firmen aus der ganzen DACH-Region.
@@ -269,7 +268,7 @@ export default function DesktopContent() {
             wir Firmen aus der gesamten DACH-Region Schulungen in den Bereichen{" "}
             <span className="text-red-500">SEO</span>,
             <span className="text-red-500"> Google Ads</span>,{" "}
-            <span className="text-red-500"> Kundengewinnung im Internet</span>
+            <span className="text-red-500"> Kundengewinnung im Internet</span>.
           </p>
         </div>
 
@@ -286,7 +285,7 @@ export default function DesktopContent() {
               Rankings bei Google zu erhöhen
             </p>
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col p-8 bg-custom-white rounded">
             <h3 className="text-xl font-semibold tracking-wide mb-4">
               Workshop für die Software-Firma rocom
             </h3>
@@ -297,7 +296,7 @@ export default function DesktopContent() {
               Überschriftenstruktur etc..
             </p>
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col p-8 bg-custom-white rounded">
             <h3 className="text-xl font-semibold tracking-wide mb-4">
               Workshop für das Hotel Bayerischer Hof in München
             </h3>
@@ -309,7 +308,7 @@ export default function DesktopContent() {
               erklärt.
             </p>
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col p-8 bg-custom-white rounded">
             <h3 className="text-xl font-semibold tracking-wide mb-4">
               Workshop für den Hersteller BH Sens zur ChatGPT-Optimierung
             </h3>
@@ -321,23 +320,174 @@ export default function DesktopContent() {
             </p>
           </div>
         </div>
-        <div className="flex gap-8 pt-12">
+        <div className="flex gap-8 text-custom-red p-2 mt-12">
           <div className="flex gap-2 items-center">
-            <Phone color="" className="size-8" />
-            <span className="text-xl">+49 0176 55109383</span>
+            <Phone color="rgb(231,0,53)" className="size-6" />
+            <span className="text-3xl font-semibold">+49 0176 55109383</span>
           </div>
           <div className="flex gap-2 items-center">
-            <Mail color="custom-black" className="size-8" />
+            <Mail color1="rgb(231,0,53)" color2="#f5f6fa" className="size-6" />
             <a
               href="mailto:max.mustermann@ihre-domain.de"
-              className="text-xl underline"
+              className="text-3xl font-semibold underline"
             >
               jan@jankroesche.de
             </a>
           </div>
         </div>
       </section>
-      {/* <Carousel/> */}
+      <section className="p-32 mt-32 bg-custom-white">
+        <div className="ml-auto max-w-2/3 ">
+          <p className="pb-8 text-3xl/10 tracking-wide font-semibold text-right">
+            {" "}
+            Endlich
+            <span className="text-custom-red"> Platz 1 bei Google</span>: So
+            läuft die Zusammenarbeit ab
+          </p>
+        </div>
+
+        <div className="flex gap-12 pt-12">
+          <div className="flex flex-col flex-1">
+            <h3 className="text-xl font-semibold tracking-wide mb-4">
+              Kontaktaufnahme und Gespräch
+            </h3>
+            <p className="text-base/8">
+              Du meldest Dich bei mir per Telefon unter 0176 55 10 93 83 oder
+              per Mail unter jan@jankroesche.de – wir vereinbaren ein
+              kostenloses Kennenlernen per Telefon, Teams oder vor Ort und
+              besprechen Deine Ziele
+            </p>
+          </div>
+          <div className="flex flex-col flex-1">
+            <h3 className="text-xl font-semibold tracking-wide mb-4">
+              Start der Zusammenarbeit
+            </h3>
+            <p className="text-base/8">
+              Wenn wir zusammenpassen und Du Dich für eine Zusammenarbeit mit
+              uns entscheidest, starten wir zeitnah mit der Optimierung Deiner
+              Website
+            </p>
+          </div>
+          <div className="flex flex-col flex-1">
+            <h3 className="text-xl font-semibold tracking-wide mb-4">
+              Fortlaufende Betreuung
+            </h3>
+            <p className="text-base/8">
+              Wir stehen fortlaufend im Austausch. Ich analysiere den Status
+              Quo, bereite neue Optimierungsvorschläge vor und bespreche alles
+              mit Dir. Die Umsetzung erfolgt immer Step by Step, um stetig
+              bessere Ergebnisse erzielen zu können
+            </p>
+          </div>
+        </div>
+        <div className="flex justify-end gap-8 text-custom-red p-2 mt-12">
+          <div className="flex gap-2 items-center">
+            <Phone color="rgb(231,0,53)" className="size-6" />
+            <span className="text-3xl font-semibold">+49 0176 55109383</span>
+          </div>
+          <div className="flex gap-2 items-center">
+            <Mail color1="rgb(231,0,53)" color2="#f5f6fa" className="size-6" />
+            <a
+              href="mailto:max.mustermann@ihre-domain.de"
+              className="text-3xl font-semibold underline"
+            >
+              jan@jankroesche.de
+            </a>
+          </div>
+        </div>
+      </section>
+      <WebsiteCheck />
+      <section className="px-32">
+        <h2 className="text-center !text-2xl !mb-12">
+          Keine Lust mehr, hinter Deinem größten Wettbewerber hinterherzulaufen?
+        </h2>
+        <div className="flex gap-12 ">
+          <div className="flex-1 flex flex-col gap-8 justify-between bg-custom-white leading-8 p-12 shadow-2xl rounded-lg dark">
+            <h2 className="text-center">
+              Wir helfen Dir und Deiner Firma
+            </h2>
+            <p className="leading-6">
+              Das Spiel im Internet ist ganz einfach. Menschen suchen etwas bei
+              Google oder ChatGPT und klicken auf die Websites, die ganz oben
+              stehen. Die Firmen, die daher auf Platz 1 ranken, gewinnen die
+              meisten Website-Besucher und ergattern sich die meisten Neukunden.
+            </p>
+            <div className="flex flex-col gap-4 text-xl">
+              <div className="flex items-center gap-4">
+                <Diamond className="h-4 flex-shrink-0" />
+                <span>Für wichtige Keywords auf Platz 1 bei Google stehst</span>
+              </div>
+              <div className="flex items-center gap-4">
+                <Diamond className="h-4 flex-shrink-0" />
+                <span>
+                  Extrem häufig in den KI-Antworten von ChatGPT erscheinst
+                </span>
+              </div>
+              <div className="flex items-center gap-4">
+                <Diamond className="h-4 flex-shrink-0" />
+                <span>Die Nr. 1 Deiner Branche wirst</span>
+              </div>
+              <div className="flex items-center gap-4">
+                <Diamond className="h-4 flex-shrink-0" />
+                <span>Mehr Anfragen übers Internet erhältst</span>
+              </div>
+              <div className="flex items-center gap-4">
+                <Diamond className="h-4 flex-shrink-0" />
+                <span>Langfristig am Markt bestehen kannst</span>
+              </div>
+              <div className="flex items-center gap-4 min-w-8">
+                <Diamond className="h-4 flex-shrink-0" />
+                <span>Deine Website endlich „funktioniert“</span>
+              </div>
+            </div>
+             <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded w-full flex items-center justify-between">
+              <span>Kostenloser SEO Check</span>
+              <ArrowRight />
+            </button>
+          </div>
+          <div className="flex-1 flex flex-col gap-8 justify-between bg-custom-white leading-8 p-12 shadow-2xl rounded-lg dark">
+            <h2 className="text-center">
+              Unsere Leistungen auf einen Blick
+            </h2>
+            <p className="leading-6">
+              Unsere Aufgabe ist einfach: Wir optimieren Deinen Webauftritt,
+              damit Du bei Google, ChatGPT, Perplexity und anderen KI-Maschinen
+              bestens gefunden werden kannst. Wir kennen die Algorithmen und
+              haben das „SEO-Spiel“ seit 2017 schon Hundertfach durchgespielt.
+            </p>
+            <div className="flex flex-col gap-4 text-xl">
+              <div className="flex items-center gap-4">
+                <Diamond className="h-4 flex-shrink-0" />
+                <span>Google Optimierung</span>
+              </div>
+              <div className="flex items-center gap-4">
+                <Diamond className="h-4 flex-shrink-0" />
+                <span>YouTube Kanal Optimierung</span>
+              </div>
+              <div className="flex items-center gap-4">
+                <Diamond className="h-4 flex-shrink-0" />
+                <span>ChatGPT Optimierung</span>
+              </div>
+              <div className="flex items-center gap-4">
+                <Diamond className="h-4 flex-shrink-0" />
+                <span>Copilot Optimierung</span>
+              </div>
+              <div className="flex items-center gap-4">
+                <Diamond className="h-4 flex-shrink-0" />
+                <span>Google Werbung schalten (Google Ads)</span>
+              </div>
+              <div className="flex items-center gap-4 min-w-8">
+                <Diamond className="h-4 flex-shrink-0" />
+                <span>Bing Werbung schalten (Bing Ads)</span>
+              </div>
+            </div>
+            <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded w-full flex items-center justify-between">
+              <span>Kostenloser SEO Check</span>
+              <ArrowRight />
+            </button>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

@@ -20,9 +20,9 @@ export default function MobileContent() {
           Google katapultiert.
         </h2>
         <p className="text-base/8 py-4">
-          Jan Krösche & Team sind Deine SEO und SEA-Spezialisten, damit Du die
-          Nr. 1 im Netz wirst. Und mehr Neukunden gewinnst als Deine
-          Wettbewerber.
+          Jan Krösche & Team sind Deine SEO, GEO und Ads Spezialisten, damit Du
+          bei Google und ChatGPT die sichtbarste Firma Deiner Branche wirst. Und
+          endlich mehr Neukunden-Anfragen über die Website erhälst.
         </p>
         <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded-4xl w-full flex items-center justify-between">
           <span>Kostenloser SEO-Check </span>
@@ -66,7 +66,7 @@ export default function MobileContent() {
         </div>
       </section>
       <Contact className="mt-24" />
-      <Testimonials/>
+      <Testimonials />
       <section className="px-8 dark:p-8 mt-24 flex flex-col gap-4">
         <h2 className="!mb-0">
           Wir bringen Dich bei Google & ChatGPT ganz nach vorne
@@ -113,7 +113,7 @@ export default function MobileContent() {
       </section>
       <section>
         <h2 className="mx-8 !mb-12 mt-24 dark:pt-8">
-          Unsere SEO und SEA Leistungen auf einen Blick
+          Das machen wir alles für Dich
         </h2>
         <div className="bg-custom-white mx-8 leading-8 p-8 shadow-2xl rounded-lg dark">
           <h2 className="text-center !mb-8">Google Platz 1</h2>

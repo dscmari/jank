@@ -42,10 +42,10 @@
 }
 
 body {
-  margin: 0;
   min-width: 320px;
   min-height: 100vh;
-
+  max-width: 2048px;
+  margin: 0 auto 0 auto
 }
 
 /* .logo-headline {

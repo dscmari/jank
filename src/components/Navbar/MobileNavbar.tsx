@@ -20,6 +20,7 @@ export default function Navbar() {
               src="/images/logo_transparent.png"
               alt="Jan Krösche Logo"
               style={{ width: "200px" }}
+              className="ml-4"
             />
             <CircleX onClick={() => setIsMenuOpen((prev) => !prev)} />
           </div>
@@ -29,7 +30,8 @@ export default function Navbar() {
               <li className="">Chat GPT Platz 1</li>
               <li>Google Ads</li>
               <li>Referenzen </li>
-              <li>For Free </li>
+              <li>Leistungspakete</li>
+              <li>KI-Tracker</li>
             </ol>
             <div className="pt-8 flex items-center gap-4 text-lg">
               <Phone color="black" className="size-5" />
@@ -39,7 +41,7 @@ export default function Navbar() {
               <Mail color="" className="size-5" />
               <span>jan@jankroesche.de</span>
             </div>
-            <button className="mt-12 px-4 py-4 bg-custom-red text-custom-white w-full flex items-center justify-between tracking-wider">
+            <button className="mt-12 px-4 py-4 bg-custom-red text-custom-white w-full flex items-center justify-between tracking-wider rounded">
               <span>Zum Website-Check </span>
               <ArrowRight />
             </button>
@@ -50,6 +52,7 @@ export default function Navbar() {
             src="/images/jank_logo.jpg"
             alt="Jan Krösche Logo"
             style={{ width: "200px" }}
+            className="ml-4"
           />
           <div className="flex items-center gap-4 z-10">
             <div
