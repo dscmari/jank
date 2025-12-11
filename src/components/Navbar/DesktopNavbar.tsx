@@ -1,8 +1,6 @@
 import Mail from "../../icons/Mail";
 import Phone from "../../icons/Phone";
 import { Link } from 'react-router-dom';
-https://jank-pi.vercel.app/Blog
-https://jank-pi.vercel.app/Blog
 
 export default function DesktopNavbar() {
   return (
