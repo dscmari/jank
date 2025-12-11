@@ -10,6 +10,7 @@ import Mail from "../../icons/Mail";
 import Maps from "../../icons/Maps";
 import Phone from "../../icons/Phone";
 import Video from "../../icons/Video";
+import ATF from "../ATF";
 import Testimonials from "../Testimonials";
 import WebsiteCheck from "../WebsiteCheck";
 
@@ -17,7 +18,8 @@ export default function DesktopContent() {
   return (
     <>
       {" "}
-      <section className=" px-32 pb-48 pt-32">
+      <ATF/>
+      <section className="px-32 pb-48 pt-32">
         <div className="max-w-2/3 ">
           <p className="pb-8 text-3xl/10 tracking-wide font-semibold">
             {" "}
@@ -325,14 +327,14 @@ export default function DesktopContent() {
         </div>
         <div className="flex gap-8 text-custom-red p-2 mt-12">
           <div className="flex gap-2 items-center">
-            <Phone color="rgb(231,0,53)" className="size-6" />
-            <span className="text-3xl font-semibold">+49 0176 55109383</span>
+            <Phone color="rgb(231,0,53)" className="size-4" />
+            <span className="text-xl font-semibold">+49 0176 55109383</span>
           </div>
           <div className="flex gap-2 items-center">
-            <Mail color1="rgb(231,0,53)" color2="#f5f6fa" className="size-6" />
+            <Mail color1="rgb(231,0,53)" color2="#f5f6fa" className="size-4" />
             <a
               href="mailto:max.mustermann@ihre-domain.de"
-              className="text-3xl font-semibold underline"
+              className="text-xl font-semibold underline"
             >
               jan@jankroesche.de
             </a>
@@ -385,14 +387,14 @@ export default function DesktopContent() {
         </div>
         <div className="flex justify-end gap-8 text-custom-red p-2 mt-12">
           <div className="flex gap-2 items-center">
-            <Phone color="rgb(231,0,53)" className="size-6" />
-            <span className="text-3xl font-semibold">+49 0176 55109383</span>
+            <Phone color="rgb(231,0,53)" className="size-4" />
+            <span className="text-xl font-semibold">+49 0176 55109383</span>
           </div>
           <div className="flex gap-2 items-center">
-            <Mail color1="rgb(231,0,53)" color2="#f5f6fa" className="size-6" />
+            <Mail color1="rgb(231,0,53)" color2="#f5f6fa" className="size-4" />
             <a
               href="mailto:max.mustermann@ihre-domain.de"
-              className="text-3xl font-semibold underline"
+              className="text-xl font-semibold underline"
             >
               jan@jankroesche.de
             </a>

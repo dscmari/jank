@@ -5,14 +5,15 @@ import Head from "../../icons/Head";
 import Magnifier from "../../icons/Magnifier";
 import Maps from "../../icons/Maps";
 import Video from "../../icons/Video";
+import ATF from "../ATF";
 import Contact from "../Contact";
-import Footer from "../Footer";
 import Testimonials from "../Testimonials";
 import WebsiteCheck from "../WebsiteCheck";
 
 export default function MobileContent() {
   return (
     <div>
+      <ATF />
       <section className="bg-custom-white mx-8 mt-8 leading-8 p-8 shadow-2xl rounded-lg dark">
         <h2>
           Seit 2017 haben wir über{" "}
@@ -430,7 +431,6 @@ export default function MobileContent() {
         </div>
         <div className="absolute bg-white w-full h-12 z-1 bottom-0"></div>
       </section>
-      <Footer />
     </div>
   );
 }
