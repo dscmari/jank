@@ -1,11 +1,19 @@
+import { useEffect, useState } from "react";
 import ArrowRight from "../icons/ArrowRight";
+import useWindowDimensions from "../utils/useWindowDimensions";
 
-type Props = {
-  isMobile: boolean;
-  isTablet: boolean;
-};
+export default function ATF() {
+  const windowDimensions = useWindowDimensions();
+  const [isMobile, setIsMobile] = useState(windowDimensions.width < 768);
+   const [isTablet, setIsTablet] = useState(window.innerWidth > 768 && window.innerWidth < 1280);
 
-export default function ATF({ isMobile, isTablet }: Props) {
+  useEffect(() => {
+    const resizedIsMobile = windowDimensions.width < 768
+    const resizedIsTablet = window.innerWidth > 768 && window.innerWidth < 1280
+    setIsMobile(resizedIsMobile)
+    setIsTablet(resizedIsTablet)
+  },[windowDimensions])
+
   return (
     <div>
       {isMobile ? (

@@ -1,17 +1,17 @@
-import AddressBook from "../icons/AddressBook";
-import Airplane from "../icons/Airplaine";
-import ArrowRight from "../icons/ArrowRight";
-import Code from "../icons/Code";
-import Diamond from "../icons/Diamond";
-import Gear from "../icons/Gear";
-import Head from "../icons/Head";
-import Magnifier from "../icons/Magnifier";
-import Mail from "../icons/Mail";
-import Maps from "../icons/Maps";
-import Phone from "../icons/Phone";
-import Video from "../icons/Video";
-import Testimonials from "./Testimonials";
-import WebsiteCheck from "./WebsiteCheck";
+import AddressBook from "../../icons/AddressBook";
+import Airplane from "../../icons/Airplaine";
+import ArrowRight from "../../icons/ArrowRight";
+import Code from "../../icons/Code";
+import Diamond from "../../icons/Diamond";
+import Gear from "../../icons/Gear";
+import Head from "../../icons/Head";
+import Magnifier from "../../icons/Magnifier";
+import Mail from "../../icons/Mail";
+import Maps from "../../icons/Maps";
+import Phone from "../../icons/Phone";
+import Video from "../../icons/Video";
+import Testimonials from "../Testimonials";
+import WebsiteCheck from "../WebsiteCheck";
 
 export default function DesktopContent() {
   return (

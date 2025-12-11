@@ -1,14 +1,14 @@
-import ArrowRight from "../icons/ArrowRight";
-import Code from "../icons/Code";
-import Diamond from "../icons/Diamond";
-import Head from "../icons/Head";
-import Magnifier from "../icons/Magnifier";
-import Maps from "../icons/Maps";
-import Video from "../icons/Video";
-import Contact from "./Contact";
-import Footer from "./Footer";
-import Testimonials from "./Testimonials";
-import WebsiteCheck from "./WebsiteCheck";
+import ArrowRight from "../../icons/ArrowRight";
+import Code from "../../icons/Code";
+import Diamond from "../../icons/Diamond";
+import Head from "../../icons/Head";
+import Magnifier from "../../icons/Magnifier";
+import Maps from "../../icons/Maps";
+import Video from "../../icons/Video";
+import Contact from "../Contact";
+import Footer from "../Footer";
+import Testimonials from "../Testimonials";
+import WebsiteCheck from "../WebsiteCheck";
 
 export default function MobileContent() {
   return (
