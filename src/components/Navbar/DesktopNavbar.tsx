@@ -5,18 +5,16 @@ import { Link } from "react-router-dom";
 export default function DesktopNavbar() {
   return (
     <div className="bg-custom-white p-4 px-8">
-              <div className="flex gap-8 justify-end items-center">
-          <div className="flex gap-2 items-center">
-            <Phone color="#2d3436" className="size-6" />
-            <span>+49 0176 55109383</span>
-          </div>
-          <div className="flex gap-2 items-center">
-            <Mail color="#2d3436" className="size-6" />
-            <a href="mailto:max.mustermann@ihre-domain.de">
-              jan@jankroesche.de
-            </a>
-          </div>
+      <div className="flex gap-8 justify-end items-center">
+        <div className="flex gap-2 items-center">
+          <Phone color="#2d3436" className="size-4" />
+          <span>+49 0176 55109383</span>
         </div>
+        <div className="flex gap-2 items-center">
+          <Mail color="#2d3436" className="size-4" />
+          <a href="mailto:max.mustermann@ihre-domain.de">jan@jankroesche.de</a>
+        </div>
+      </div>
       <div className="flex items-center justify-between">
         <Link to={"/"}>
           {" "}
@@ -36,7 +34,6 @@ export default function DesktopNavbar() {
           <li>KI-Tracker</li>
           <Link to={"/Blog"}>Blog</Link>
         </ol>
-
       </div>
     </div>
   );

@@ -3,6 +3,7 @@ import CircleX from "../../icons/CircleX";
 import Phone from "../../icons/Phone";
 import Mail from "../../icons/Mail";
 import ArrowRight from "../../icons/ArrowRight";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -32,6 +33,7 @@ export default function Navbar() {
               <li>Referenzen </li>
               <li>Leistungspakete</li>
               <li>KI-Tracker</li>
+                <Link to={"/Blog"}>Blog</Link>
             </ol>
             <div className="pt-8 flex items-center gap-4 text-lg">
               <Phone color="black" className="size-5" />
