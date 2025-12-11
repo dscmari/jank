@@ -28,23 +28,28 @@ export default function StaticForms() {
 
   return (
     <form onSubmit={handleSubmit} className="my-8 flex flex-col gap-8">
-      <div className="flex flex-col lg:flex-row gap-4">
+      <div className="flex flex-col gap-8">
         <input type="hidden" name="apiKey" value={key} />
 
-        <input
-          type="text"
-          name="website"
-          className="rounded text-custom-black bg-custom-white w-full p-2 lg:border-1 border-slate-200"
-          placeholder="Deine Website"
-          required
-        />
-
-        <input
-          type="email"
-          name="email"
-          className="rounded text-custom-black bg-custom-white w-full p-2 lg:border-1 border-slate-200"
-          placeholder="Deine Mail"
-        />
+        <div className="flex flex-col gap-4 font-semibold">
+          <label htmlFor="website" className="hidden lg:inline">Deine Website</label>
+          <input
+            type="text"
+            name="website"
+            className="rounded text-custom-black bg-custom-white p-2 w-full"
+            placeholder="www.deineSeite.de"
+            required
+          />
+        </div>
+        <div className="flex flex-col gap-4 font-semibold">
+          <label htmlFor="website" className="hidden lg:inline">Deine Email-Adresse</label>
+          <input
+            type="email"
+            name="email"
+            className="rounded text-custom-black bg-custom-white p-2 w-full"
+            placeholder="mustermann@office.de"
+          />
+        </div>
       </div>
 
       <div className="flex items-start gap-4">
@@ -59,11 +64,11 @@ export default function StaticForms() {
       <div>
         <button
           type="submit"
-          className="leading-8 mt-4 px-4 py-2 text-center bg-custom-white text-custom-black rounded-xl w-full lg:rounded lg:bg-custom-red lg:text-custom-white lg:w-1/2 lg:px-12"
+          className="leading-8 mt-4 px-4 py-2 text-center bg-custom-white text-custom-black rounded-xl w-full "
         >
           Website abschicken
         </button>
-        <p className="text-xs text-center lg:text-left lg:pl-12 mt-4">
+        <p className="text-xs text-center mt-4">
           Der Website Check ist komplett kostenlos
         </p>
       </div>

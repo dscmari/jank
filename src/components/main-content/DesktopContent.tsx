@@ -63,16 +63,19 @@ export default function DesktopContent() {
             </p>
           </div>
         </div>
-        <div className="flex gap-8 text-custom-red p-2 mt-12">
-          <div className="flex gap-2 items-center">
-            <Phone color="rgb(231,0,53)" className="size-6" />
-            <span className="text-3xl font-semibold">+49 0176 55109383</span>
+        <div className="flex flex-col gap-8 items-center text-3xl font-semibold bg-custom-red text-custom-white py-12 mt-12">
+          <div>
+            <p>Schnelle Kontaktaufnahme zu Jan Krösche</p>
           </div>
-          <div className="flex gap-2 items-center">
+          <div className="flex gap-4 items-center">
+            <Phone color="#f5f6fa" className="size-6" />
+            <span>+49 0176 55109383</span>
+          </div>
+          <div className="flex gap-4 items-center">
             <Mail color1="rgb(231,0,53)" color2="#f5f6fa" className="size-6" />
             <a
               href="mailto:max.mustermann@ihre-domain.de"
-              className="text-3xl font-semibold underline"
+              className="underline"
             >
               jan@jankroesche.de
             </a>
@@ -397,7 +400,7 @@ export default function DesktopContent() {
         </div>
       </section>
       <WebsiteCheck />
-      <section className="px-32">
+      <section className="px-32 mt-32">
         <h2 className="text-center !text-2xl !mb-12">
           Keine Lust mehr, hinter Deinem größten Wettbewerber hinterherzulaufen?
         </h2>
