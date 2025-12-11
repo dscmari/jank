@@ -1,28 +1,11 @@
 import Mail from "../../icons/Mail";
 import Phone from "../../icons/Phone";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 export default function DesktopNavbar() {
   return (
     <div className="bg-custom-white p-4 px-8">
-      <div className="flex items-center justify-between">
-        <img
-          src="/images/logo_transparent.png"
-          alt="Hintergrundbild Jan Krösche"
-          style={{ width: "200px" }}
-        />
-        <ol className="flex gap-8 text-lg">
-          <li>Google Platz 1</li>
-          <li>Chapt GPT Platz 1</li>
-          <li>Google Ads</li>
-          <li>Referenzen</li>
-          <li>Leistungspakete</li>
-          <li>KI-Tracker</li>
-          <Link to={"/Blog"}>
-         Blog
-            </Link>
-        </ol>
-        <div className="flex flex-col gap-2">
+              <div className="flex gap-8 justify-end items-center">
           <div className="flex gap-2 items-center">
             <Phone color="#2d3436" className="size-6" />
             <span>+49 0176 55109383</span>
@@ -34,6 +17,26 @@ export default function DesktopNavbar() {
             </a>
           </div>
         </div>
+      <div className="flex items-center justify-between">
+        <Link to={"/"}>
+          {" "}
+          <img
+            src="/images/logo_transparent.png"
+            alt="Hintergrundbild Jan Krösche"
+            style={{ width: "200px" }}
+          />
+        </Link>
+
+        <ol className="flex gap-8 text-lg">
+          <li>Google Platz 1</li>
+          <li>Chapt GPT Platz 1</li>
+          <li>Google Ads</li>
+          <li>Referenzen</li>
+          <li>Leistungspakete</li>
+          <li>KI-Tracker</li>
+          <Link to={"/Blog"}>Blog</Link>
+        </ol>
+
       </div>
     </div>
   );
