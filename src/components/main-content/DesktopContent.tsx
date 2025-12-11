@@ -63,7 +63,7 @@ export default function DesktopContent() {
             </p>
           </div>
         </div>
-        <div className="flex flex-col gap-8 items-center text-3xl font-semibold bg-custom-red text-custom-white py-12 mt-12">
+        <div className="flex flex-col gap-4 items-center text-xl font-semibold bg-custom-red text-custom-white py-8 mt-16">
           <div>
             <p>Schnelle Kontaktaufnahme zu Jan Krösche</p>
           </div>

@@ -27,8 +27,8 @@ export default function StaticForms() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="my-8 flex flex-col gap-8">
-      <div className="flex flex-col gap-8">
+    <form onSubmit={handleSubmit} className="my-8 flex flex-col gap-4">
+      <div className="flex flex-col gap-4">
         <input type="hidden" name="apiKey" value={key} />
 
         <div className="flex flex-col gap-4 font-semibold">
