@@ -1,5 +1,6 @@
 import Mail from "../../icons/Mail";
 import Phone from "../../icons/Phone";
+import { Link } from 'react-router-dom';
 
 export default function DesktopNavbar() {
   return (
@@ -17,6 +18,9 @@ export default function DesktopNavbar() {
           <li>Referenzen</li>
           <li>Leistungspakete</li>
           <li>KI-Tracker</li>
+          <Link to={"/Blog"}>
+         Blog
+            </Link>
         </ol>
         <div className="flex flex-col gap-2">
           <div className="flex gap-2 items-center">
