@@ -52,12 +52,14 @@ export default function Navbar() {
           </div>
         </div>
         <div className="flex items-center justify-between p-4 dark:bg-white">
-          <img
-            src="/images/jank_logo.jpg"
-            alt="Jan Krösche Logo"
-            style={{ width: "200px" }}
-            className="ml-4"
-          />
+           <Link to={"/"}>
+              <img
+                src="/images/logo_transparent.png"
+                alt="Jan Krösche Logo"
+                style={{ width: "200px" }}
+                className="ml-4"
+              />
+            </Link>
           <div className="flex items-center gap-4 z-10">
             <div
               className="burgermenu"
