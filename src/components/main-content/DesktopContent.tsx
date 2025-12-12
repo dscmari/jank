@@ -11,7 +11,7 @@ import Maps from "../../icons/Maps";
 import Phone from "../../icons/Phone";
 import Video from "../../icons/Video";
 import ATF from "../ATF";
-import Services from "../Services";
+import Services from "../Pricing";
 import Testimonials from "../Testimonials";
 import WebsiteCheck from "../WebsiteCheck";
 

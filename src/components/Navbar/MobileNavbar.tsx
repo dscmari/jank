@@ -34,7 +34,7 @@ export default function Navbar() {
               <li className="">Chat GPT Platz 1</li>
               <li>Google Ads</li>
               <li>Referenzen </li>
-              <li>Preise</li>
+              <Link to={"/Preise"}>Preise</Link>
               <li>KI-Tracker</li>
             </ol>
             <div className="pt-8 flex items-center gap-4 text-lg">

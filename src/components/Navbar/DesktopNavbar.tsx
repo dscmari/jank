@@ -30,7 +30,7 @@ export default function DesktopNavbar() {
           <li>Chapt GPT Platz 1</li>
           <li>Google Ads</li>
           <li>Referenzen</li>
-          <li>Preise</li>
+          <Link to={"/Preise"}>Preise</Link>
           <li>KI-Tracker</li>
         </ol>
       </div>
