@@ -11,6 +11,7 @@ import Maps from "../../icons/Maps";
 import Phone from "../../icons/Phone";
 import Video from "../../icons/Video";
 import ATF from "../ATF";
+import Services from "../Services";
 import Testimonials from "../Testimonials";
 import WebsiteCheck from "../WebsiteCheck";
 
@@ -264,6 +265,7 @@ export default function DesktopContent() {
         </div>
       </section>
       <Testimonials />
+      <Services />
       <section className="px-32 pt-32">
         <div className="">
           <p className="pb-8 text-3xl/10 tracking-wide font-semibold">

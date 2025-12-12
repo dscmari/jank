@@ -7,6 +7,7 @@ import Maps from "../../icons/Maps";
 import Video from "../../icons/Video";
 import ATF from "../ATF";
 import Contact from "../Contact";
+import Services from "../Services";
 import Testimonials from "../Testimonials";
 import WebsiteCheck from "../WebsiteCheck";
 
@@ -220,6 +221,7 @@ export default function MobileContent() {
           </button>
         </div>
       </section>
+      <Services/>
       <section className="mt-24 bg-custom-white p-8 dark">
         <h2>
           Wir geben unsere Expertise weiter und schulen Firmen aus der ganzen

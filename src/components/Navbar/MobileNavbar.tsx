@@ -3,7 +3,6 @@ import CircleX from "../../icons/CircleX";
 import Phone from "../../icons/Phone";
 import Mail from "../../icons/Mail";
 import ArrowRight from "../../icons/ArrowRight";
-import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
