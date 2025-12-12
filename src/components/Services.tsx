@@ -5,7 +5,7 @@ export default function Services() {
     <div className="mt-24 lg:mx-8 2xl:mx-32">
       <h2 className="text-center !mb-8">Unsere drei Leistungspakete</h2>
       <div className="flex flex-col lg:flex-row gap-24 lg:gap-8 lg:justify-around">
-        <div className="bg-custom-white mx-8 lg:m-0 p-8 shadow-2xl rounded-lg dark">
+        <div className="lg:flex-1 bg-custom-white mx-8 lg:m-0 p-8 shadow-2xl rounded-lg dark">
           <h2 className="text-center">Google Platz 1</h2>
           <p>
             Website-Optimierungen, damit Du in der Google-Suche & bei Google
@@ -61,7 +61,7 @@ export default function Services() {
             jan@jankroesche.de
           </span>
         </div>
-        <div className="bg-custom-white mx-8 lg:m-0 p-8 shadow-2xl rounded-lg dark">
+        <div className="lg:flex-1 bg-custom-white mx-8 lg:m-0 p-8 shadow-2xl rounded-lg dark">
           <h2 className="text-center">Chat GPT Platz 1</h2>
           <p>
             Website-Optimierungen, damit Deine Firma in den Antworten der
@@ -117,7 +117,7 @@ export default function Services() {
             jan@jankroesche.de
           </span>
         </div>
-        <div className="bg-custom-white mx-8 lg:m-0 p-8 shadow-2xl rounded-lg dark">
+        <div className="lg:flex-1 bg-custom-white mx-8 lg:m-0 p-8 shadow-2xl rounded-lg dark">
           <h2 className="text-center">Google Ads</h2>
           <p>
             Kurzfristige Steigerung Deiner Google Sichtbarkeit durch
