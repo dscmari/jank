@@ -19,7 +19,7 @@ export default function DesktopContent() {
   return (
     <>
       {" "}
-      <ATF/>
+      <ATF />
       <section className="px-32 pb-48 pt-32">
         <div className="max-w-2/3 ">
           <p className="pb-8 text-3xl/10 tracking-wide font-semibold">
@@ -410,9 +410,7 @@ export default function DesktopContent() {
         </h2>
         <div className="flex gap-12 ">
           <div className="flex-1 flex flex-col gap-8 justify-between bg-custom-white leading-8 p-12 shadow-2xl rounded-lg dark">
-            <h2 className="text-center">
-              Wir helfen Dir und Deiner Firma
-            </h2>
+            <h2 className="text-center">Wir helfen Dir und Deiner Firma</h2>
             <p className="leading-6">
               Das Spiel im Internet ist ganz einfach. Menschen suchen etwas bei
               Google oder ChatGPT und klicken auf die Websites, die ganz oben
@@ -447,15 +445,13 @@ export default function DesktopContent() {
                 <span>Deine Website endlich „funktioniert“</span>
               </div>
             </div>
-             <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded w-full flex items-center justify-between">
+            <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded w-full flex items-center justify-between">
               <span>Kostenloser SEO Check</span>
               <ArrowRight />
             </button>
           </div>
           <div className="flex-1 flex flex-col gap-8 justify-between bg-custom-white leading-8 p-12 shadow-2xl rounded-lg dark">
-            <h2 className="text-center">
-              Unsere Leistungen auf einen Blick
-            </h2>
+            <h2 className="text-center">Unsere Leistungen auf einen Blick</h2>
             <p className="leading-6">
               Unsere Aufgabe ist einfach: Wir optimieren Deinen Webauftritt,
               damit Du bei Google, ChatGPT, Perplexity und anderen KI-Maschinen
@@ -493,6 +489,44 @@ export default function DesktopContent() {
               <ArrowRight />
             </button>
           </div>
+        </div>
+      </section>
+      <section className="flex justify-center gap-16 m-32">
+        <div className="flex-1 relative border-b-1 border-slate-200 dark:translate-y-8">
+          <img
+            src="/images/portraits/39321-4000_02.jpg"
+            alt="Portrait Jan Krösche"
+            className="h-96 object-cover"
+          />
+          <div className="p-4 bg-white absolute z-10 right-left bottom-0 flex flex-col items-center justify-center rounded-tr-xl h-1/2">
+            <div>
+              <img
+                src="/images/jank_logo.jpg"
+                alt="Jan Krösche Logo"
+                style={{ width: "200px" }}
+              />
+            </div>
+            <div className="flex flex-col pb-4 text-xl">
+              <span className="block">Jan Krösche</span>
+              <span className="block"></span>0176 55 10 9383
+              <span className="block">jan@jankroesche.de</span>
+            </div>
+          </div>
+          <div className="absolute bg-white w-full h-12 z-1 bottom-0"></div>
+        </div>
+        <div className="flex-1 bg-custom-white leading-8 p-8 rounded-lg dark">
+          <div className="flex items-center justify-around max-w-screen">
+            <img
+              src="/images/website_boosting.jpg"
+              alt="Website Boosting Logo"
+              className="max-w-1/3"
+            />
+            <img src="/images/vdi.jpg" alt="VDI Logo" className="w-1/3" />
+          </div>
+          <p className="mt-8 text-center">
+            Jan Krösche veröffentlicht regelmäßig im Fachmagazin „Website
+            Boosting“ und hält Vorträge beim Verein Deutscher Ingenieure.
+          </p>
         </div>
       </section>
     </>
