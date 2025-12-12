@@ -15,7 +15,7 @@ export default function DesktopNavbar() {
           <a href="mailto:max.mustermann@ihre-domain.de">jan@jankroesche.de</a>
         </div>
       </div>
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-around">
         <Link to={"/"}>
           {" "}
           <img
@@ -25,12 +25,12 @@ export default function DesktopNavbar() {
           />
         </Link>
 
-        <ol className="flex gap-8 text-lg">
+        <ol className="flex gap-8 text-lg font-semibold">
           <li>Google Platz 1</li>
           <li>Chapt GPT Platz 1</li>
           <li>Google Ads</li>
           <li>Referenzen</li>
-          <li>Leistungspakete</li>
+          <li>Preise</li>
           <li>KI-Tracker</li>
         </ol>
       </div>

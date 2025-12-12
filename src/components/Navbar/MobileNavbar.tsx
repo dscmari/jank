@@ -3,6 +3,7 @@ import CircleX from "../../icons/CircleX";
 import Phone from "../../icons/Phone";
 import Mail from "../../icons/Mail";
 import ArrowRight from "../../icons/ArrowRight";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,14 +16,17 @@ export default function Navbar() {
                         ${isMenuOpen ? "-translate-x-full" : ""}
                       `}
         >
-          <div className="flex items-center justify-between p-4 dark:bg-white">
-            <img
-              src="/images/logo_transparent.png"
-              alt="Jan Krösche Logo"
-              style={{ width: "200px" }}
-              className="ml-4"
-            />
-            <CircleX onClick={() => setIsMenuOpen((prev) => !prev)} />
+          <div className="flex items-center justify-between p-4 dark:bg-white" onClick={() => setIsMenuOpen(prev => !prev)}>
+            <Link to={"/"}>
+              {" "}
+              <img
+                src="/images/logo_transparent.png"
+                alt="Jan Krösche Logo"
+                style={{ width: "200px" }}
+                className="ml-4"
+              />
+            </Link>
+            <CircleX  />
           </div>
           <div className="p-8">
             <ol className="flex flex-col gap-4 font-semibold text-lg">
@@ -30,7 +34,7 @@ export default function Navbar() {
               <li className="">Chat GPT Platz 1</li>
               <li>Google Ads</li>
               <li>Referenzen </li>
-              <li>Leistungspakete</li>
+              <li>Preise</li>
               <li>KI-Tracker</li>
             </ol>
             <div className="pt-8 flex items-center gap-4 text-lg">
