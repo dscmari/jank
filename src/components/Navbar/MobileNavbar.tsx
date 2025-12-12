@@ -33,7 +33,6 @@ export default function Navbar() {
               <li>Referenzen </li>
               <li>Leistungspakete</li>
               <li>KI-Tracker</li>
-                <Link to={"/Blog"}>Blog</Link>
             </ol>
             <div className="pt-8 flex items-center gap-4 text-lg">
               <Phone color="black" className="size-5" />

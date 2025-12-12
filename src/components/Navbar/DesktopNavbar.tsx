@@ -32,7 +32,6 @@ export default function DesktopNavbar() {
           <li>Referenzen</li>
           <li>Leistungspakete</li>
           <li>KI-Tracker</li>
-          <Link to={"/Blog"}>Blog</Link>
         </ol>
       </div>
     </div>
