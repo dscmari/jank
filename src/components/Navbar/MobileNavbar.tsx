@@ -29,7 +29,7 @@ export default function Navbar() {
             <CircleX  />
           </div>
           <div className="p-8">
-            <ol className="flex flex-col gap-4 font-semibold text-lg">
+            <ol className="flex flex-col gap-4 font-semibold text-lg" onClick={() => setIsMenuOpen(prev => !prev)}>
               <li className="">Google Platz 1</li>
               <li className="">Chat GPT Platz 1</li>
               <li>Google Ads</li>

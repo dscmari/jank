@@ -2,7 +2,7 @@ import Diamond from "../icons/Diamond";
 
 export default function Pricing() {
   return (
-    <div className="mt-24 lg:mb-24 lg:mx-8 2xl:mx-32">
+    <div className="lg:mb-24 lg:mx-8 2xl:mx-32">
       <h2 className="text-center !mb-8 lg:!text-3xl lg:!pb-8">Preise</h2>
       <div className="flex flex-col lg:flex-row gap-24 lg:gap-8 lg:justify-around">
         <div className="lg:flex-1 bg-custom-white mx-8 lg:m-0 p-8 shadow-2xl rounded-lg dark">
