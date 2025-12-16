@@ -1,3 +1,4 @@
+import ChevronDown from "../../icons/ChevronDown";
 import Mail from "../../icons/Mail";
 import Phone from "../../icons/Phone";
 import { Link } from "react-router-dom";
@@ -26,12 +27,14 @@ export default function DesktopNavbar() {
         </Link>
 
         <ol className="flex gap-8 text-lg font-semibold">
-          <li>Google Platz 1</li>
-          <li>Chapt GPT Platz 1</li>
-          <li>Google Ads</li>
-          <li>Referenzen</li>
-          <Link to={"/Preise"}>Preise</Link>
-          <li>KI-Tracker</li>
+          <span className="flex gap-2 items-center">
+            {" "}
+            <Link to={"/Preise"}>Preispakete</Link> <ChevronDown />
+          </span>
+
+          <Link to={"/Referenzen"}>Referenzen</Link>
+          <Link to={"/KI-Tracker"}>KI-Tracker</Link>
+          <Link to={"/Videos"}>Videos</Link>
         </ol>
       </div>
     </div>

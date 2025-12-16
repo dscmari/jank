@@ -4,16 +4,15 @@ export default function Footer() {
   return (
     <div className="mt-8 p-8 bg-custom-black text-white lg:flex lg: flex-row-reverse lg:justify-around">
       <div className="flex flex-col items-center gap-4">
-        <Link to={"/Blog"} className="underline">Blog</Link>
-        <a href="#" className="underline">
-          Datenschutz
-        </a>
+        <Link to={"/Datenschutz"} className="underline">
+          Datenschutzerklärung
+        </Link>
         <a href="#" className="underline">
           Allgemeine Geschäftsbedingungen
         </a>
-        <a href="#" className="underline">
+        <Link to={"/Impressum"} className="underline">
           Impressum
-        </a>
+        </Link>
       </div>
       <div className="flex flex-col mt-12 lg:mt-0">
         <span>Jan Krösche & Team</span>

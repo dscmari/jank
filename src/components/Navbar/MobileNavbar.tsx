@@ -16,7 +16,10 @@ export default function Navbar() {
                         ${isMenuOpen ? "-translate-x-full" : ""}
                       `}
         >
-          <div className="flex items-center justify-between p-4 dark:bg-white" onClick={() => setIsMenuOpen(prev => !prev)}>
+          <div
+            className="flex items-center justify-between p-4 dark:bg-white"
+            onClick={() => setIsMenuOpen((prev) => !prev)}
+          >
             <Link to={"/"}>
               {" "}
               <img
@@ -26,16 +29,17 @@ export default function Navbar() {
                 className="ml-4"
               />
             </Link>
-            <CircleX  />
+            <CircleX />
           </div>
           <div className="p-8">
-            <ol className="flex flex-col gap-4 font-semibold text-lg" onClick={() => setIsMenuOpen(prev => !prev)}>
-              <li className="">Google Platz 1</li>
-              <li className="">Chat GPT Platz 1</li>
-              <li>Google Ads</li>
-              <li>Referenzen </li>
-              <Link to={"/Preise"}>Preise</Link>
-              <li>KI-Tracker</li>
+            <ol
+              className="flex flex-col gap-4 font-semibold text-lg"
+              onClick={() => setIsMenuOpen((prev) => !prev)}
+            >
+              <Link to={"/Preise"}>Preispakete</Link>
+              <Link to={"/Referenzen"}>Referenzen</Link>
+              <Link to={"/KI-Tracker"}>KI-Tracker</Link>
+              <Link to={"/Videos"}>Videos</Link>
             </ol>
             <div className="pt-8 flex items-center gap-4 text-lg">
               <Phone color="black" className="size-5" />
@@ -52,14 +56,14 @@ export default function Navbar() {
           </div>
         </div>
         <div className="flex items-center justify-between p-4 dark:bg-white">
-           <Link to={"/"}>
-              <img
-                src="/images/logo_transparent.png"
-                alt="Jan Krösche Logo"
-                style={{ width: "200px" }}
-                className="ml-4"
-              />
-            </Link>
+          <Link to={"/"}>
+            <img
+              src="/images/logo_transparent.png"
+              alt="Jan Krösche Logo"
+              style={{ width: "200px" }}
+              className="ml-4"
+            />
+          </Link>
           <div className="flex items-center gap-4 z-10">
             <div
               className="burgermenu"

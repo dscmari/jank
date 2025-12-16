@@ -435,6 +435,7 @@ export default function MobileContent() {
         </div>
         <div className="absolute bg-white w-full h-12 z-1 bottom-0"></div>
       </section>
+   
     </div>
   );
 }

@@ -3,10 +3,10 @@ import Diamond from "../icons/Diamond";
 export default function Pricing() {
   return (
     <div className="lg:mb-24 lg:mx-8 2xl:mx-32">
-      <h2 className="text-center !mb-8 lg:!text-3xl lg:!pb-8">Preise</h2>
+      <h2 className="text-center !mb-8 lg:!text-3xl lg:mt-16 lg:!pb-8">Unsere 3 Preispakete</h2>
       <div className="flex flex-col lg:flex-row gap-24 lg:gap-8 lg:justify-around">
         <div className="lg:flex-1 bg-custom-white mx-8 lg:m-0 p-8 shadow-2xl rounded-lg dark">
-          <h2 className="text-center">Google Platz 1</h2>
+          <h2 className="text-center">Paket 1: Google Platz 1</h2>
           <p>
             Website-Optimierungen, damit Du in der Google-Suche & bei Google
             Maps zu vielen Suchbegriffen oben rankst. Und mehr Anfragen
@@ -62,7 +62,7 @@ export default function Pricing() {
           </span>
         </div>
         <div className="lg:flex-1 bg-custom-white mx-8 lg:m-0 p-8 shadow-2xl rounded-lg dark">
-          <h2 className="text-center">Chat GPT Platz 1</h2>
+          <h2 className="text-center">Paket 2: Chat GPT Platz 1</h2>
           <p>
             Website-Optimierungen, damit Deine Firma in den Antworten der
             KI-Systeme ChatGPT, Gemini, Perplexity & Copilot erscheint. Und Du
@@ -118,7 +118,7 @@ export default function Pricing() {
           </span>
         </div>
         <div className="lg:flex-1 bg-custom-white mx-8 lg:m-0 p-8 shadow-2xl rounded-lg dark">
-          <h2 className="text-center">Google Ads</h2>
+          <h2 className="text-center">Paket 3: Google Ads</h2>
           <p>
             Kurzfristige Steigerung Deiner Google Sichtbarkeit durch
             Werbeanzeigen auf Google und Bing. Damit Du von Deinen Kunden
