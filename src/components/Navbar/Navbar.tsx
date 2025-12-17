@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import useWindowDimensions from "../../utils/useWindowDimensions";
-import DesktopNavbar from "./DesktopNavbar";
+import DesktopNavbar from "./Desktop/DesktopNavbar";
 import MobileNavbar from "./MobileNavbar";
 
 export default function Navbar() {

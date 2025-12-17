@@ -1,11 +1,13 @@
-import ChevronDown from "../../icons/ChevronDown";
-import Mail from "../../icons/Mail";
-import Phone from "../../icons/Phone";
+import Mail from "../../../icons/Mail";
+import Phone from "../../../icons/Phone";
 import { Link } from "react-router-dom";
+import { ShiftingDropDown } from "./ShiftingDropDown";
 
 export default function DesktopNavbar() {
+
   return (
     <div className="bg-custom-white p-4 px-8">
+
       <div className="flex gap-8 justify-end items-center">
         <div className="flex gap-2 items-center">
           <Phone color="#2d3436" className="size-4" />
@@ -25,8 +27,9 @@ export default function DesktopNavbar() {
             style={{ width: "200px" }}
           />
         </Link>
+              <ShiftingDropDown/>
 
-        <ol className="flex gap-8 text-lg font-semibold">
+        {/* <ol className="flex gap-8 text-lg font-semibold">
           <span className="flex gap-2 items-center">
             {" "}
             <Link to={"/Preise"}>Preispakete</Link> <ChevronDown />
@@ -35,7 +38,7 @@ export default function DesktopNavbar() {
           <Link to={"/Referenzen"}>Referenzen</Link>
           <Link to={"/KI-Tracker"}>KI-Tracker</Link>
           <Link to={"/Videos"}>Videos</Link>
-        </ol>
+        </ol> */}
       </div>
     </div>
   );
