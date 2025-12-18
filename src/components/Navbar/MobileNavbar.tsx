@@ -36,10 +36,11 @@ export default function Navbar() {
               className="flex flex-col gap-4 font-semibold text-lg"
               onClick={() => setIsMenuOpen((prev) => !prev)}
             >
+              <span>Leistungen</span>
               <Link to={"/Preise"}>Preispakete</Link>
               <Link to={"/Referenzen"}>Referenzen</Link>
-              <Link to={"/KI-Tracker"}>KI-Tracker</Link>
               <Link to={"/Videos"}>Videos</Link>
+              <Link to={"/KI-Tracker"}>KI-Tracker</Link>
             </ol>
             <div className="pt-8 flex items-center gap-4 text-lg">
               <Phone color="black" className="size-5" />
