@@ -4,6 +4,8 @@ import Nub from "./Nub";
 import NavPricing from "./NavPricing";
 import NavReferences from "./NavReferences";
 import NavVideos from "./NavVideos";
+import NavServices from "./NavServices";
+import NavKITracker from "./NavKITracker";
 
 const NavContent = ({
   selected,
@@ -13,7 +15,10 @@ const NavContent = ({
   dir: null | "l" | "r";
 }) => {
     const TABS = [
-
+         {
+    title: "Leistungen",
+    Component: NavServices,
+  },
   {
     title: "Preispakete",
     Component: NavPricing,
@@ -25,6 +30,10 @@ const NavContent = ({
   {
     title: "Blog",
     Component: NavVideos,
+  },
+  {
+    title: "KI-Tracker",
+    Component: NavKITracker,
   },
 ].map((n, idx) => ({ ...n, id: idx + 1 }));
   return (
@@ -42,7 +51,7 @@ const NavContent = ({
         opacity: 0,
         y: 8,
       }}
-      className="absolute left-0 top-[calc(100%_+_24px)] w-full rounded-lg border border-neutral-600 bg-gradient-to-b from-neutral-900 via-neutral-900 to-neutral-800 p-4 z-1000"
+      className="absolute left-0 top-[calc(100%_+_24px)] w-full rounded-lg border border-custom-black bg-white text-custom-black p-4 z-1000"
     >
       <Bridge />
       <Nub selected={selected} />

@@ -11,21 +11,21 @@ const NavPricing = () => {
         href="#"
         className="flex w-full flex-col items-center justify-center py-2 text-neutral-400 transition-colors hover:text-neutral-50"
       >
-        <FiHome className="mb-2 size-16 text-custom-red" />
+        <FiHome className="mb-2 size-8 text-custom-red" />
         <span className="text-xl">Startup</span>
       </a>
       <a
         href="#"
         className="flex w-full flex-col items-center justify-center py-2 text-neutral-400 transition-colors hover:text-neutral-50"
       >
-        <FiBarChart2 className="mb-2 size-16 text-custom-red" />
+        <FiBarChart2 className="mb-2 size-8 text-custom-red" />
         <span className="text-xl">Scaleup</span>
       </a>
       <a
         href="#"
         className="flex w-full flex-col items-center justify-center py-2 text-neutral-400 transition-colors hover:text-neutral-50"
       >
-        <FiPieChart className="mb-2 size-16 text-custom-red" />
+        <FiPieChart className="mb-2 size-8 text-custom-red" />
         <span className="text-xl">Enterprise</span>
       </a>
     </div>

@@ -5,6 +5,8 @@ import NavPricing from "./NavPricing";
 import NavVideos from "./NavVideos";
 import NavReferences from "./NavReferences";
 import NavContent from "./NavContent";
+import NavServices from "./NavServices";
+import NavKITracker from "./NavKITracker";
 
 const Tabs = () => {
   const [selected, setSelected] = useState<number | null>(null);
@@ -21,10 +23,14 @@ const Tabs = () => {
   };
 
 const TABS = [
-
+   {
+    title: "Leistungen",
+    Component: NavServices,
+  },
   {
     title: "Preispakete",
     Component: NavPricing,
+    link: "/preise"
   },
     {
     title: "Referenzen",
@@ -33,7 +39,10 @@ const TABS = [
   {
     title: "Videos",
     Component: NavVideos,
-    
+  },
+    {
+    title: "KI-Tracker",
+    Component: NavKITracker,
   },
 ].map((n, idx) => ({ ...n, id: idx + 1 }));
 
@@ -49,6 +58,7 @@ const TABS = [
             selected={selected}
             handleSetSelected={handleSetSelected}
             tab={t.id}
+            t={t}
           >
             {t.title}
           </Tab>

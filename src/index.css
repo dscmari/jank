@@ -66,6 +66,10 @@ h1, h2, button {
   font-family: 'Poppins', 'sans-serif';
 }
 
+p, h1, h2, h3 {
+  cursor: default;
+}
+
 
 
 /* Navbar */

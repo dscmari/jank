@@ -15,10 +15,10 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Videos" element={<Blog />} />
-          <Route path="/Preise" element={<Pricing />} />
-          <Route path="/Impressum" element={<Impressum />} />
-          <Route path="/Datenschutz" element={<Privacy />} />
+          <Route path="/videos" element={<Blog />} />
+          <Route path="/preise" element={<Pricing />} />
+          <Route path="/impressum" element={<Impressum />} />
+          <Route path="/datenschutz" element={<Privacy />} />
         </Routes>
            <ScrollToTopBtn />
       </main>
