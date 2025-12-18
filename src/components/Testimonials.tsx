@@ -1,8 +1,12 @@
 import RatingStar from "../icons/RatingStar";
 
-export default function Testimonials() {
+type Props = {
+  className?: string;
+};
+
+export default function Testimonials({className} : Props) {
   return (
-    <section className="mt-24 lg:bg-custom-white p-8 dark lg:py-32">
+    <section className={`p-8 dark lg:py-32 ${className}`}>
       <h2 className="lg:text-center lg:!text-2xl tracking-wide">
         Wir haben über 500 Firmenwebsites auf Platz 1 optimiert
       </h2>

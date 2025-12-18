@@ -7,6 +7,7 @@ import Pricing from "./components/Pricing";
 import Impressum from "./components/Impressum";
 import Privacy from "./components/Privacy";
 import ScrollToTopBtn from "./components/ScrollToTopBtn";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
@@ -15,12 +16,13 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/videos" element={<Blog />} />
           <Route path="/preise" element={<Pricing />} />
+          <Route path="/referenzen" element={<Testimonials />} />
+          <Route path="/videos" element={<Blog />} />
           <Route path="/impressum" element={<Impressum />} />
           <Route path="/datenschutz" element={<Privacy />} />
         </Routes>
-           <ScrollToTopBtn />
+        <ScrollToTopBtn />
       </main>
       <Footer />
     </>

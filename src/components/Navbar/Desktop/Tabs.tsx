@@ -35,6 +35,7 @@ const TABS = [
     {
     title: "Referenzen",
     Component: NavReferences,
+    link: "/referenzen"
   },
   {
     title: "Videos",

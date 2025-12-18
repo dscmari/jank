@@ -24,7 +24,7 @@ const NavContent = ({
     Component: NavPricing,
   },
     {
-    title: "Products",
+    title: "Referenzen",
     Component: NavReferences,
   },
   {

@@ -68,7 +68,7 @@ export default function MobileContent() {
         </div>
       </section>
       <Contact className="mt-24" />
-      <Testimonials />
+      <Testimonials className="mt-24"  />
       <section className="px-8 dark:p-8 mt-24 flex flex-col gap-4">
         <h2 className="!mb-0">
           Wir bringen Dich bei Google & ChatGPT ganz nach vorne

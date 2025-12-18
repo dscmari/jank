@@ -264,7 +264,7 @@ export default function DesktopContent() {
           </div>
         </div>
       </section>
-      <Testimonials />
+      <Testimonials className="mt-24 bg-custom-white" />
       <Services />
       <section className="px-32 pt-32">
         <div className="">
