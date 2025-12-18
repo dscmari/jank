@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import useWindowDimensions from "../../utils/useWindowDimensions";
-import DesktopContent from "./DesktopContent";
-import MobileContent from "./MobileContent";
+import MobileHome from "./MobileHome";
+import DesktopHome from "./DesktopHome";
 
 export default function Home() {
   const windowDimensions = useWindowDimensions();
@@ -18,10 +18,10 @@ export default function Home() {
   }, [windowDimensions]);
 
   if (isMobile) {
-    return <MobileContent />;
+    return <MobileHome />;
   } else if (isTablet) {
     return <div>isTableContent</div>;
   } else {
-    return <DesktopContent />;
+    return <DesktopHome />;
   }
 }

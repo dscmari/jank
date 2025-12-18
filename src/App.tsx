@@ -1,13 +1,13 @@
 import { Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer";
-import Navbar from "./components/Navbar/Navbar";
+import Navbar from "./components/navbar/Navbar";
 import Home from "./components/main-content/Home";
-import Blog from "./components/Blog";
+import Blog from "./components/pages/Blog";
 import Pricing from "./components/Pricing";
-import Impressum from "./components/Impressum";
-import Privacy from "./components/Privacy";
+import Impressum from "./components/pages/Impressum";
+import Privacy from "./components/pages/Privacy";
 import ScrollToTopBtn from "./components/ScrollToTopBtn";
-import Testimonials from "./components/Testimonials";
+import References from "./components/pages/References";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/preise" element={<Pricing />} />
-          <Route path="/referenzen" element={<Testimonials />} />
+          <Route path="/referenzen" element={<References />} />
           <Route path="/videos" element={<Blog />} />
           <Route path="/impressum" element={<Impressum />} />
           <Route path="/datenschutz" element={<Privacy />} />

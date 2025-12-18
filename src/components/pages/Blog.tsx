@@ -1,5 +1,5 @@
-import ArrowRight from "../icons/ArrowRight";
-import ArrowTopRight from "../icons/ArrowTopRight";
+import ArrowRight from "../../icons/ArrowRight";
+import ArrowTopRight from "../../icons/ArrowTopRight";
 
 export default function Blog() {
   return (
