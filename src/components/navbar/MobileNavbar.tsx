@@ -148,13 +148,15 @@ export default function Navbar() {
               <Mail color="" className="size-5" />
               <span>jan@jankroesche.de</span>
             </div>
-            <button
-              className="mt-12 px-4 py-4 bg-custom-red text-custom-white w-full flex items-center justify-between tracking-wider rounded"
-              onClick={() => setIsMenuOpen((prev) => !prev)}
-            >
-              <LinkSeoCheck />
-              <ArrowRight />
-            </button>
+            <div className="mx-8 my-12">
+              <button
+                className="px-4 py-4 bg-custom-red text-custom-white w-full flex items-center justify-between tracking-wider rounded"
+                onClick={() => setIsMenuOpen((prev) => !prev)}
+              >
+                <LinkSeoCheck />
+                <ArrowRight />
+              </button>
+            </div>
           </div>
         </div>
         <div className="flex items-center justify-between p-4 dark:bg-white">
