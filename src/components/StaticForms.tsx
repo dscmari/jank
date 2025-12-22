@@ -58,14 +58,14 @@ export default function StaticForms() {
             placeholder="mustermann@office.de"
           />
         </div>
-        <div className="flex flex-col gap-4 font-semibold">
+        {/* <div className="flex flex-col gap-4 font-semibold">
           <label htmlFor="message">Deine Nachricht</label>
           <textarea
             name="message"
             className="rounded text-custom-black bg-slate-200 p-2 w-full min-h-24"
             placeholder="Hast du konkrete Fragen?"
           />
-        </div>
+        </div> */}
       </div>
 
       <div className="flex items-start gap-4 lg:mb-8">

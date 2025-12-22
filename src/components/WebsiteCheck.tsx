@@ -18,7 +18,7 @@ export default function WebsiteCheck({ isGeo, className }: Props) {
             alt=""
             className="w-full rounded-tr-4xl rounded-b-4xl"
           />
-          <div className="absolute w-2/3 text-custom-white left-16 bottom-4 -translate-y-1/2 leading-8 font-semibold">
+          <div className="absolute w-3/4 text-custom-white left-16 bottom-0 -translate-y-1/4 leading-8 font-semibold">
             <Link to={"/"}>
               {" "}
               <img
@@ -29,8 +29,9 @@ export default function WebsiteCheck({ isGeo, className }: Props) {
               />
             </Link>
             <p>
-              "Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Eligendi at quis fuga doloremque ex" Zitatende. Gänsehosen.
+              "Wir haben schon über 1.000 SEO-Analysen seit 2017 durchgeführt.
+              Wir haben alle Fehler gesehen, die man im SEO machen kann.
+              Von dieser Erfahrung profitierst Du."
             </p>
           </div>
         </div>
@@ -42,15 +43,15 @@ export default function WebsiteCheck({ isGeo, className }: Props) {
             <p className="lg:font-semibold">
               Du willst bei ChatGPT, Gemini und Copilot in den Antworten
               erscheinen und mehr Anfragen generieren? Ich schaue mir Deine
-              Website an und schicke Dir GEO Optimierungsvorschläge als
-              Datei per Mail zu. Komplett kostenlos.
+              Website an und schicke Dir GEO Optimierungsvorschläge als Datei
+              per Mail zu. Komplett kostenlos.
             </p>
           ) : (
             <p className="lg:font-semibold">
               Du willst bei Google & ChatGPT auf Platz 1 kommen und mehr
               Anfragen generieren? Ich schaue mir Deine Website an und schicke
-              Dir Optimierungsvorschläge als Datei per Mail zu.
-              Komplett kostenlos.
+              Dir Optimierungsvorschläge als Datei per Mail zu. Komplett
+              kostenlos.
             </p>
           )}
           <StaticForms />
