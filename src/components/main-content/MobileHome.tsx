@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import ArrowRight from "../../icons/ArrowRight";
 import Code from "../../icons/Code";
 import Diamond from "../../icons/Diamond";
@@ -28,7 +29,7 @@ export default function MobileContent() {
           endlich mehr Neukunden-Anfragen über die Website erhälst.
         </p>
         <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded-4xl w-full flex items-center justify-between">
-          <span>Kostenloser SEO-Check </span>
+          <Link to={"/kostenloser-seo-check/"}>Kostenloser SEO-Check</Link>
           <ArrowRight />
         </button>
       </section>
@@ -69,7 +70,7 @@ export default function MobileContent() {
         </div>
       </section>
       <Contact className="mt-24" />
-      <Testimonials className="mt-24"  />
+      <Testimonials className="mt-24" />
       <section className="px-8 dark:p-8 mt-24 flex flex-col gap-4">
         <h2 className="!mb-0">
           Wir bringen Dich bei Google & ChatGPT ganz nach vorne
@@ -143,7 +144,7 @@ export default function MobileContent() {
             </div>
           </div>
           <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded-4xl w-full flex items-center justify-between">
-            <span>Kostenloser SEO-Check </span>
+            <Link to={"/kostenloser-seo-check/"}>Kostenloser SEO-Check</Link>
             <ArrowRight />
           </button>
         </div>
@@ -178,7 +179,7 @@ export default function MobileContent() {
             </div>
           </div>
           <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded-4xl w-full flex items-center justify-between">
-            <span>Kostenloser KI-SEO-Check</span>
+            <Link to={"/kostenloser-seo-check/"}>Kostenloser KI-SEO-Check</Link>
             <ArrowRight />
           </button>
         </div>
@@ -353,7 +354,7 @@ export default function MobileContent() {
             </div>
           </div>
           <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded-4xl w-full flex items-center justify-between">
-            <span>Kostenloser SEO Check</span>
+            <Link to={"/kostenloser-seo-check/"}>Kostenloser SEO-Check</Link>
             <ArrowRight />
           </button>
         </div>
@@ -394,7 +395,7 @@ export default function MobileContent() {
             </div>
           </div>
           <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded-4xl w-full flex items-center justify-between">
-            <span>Kostenloser SEO Check</span>
+            <Link to={"/kostenloser-seo-check/"}>Kostenloser SEO-Check</Link>
             <ArrowRight />
           </button>
         </div>
@@ -413,7 +414,7 @@ export default function MobileContent() {
           Boosting“ und hält Vorträge beim Verein Deutscher Ingenieure.
         </p>
       </section>
-      <ContactWithImg className="mt-24"/>
+      <ContactWithImg className="mt-24" />
     </div>
   );
 }

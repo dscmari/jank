@@ -35,11 +35,12 @@ const TABS = [
     {
     title: "Referenzen",
     Component: NavReferences,
-    link: "/referenzen"
+    link: "/referenzen/"
   },
   {
     title: "Videos",
     Component: NavVideos,
+    link: "videos/"
   },
     {
     title: "KI-Tracker",

@@ -1,18 +1,21 @@
 import { useEffect, useState } from "react";
 import ArrowRight from "../icons/ArrowRight";
 import useWindowDimensions from "../utils/useWindowDimensions";
+import { Link } from "react-router-dom";
 
 export default function ATF() {
   const windowDimensions = useWindowDimensions();
   const [isMobile, setIsMobile] = useState(windowDimensions.width < 768);
-   const [isTablet, setIsTablet] = useState(window.innerWidth > 768 && window.innerWidth < 1280);
+  const [isTablet, setIsTablet] = useState(
+    window.innerWidth > 768 && window.innerWidth < 1280
+  );
 
   useEffect(() => {
-    const resizedIsMobile = windowDimensions.width < 768
-    const resizedIsTablet = window.innerWidth > 768 && window.innerWidth < 1280
-    setIsMobile(resizedIsMobile)
-    setIsTablet(resizedIsTablet)
-  },[windowDimensions])
+    const resizedIsMobile = windowDimensions.width < 768;
+    const resizedIsTablet = window.innerWidth > 768 && window.innerWidth < 1280;
+    setIsMobile(resizedIsMobile);
+    setIsTablet(resizedIsTablet);
+  }, [windowDimensions]);
 
   return (
     <div>
@@ -47,7 +50,9 @@ export default function ATF() {
                   Deine Wettbewerber.
                 </p>
                 <button className="mt-16 p-4 bg-custom-red text-custom-white rounded w-2/3 flex items-center justify-between">
-                  <span>Zum Kostenlosen SEO-Check </span>
+                  <Link to={"/kostenloser-seo-check/"}>
+                    Kostenloser SEO-Check
+                  </Link>
                   <ArrowRight />
                 </button>
               </div>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import AddressBook from "../../icons/AddressBook";
 import Airplane from "../../icons/Airplaine";
 import ArrowRight from "../../icons/ArrowRight";
@@ -148,7 +149,7 @@ export default function DesktopContent() {
             Norditalien & der Schweiz für unsere Kunden unterwegs.
           </p>
           <button className="mt-16 p-4 bg-custom-red text-custom-white rounded w-2/3 flex items-center justify-between">
-            <span>Zum Kostenlosen SEO-Check </span>
+            <Link to={"/kostenloser-seo-check/"}>Kostenloser SEO-Check</Link>
             <ArrowRight />
           </button>
         </div>
@@ -183,7 +184,7 @@ export default function DesktopContent() {
               </div>
             </div>
             <button className="px-4 py-2 bg-custom-red text-custom-white rounded w-full flex items-center justify-between">
-              <span>Kostenloser SEO-Check </span>
+              <Link to={"/kostenloser-seo-check/"}>Kostenloser SEO-Check</Link>
               <ArrowRight />
             </button>
           </div>
@@ -219,7 +220,9 @@ export default function DesktopContent() {
             </div>
 
             <button className="px-4 py-2 bg-custom-red text-custom-white rounded w-full flex items-center justify-between">
-              <span>Kostenloser KI-SEO-Check</span>
+              <Link to={"/kostenloser-seo-check/"}>
+                Kostenloser KI-SEO-Check
+              </Link>
               <ArrowRight />
             </button>
           </div>
@@ -446,7 +449,7 @@ export default function DesktopContent() {
               </div>
             </div>
             <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded w-full flex items-center justify-between">
-              <span>Kostenloser SEO Check</span>
+              <Link to={"/kostenloser-seo-check/"}>Kostenloser SEO-Check</Link>
               <ArrowRight />
             </button>
           </div>
@@ -485,7 +488,7 @@ export default function DesktopContent() {
               </div>
             </div>
             <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded w-full flex items-center justify-between">
-              <span>Kostenloser SEO Check</span>
+              <Link to={"/kostenloser-seo-check/"}>Kostenloser SEO-Check</Link>
               <ArrowRight />
             </button>
           </div>

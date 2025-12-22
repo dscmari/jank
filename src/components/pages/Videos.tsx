@@ -118,7 +118,7 @@ export default function Videos() {
           </div>
         </div>
       </div>
-      <ContactWithImg/>
+      <ContactWithImg className="mt-24 lg:mt-48 lg:mx-32"/>
     </div>
   );
 }
