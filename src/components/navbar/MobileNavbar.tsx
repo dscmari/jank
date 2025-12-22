@@ -17,7 +17,7 @@ export default function Navbar() {
     <div>
       <div className="relative ">
         <div
-          className={`h-screen left-full z-100 fixed w-full bg-white flex flex-col transition-transform duration-300 ease-in-out 
+          className={`min-h-screen left-full z-100 fixed w-full bg-white flex flex-col transition-transform duration-300 ease-in-out 
                         ${isMenuOpen ? "-translate-x-full" : ""}
                       `}
         >
@@ -59,34 +59,40 @@ export default function Navbar() {
                       transition={{ duration: 0.3, ease: "easeInOut" }}
                       className="ml-4 bg-white !font-medium"
                     >
-                       <div className="flex flex-col gap-2">
-                         <h3 className="mt-4 font-semibold">Google Platz 1</h3>
-                         <a href="#" className="mb-1 block text-neutral-400">
-                           SEO Berater für Google Rankings
-                         </a>
-                         <a href="#" className="block text-neutral-400">
-                           Google SEO Optimierung
-                         </a>
-                         <div className="text-neutral-400" onClick={() => setIsMenuOpen((prev) => !prev)}>
-                           <LinkSeoCheck/>
-                         </div>
-                       </div>
-                               <div className="flex flex-col gap-2">
-                                 <h3 className="mt-4 font-semibold">ChatGPT Platz 1</h3>
-                                 <a href="#" className="mb-1 block text-neutral-400">
-                                   GEO-Berater für KI Sichtbarkeit
-                                 </a>
-                                 <a href="#" className="mb-1 block text-neutral-400">
-                                   ChatGPT SEO
-                                 </a>
-                                 <a href="#" className="block text-neutral-400">
-                                   KI Sichtbarkeit
-                                 </a>
-                                 <div className="text-neutral-400" onClick={() => setIsMenuOpen((prev) => !prev)}>
-                                   <LinkGeoCheck/>
-                                 </div>
-                               </div>
-                        <ol className="flex flex-col gap-2">
+                      <div className="flex flex-col gap-2">
+                        <h3 className="mt-4 font-semibold">Google Platz 1</h3>
+                        <a href="#" className="mb-1 block text-neutral-400">
+                          SEO Berater für Google Rankings
+                        </a>
+                        <a href="#" className="block text-neutral-400">
+                          Google SEO Optimierung
+                        </a>
+                        <div
+                          className="text-neutral-400"
+                          onClick={() => setIsMenuOpen((prev) => !prev)}
+                        >
+                          <LinkSeoCheck />
+                        </div>
+                      </div>
+                      <div className="flex flex-col gap-2">
+                        <h3 className="mt-4 font-semibold">ChatGPT Platz 1</h3>
+                        <a href="#" className="mb-1 block text-neutral-400">
+                          GEO-Berater für KI Sichtbarkeit
+                        </a>
+                        <a href="#" className="mb-1 block text-neutral-400">
+                          ChatGPT SEO
+                        </a>
+                        <a href="#" className="block text-neutral-400">
+                          KI Sichtbarkeit
+                        </a>
+                        <div
+                          className="text-neutral-400"
+                          onClick={() => setIsMenuOpen((prev) => !prev)}
+                        >
+                          <LinkGeoCheck />
+                        </div>
+                      </div>
+                      <ol className="flex flex-col gap-2">
                         <h3 className="font-semibold mt-4">Google Werbung</h3>
                         <li>
                           {" "}
@@ -140,8 +146,11 @@ export default function Navbar() {
               <Mail color="" className="size-5" />
               <span>jan@jankroesche.de</span>
             </div>
-            <button className="mt-12 px-4 py-4 bg-custom-red text-custom-white w-full flex items-center justify-between tracking-wider rounded">
-              <span>Zum Website-Check </span>
+            <button
+              className="mt-12 px-4 py-4 bg-custom-red text-custom-white w-full flex items-center justify-between tracking-wider rounded"
+              onClick={() => setIsMenuOpen((prev) => !prev)}
+            >
+              <LinkSeoCheck />
               <ArrowRight />
             </button>
           </div>
