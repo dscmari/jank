@@ -1,7 +1,8 @@
 import ArrowRight from "../../icons/ArrowRight";
 import ArrowTopRight from "../../icons/ArrowTopRight";
+import ContactWithImg from "../ContactWithImg";
 
-export default function Blog() {
+export default function Videos() {
   return (
     <div className="">
       <div className="m-8 lg:m-0 lg:flex lg:px-32 lg:pt-32">
@@ -117,6 +118,7 @@ export default function Blog() {
           </div>
         </div>
       </div>
+      <ContactWithImg/>
     </div>
   );
 }

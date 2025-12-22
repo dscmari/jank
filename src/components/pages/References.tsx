@@ -1,6 +1,7 @@
 import sections from "../../utils/referencesList";
 import Diamond from "../../icons/Diamond";
 import RatingStar from "../../icons/RatingStar";
+import ContactWithImg from "../ContactWithImg";
 
 export default function References() {
   return (
@@ -56,6 +57,7 @@ export default function References() {
           </section>
         ))}
       </div>
+      <ContactWithImg className="mt-24 lg:mt-48"/>
     </div>
   );
 }
