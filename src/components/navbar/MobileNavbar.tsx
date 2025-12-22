@@ -56,7 +56,7 @@ export default function Navbar() {
                   }`}
                 />
               </div>
-              <div className="flex flex-col gap-4 font-semibold text-lg">
+              <div className="flex flex-col font-semibold text-lg">
                 <AnimatePresence>
                   {isSelected && (
                     <motion.ol
@@ -64,14 +64,15 @@ export default function Navbar() {
                       animate={{ height: "auto", opacity: 1 }}
                       exit={{ height: 0, opacity: 0 }}
                       transition={{ duration: 0.3, ease: "easeInOut" }}
-                      className={`pl-8 pb-8 !font-medium ${
+                      className={`pl-8 pb-8 flex flex-col gap-4 !font-medium ${
                         isSelected ? "border-b-2 border-slate-200" : ""
                       }`}
                     >
                       <div className="flex flex-col gap-1">
                         <div className="flex gap-4 items-center mt-4">
+                             <Magnifier className="size-6" />
                           <h3 className="font-semibold">Google Platz 1</h3>
-                          <Magnifier className="size-6" />
+                       
                         </div>
 
                         <a href="#" className="block text-neutral-400">
@@ -90,8 +91,9 @@ export default function Navbar() {
                       <div className="flex flex-col gap-1">
                         <div className="flex gap-4 items-center mt-4">
                           {" "}
+                              <Code className="size-6"/>
                           <h3 className="font-semibold">ChatGPT Platz 1</h3>
-                          <Code className="size-6"/>
+                      
                         </div>
 
                         <a href="#" className="block text-neutral-400">
@@ -113,8 +115,9 @@ export default function Navbar() {
                       <div className="flex flex-col gap-1">
                            <div className="flex gap-4 items-center mt-4">
                           {" "}
+                                 <ArrowTrendingUp className="size-6"/>
                           <h3 className="font-semibold">Google Werbung</h3>
-                          <ArrowTrendingUp className="size-6"/>
+                   
                         </div>
                         <a href="#" className="block text-neutral-400">
                           Google Ads Berater für Google-Klicks
