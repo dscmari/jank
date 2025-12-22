@@ -405,7 +405,7 @@ export default function DesktopContent() {
           </div>
         </div>
       </section>
-      <WebsiteCheck />
+      <WebsiteCheck className="mt-24 lg:mt-32" />
       <section className="px-32 mt-32">
         <h2 className="text-center !text-2xl !mb-12">
           Keine Lust mehr, hinter Deinem größten Wettbewerber hinterherzulaufen?

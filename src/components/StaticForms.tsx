@@ -29,7 +29,7 @@ export default function StaticForms() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="mt-8 mb-8 lg:mb-0 flex flex-col gap-4"
+      className="my-4 lg:mb-0 flex flex-col gap-4"
     >
       <div className="flex flex-col gap-4">
         <input type="hidden" name="apiKey" value={key} />

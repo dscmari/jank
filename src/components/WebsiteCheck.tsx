@@ -9,7 +9,7 @@ type Props = {
 export default function WebsiteCheck({ isGeo, className }: Props) {
   return (
     <section
-      className={`border-y-2 border-slate-200 bg-custom-red lg:bg-white text-custom-white lg:text-custom-black lg:border-none p-8 pt-12 lg:p-0 max-w-[1280px] 2xl:mx-auto ${className}`}
+      className={`bg-custom-red lg:bg-white text-custom-white lg:text-custom-black p-8 pt-12 xl:mx-auto max-w-[1280px]  ${className}`}
     >
       <div className="lg:flex lg:gap-16">
         <div className="hidden lg:block max-w-[640px] relative">
@@ -35,21 +35,21 @@ export default function WebsiteCheck({ isGeo, className }: Props) {
           </div>
         </div>
         <div className="lg:flex lg:flex-col 2xl:justify-center lg:py-8 lg:max-w-1/2">
-          <h2 className="!text-3xl/10">
+          <h2 className="!mb-8 lg:!mb-4 !text-2xl lg:!text-4xl/10 lg:text-custom-red">
             {isGeo ? "Kostenloser KI GEO Check" : "Kostenloser Website Check"}
           </h2>
           {isGeo ? (
             <p className="lg:font-semibold">
               Du willst bei ChatGPT, Gemini und Copilot in den Antworten
               erscheinen und mehr Anfragen generieren? Ich schaue mir Deine
-              Website an und schicke Dir ein paar GEO Optimierungsvorschläge als
+              Website an und schicke Dir GEO Optimierungsvorschläge als
               Datei per Mail zu. Komplett kostenlos.
             </p>
           ) : (
             <p className="lg:font-semibold">
               Du willst bei Google & ChatGPT auf Platz 1 kommen und mehr
               Anfragen generieren? Ich schaue mir Deine Website an und schicke
-              Dir ein paar Optimierungsvorschläge als Datei per Mail zu.
+              Dir Optimierungsvorschläge als Datei per Mail zu.
               Komplett kostenlos.
             </p>
           )}
