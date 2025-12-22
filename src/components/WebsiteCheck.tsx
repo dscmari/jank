@@ -35,7 +35,7 @@ export default function WebsiteCheck({ isGeo, className }: Props) {
           </div>
         </div>
         <div className="lg:flex lg:flex-col 2xl:justify-center lg:py-8 lg:max-w-1/2">
-          <h2 className="!mb-8 lg:!mb-4 !text-2xl lg:!text-4xl/10 lg:text-custom-red">
+          <h2 className="!mb-8 lg:!mb-4 !text-2xl lg:!text-4xl/10 tracking-tight lg:text-custom-red">
             {isGeo ? "Kostenloser KI GEO Check" : "Kostenloser Website Check"}
           </h2>
           {isGeo ? (
