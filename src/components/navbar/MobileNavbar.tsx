@@ -17,7 +17,7 @@ export default function Navbar() {
     <div>
       <div className="relative ">
         <div
-          className={`min-h-screen left-full z-100 fixed w-full bg-white flex flex-col transition-transform duration-300 ease-in-out 
+          className={`min-h-screen max-h-full overflow-y-auto left-full z-100 fixed top-0 w-full bg-white flex flex-col transition-transform duration-300 ease-in-out 
                         ${isMenuOpen ? "-translate-x-full" : ""}
                       `}
         >
@@ -38,85 +38,83 @@ export default function Navbar() {
           </div>
           <div className="p-8">
             <ol className="flex flex-col gap-4 font-semibold text-lg">
-              <div className="relative">
-                <div
-                  className="flex gap-2 items-center"
-                  onClick={() => setSelected((prev) => !prev)}
-                >
-                  <span>Leistungen</span>
-                  <FiChevronDown
-                    className={`transition-transform size-6 ${
-                      selected ? "rotate-180" : ""
-                    }`}
-                  />
-                </div>
-                <AnimatePresence>
-                  {selected && (
-                    <motion.ol
-                      initial={{ height: 0, opacity: 0 }}
-                      animate={{ height: "auto", opacity: 1 }}
-                      exit={{ height: 0, opacity: 0 }}
-                      transition={{ duration: 0.3, ease: "easeInOut" }}
-                      className="ml-4 bg-white !font-medium"
-                    >
-                      <div className="flex flex-col gap-2">
-                        <h3 className="mt-4 font-semibold">Google Platz 1</h3>
+              <div
+                className="flex gap-2 items-center"
+                onClick={() => setSelected((prev) => !prev)}
+              >
+                <span>Leistungen</span>
+                <FiChevronDown
+                  className={`transition-transform size-6 ${
+                    selected ? "rotate-180" : ""
+                  }`}
+                />
+              </div>
+              <AnimatePresence>
+                {selected && (
+                  <motion.ol
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={{ height: "auto", opacity: 1 }}
+                    exit={{ height: 0, opacity: 0 }}
+                    transition={{ duration: 0.3, ease: "easeInOut" }}
+                    className="ml-4 bg-white !font-medium"
+                  >
+                    <div className="flex flex-col gap-2">
+                      <h3 className="font-semibold">Google Platz 1</h3>
+                      <a href="#" className="mb-1 block text-neutral-400">
+                        SEO Berater für Google Rankings
+                      </a>
+                      <a href="#" className="block text-neutral-400">
+                        Google SEO Optimierung
+                      </a>
+                      <div
+                        className="text-neutral-400"
+                        onClick={() => setIsMenuOpen((prev) => !prev)}
+                      >
+                        <LinkSeoCheck />
+                      </div>
+                    </div>
+                    <div className="flex flex-col gap-2">
+                      <h3 className="mt-4 font-semibold">ChatGPT Platz 1</h3>
+                      <a href="#" className="mb-1 block text-neutral-400">
+                        GEO-Berater für KI Sichtbarkeit
+                      </a>
+                      <a href="#" className="mb-1 block text-neutral-400">
+                        ChatGPT SEO
+                      </a>
+                      <a href="#" className="block text-neutral-400">
+                        KI Sichtbarkeit
+                      </a>
+                      <div
+                        className="text-neutral-400"
+                        onClick={() => setIsMenuOpen((prev) => !prev)}
+                      >
+                        <LinkGeoCheck />
+                      </div>
+                    </div>
+                    <ol className="flex flex-col gap-2">
+                      <h3 className="font-semibold mt-4">Google Werbung</h3>
+                      <li>
+                        {" "}
                         <a href="#" className="mb-1 block text-neutral-400">
                           SEO Berater für Google Rankings
                         </a>
+                      </li>
+                      <li>
+                        {" "}
                         <a href="#" className="block text-neutral-400">
                           Google SEO Optimierung
                         </a>
-                        <div
-                          className="text-neutral-400"
-                          onClick={() => setIsMenuOpen((prev) => !prev)}
-                        >
+                      </li>
+                      <li>
+                        {" "}
+                        <div className="text-neutral-400">
                           <LinkSeoCheck />
                         </div>
-                      </div>
-                      <div className="flex flex-col gap-2">
-                        <h3 className="mt-4 font-semibold">ChatGPT Platz 1</h3>
-                        <a href="#" className="mb-1 block text-neutral-400">
-                          GEO-Berater für KI Sichtbarkeit
-                        </a>
-                        <a href="#" className="mb-1 block text-neutral-400">
-                          ChatGPT SEO
-                        </a>
-                        <a href="#" className="block text-neutral-400">
-                          KI Sichtbarkeit
-                        </a>
-                        <div
-                          className="text-neutral-400"
-                          onClick={() => setIsMenuOpen((prev) => !prev)}
-                        >
-                          <LinkGeoCheck />
-                        </div>
-                      </div>
-                      <ol className="flex flex-col gap-2">
-                        <h3 className="font-semibold mt-4">Google Werbung</h3>
-                        <li>
-                          {" "}
-                          <a href="#" className="mb-1 block text-neutral-400">
-                            SEO Berater für Google Rankings
-                          </a>
-                        </li>
-                        <li>
-                          {" "}
-                          <a href="#" className="block text-neutral-400">
-                            Google SEO Optimierung
-                          </a>
-                        </li>
-                        <li>
-                          {" "}
-                          <div className="text-neutral-400">
-                            <LinkSeoCheck />
-                          </div>
-                        </li>
-                      </ol>
-                    </motion.ol>
-                  )}
-                </AnimatePresence>
-              </div>
+                      </li>
+                    </ol>
+                  </motion.ol>
+                )}
+              </AnimatePresence>
 
               <Link
                 to={"/Preise"}
