@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import ArrowRight from "../icons/ArrowRight";
 import useWindowDimensions from "../utils/useWindowDimensions";
 import { Link } from "react-router-dom";
+import LinkSeoCheck from "./LinkSeoCheck";
 
 export default function ATF() {
   const windowDimensions = useWindowDimensions();
@@ -50,9 +51,7 @@ export default function ATF() {
                   Deine Wettbewerber.
                 </p>
                 <button className="mt-16 p-4 bg-custom-red text-custom-white rounded w-2/3 flex items-center justify-between">
-                  <Link to={"/kostenloser-seo-check/"}>
-                    Kostenloser SEO-Check
-                  </Link>
+                  <LinkSeoCheck />
                   <ArrowRight />
                 </button>
               </div>

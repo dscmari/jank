@@ -12,6 +12,7 @@ import ContactWithImg from "../ContactWithImg";
 import Pricing from "../Pricing";
 import Testimonials from "../Testimonials";
 import WebsiteCheck from "../WebsiteCheck";
+import LinkSeoCheck from "../LinkSeoCheck";
 
 export default function MobileContent() {
   return (
@@ -29,7 +30,7 @@ export default function MobileContent() {
           endlich mehr Neukunden-Anfragen über die Website erhälst.
         </p>
         <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded-4xl w-full flex items-center justify-between">
-          <Link to={"/kostenloser-seo-check/"}>Kostenloser SEO-Check</Link>
+          <LinkSeoCheck />
           <ArrowRight />
         </button>
       </section>
@@ -144,7 +145,7 @@ export default function MobileContent() {
             </div>
           </div>
           <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded-4xl w-full flex items-center justify-between">
-            <Link to={"/kostenloser-seo-check/"}>Kostenloser SEO-Check</Link>
+            <LinkSeoCheck />
             <ArrowRight />
           </button>
         </div>
@@ -179,7 +180,7 @@ export default function MobileContent() {
             </div>
           </div>
           <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded-4xl w-full flex items-center justify-between">
-            <Link to={"/kostenloser-seo-check/"}>Kostenloser KI-SEO-Check</Link>
+            <Link to={"/kostenloser-geo-check/"}>Kostenloser KI GEO Check</Link>
             <ArrowRight />
           </button>
         </div>
@@ -252,9 +253,9 @@ export default function MobileContent() {
           <div>
             <h2>Workshop für die Software-Firma rocom</h2>
             <p>
-              Für die Software-Firma rocom haben wir einen SEO-Workshop vor Ort
+              Für die Software-Firma rocom haben wir einen SEO Workshop vor Ort
               gehalten. Ziel war es, den Mitarbeitenden einen Überblick zu den
-              SEO-Grundlagen zu vermitteln: Title Tags, Backlinks,
+              SEO Grundlagen zu vermitteln: Title Tags, Backlinks,
               Überschriftenstruktur etc..
             </p>
           </div>
@@ -271,7 +272,7 @@ export default function MobileContent() {
           <div>
             <h2>Workshop für den Hersteller BH Sens zur ChatGPT-Optimierung</h2>
             <p>
-              Für die Hersteller Firma BH Sens haben wir einen KI-SEO-Workshop
+              Für die Hersteller Firma BH Sens haben wir einen KI SEO Workshop
               durchgeführt. Ziel war es, den Marketingverantwortlichen der Firma
               zu zeigen, wie man mit der Website bei ChatGPT besser gefunden
               werden kann und in den Antworten zitiert wird.
@@ -354,15 +355,15 @@ export default function MobileContent() {
             </div>
           </div>
           <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded-4xl w-full flex items-center justify-between">
-            <Link to={"/kostenloser-seo-check/"}>Kostenloser SEO-Check</Link>
+            <LinkSeoCheck />
             <ArrowRight />
           </button>
         </div>
         <p className="mt-24 mx-8">
           Unsere Aufgabe ist einfach: Wir optimieren Deinen Webauftritt, damit
           Du bei Google, ChatGPT, Perplexity und anderen KI-Maschinen bestens
-          gefunden werden kannst. Wir kennen die Algorithmen und haben das
-          „SEO-Spiel“ seit 2017 schon Hundertfach durchgespielt.{" "}
+          gefunden werden kannst. Wir kennen die Algorithmen und haben das „SEO
+          Spiel“ seit 2017 schon Hundertfach durchgespielt.{" "}
         </p>
         <div className="mt-12 bg-custom-white mx-8 leading-8 p-8 shadow-2xl rounded-lg dark">
           <h2 className="text-center !mb-8">
@@ -395,7 +396,7 @@ export default function MobileContent() {
             </div>
           </div>
           <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded-4xl w-full flex items-center justify-between">
-            <Link to={"/kostenloser-seo-check/"}>Kostenloser SEO-Check</Link>
+            <LinkSeoCheck />
             <ArrowRight />
           </button>
         </div>

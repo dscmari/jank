@@ -8,25 +8,25 @@ const NavServices = () => {
         <div className="flex flex-col gap-2">
           <h3 className="text-xl  mb-2 font-medium">Google Platz 1</h3>
           <a href="#" className="mb-1 block text-neutral-400">
-            SEO-Beratung für Google Rankings
+            SEO Berater für Google Rankings
           </a>
           <a href="#" className="block text-neutral-400">
             Google SEO Optimierung
           </a>
           <div className="text-neutral-400">
-            <Link to={"/kostenloser-seo-check/"}>Kostenloser SEO-Check</Link>
+            <Link to={"/kostenloser-seo-check/"}>Kostenloser SEO Check</Link>
           </div>
         </div>
         <div className="flex flex-col gap-2">
           <h3 className="text-xl mb-2 font-medium">ChatGPT Platz 1</h3>
           <a href="#" className="mb-1 block text-neutral-400">
-            GEO-Berater für KI-Sichtbarkeit
+            GEO-Berater für KI Sichtbarkeit
           </a>
           <a href="#" className="mb-1 block text-neutral-400">
             ChatGPT SEO
           </a>
           <a href="#" className="block text-neutral-400">
-            KI-Sichtbarkeit
+            KI Sichtbarkeit
           </a>
           <div className="text-neutral-400">
             <Link to={"/kostenloser-geo-check/"}>Kostenloser GEO-Check</Link>
@@ -35,7 +35,7 @@ const NavServices = () => {
         <div className="flex flex-col gap-2">
           <h3 className="text-xl font-semibold mb-2">Google Werbung</h3>
           <a href="#" className="block text-neutral-400">
-            Google Ads Beratung für Google-Klicks
+            Google Ads Berater für Google-Klicks
           </a>
           <a href="#" className="block text-neutral-400">
             Kostenloser Google-Ads-Kurs

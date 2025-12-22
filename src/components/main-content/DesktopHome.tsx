@@ -15,6 +15,7 @@ import ATF from "../ATF";
 import Services from "../Pricing";
 import Testimonials from "../Testimonials";
 import WebsiteCheck from "../WebsiteCheck";
+import LinkSeoCheck from "../LinkSeoCheck";
 
 export default function DesktopContent() {
   return (
@@ -149,7 +150,7 @@ export default function DesktopContent() {
             Norditalien & der Schweiz für unsere Kunden unterwegs.
           </p>
           <button className="mt-16 p-4 bg-custom-red text-custom-white rounded w-2/3 flex items-center justify-between">
-            <Link to={"/kostenloser-seo-check/"}>Kostenloser SEO-Check</Link>
+            <LinkSeoCheck />
             <ArrowRight />
           </button>
         </div>
@@ -184,7 +185,7 @@ export default function DesktopContent() {
               </div>
             </div>
             <button className="px-4 py-2 bg-custom-red text-custom-white rounded w-full flex items-center justify-between">
-              <Link to={"/kostenloser-seo-check/"}>Kostenloser SEO-Check</Link>
+              <LinkSeoCheck />
               <ArrowRight />
             </button>
           </div>
@@ -220,8 +221,8 @@ export default function DesktopContent() {
             </div>
 
             <button className="px-4 py-2 bg-custom-red text-custom-white rounded w-full flex items-center justify-between">
-              <Link to={"/kostenloser-seo-check/"}>
-                Kostenloser KI-SEO-Check
+              <Link to={"/kostenloser-geo-check/"}>
+                Kostenloser KI SEO Check
               </Link>
               <ArrowRight />
             </button>
@@ -300,9 +301,9 @@ export default function DesktopContent() {
               Workshop für die Software-Firma rocom
             </h3>
             <p className="">
-              Für die Software-Firma rocom haben wir einen SEO-Workshop vor Ort
+              Für die Software-Firma rocom haben wir einen SEO Workshop vor Ort
               gehalten. Ziel war es, den Mitarbeitenden einen Überblick zu den
-              SEO-Grundlagen zu vermitteln: Title Tags, Backlinks,
+              SEO Grundlagen zu vermitteln: Title Tags, Backlinks,
               Überschriftenstruktur etc..
             </p>
           </div>
@@ -323,7 +324,7 @@ export default function DesktopContent() {
               Workshop für den Hersteller BH Sens zur ChatGPT-Optimierung
             </h3>
             <p className="">
-              Für die Hersteller Firma BH Sens haben wir einen KI-SEO-Workshop
+              Für die Hersteller Firma BH Sens haben wir einen KI SEO Workshop
               durchgeführt. Ziel war es, den Marketingverantwortlichen der Firma
               zu zeigen, wie man mit der Website bei ChatGPT besser gefunden
               werden kann und in den Antworten zitiert wird.
@@ -449,7 +450,7 @@ export default function DesktopContent() {
               </div>
             </div>
             <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded w-full flex items-center justify-between">
-              <Link to={"/kostenloser-seo-check/"}>Kostenloser SEO-Check</Link>
+              <LinkSeoCheck />
               <ArrowRight />
             </button>
           </div>
@@ -459,7 +460,7 @@ export default function DesktopContent() {
               Unsere Aufgabe ist einfach: Wir optimieren Deinen Webauftritt,
               damit Du bei Google, ChatGPT, Perplexity und anderen KI-Maschinen
               bestens gefunden werden kannst. Wir kennen die Algorithmen und
-              haben das „SEO-Spiel“ seit 2017 schon Hundertfach durchgespielt.
+              haben das „SEO Spiel“ seit 2017 schon Hundertfach durchgespielt.
             </p>
             <div className="flex flex-col gap-4 text-xl">
               <div className="flex items-center gap-4">
@@ -488,7 +489,7 @@ export default function DesktopContent() {
               </div>
             </div>
             <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded w-full flex items-center justify-between">
-              <Link to={"/kostenloser-seo-check/"}>Kostenloser SEO-Check</Link>
+              <LinkSeoCheck />
               <ArrowRight />
             </button>
           </div>
