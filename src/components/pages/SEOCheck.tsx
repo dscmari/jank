@@ -7,7 +7,7 @@ export default function SEOCheck() {
       <div>
         <WebsiteCheck />
       </div>
-    <ContactWithImg className="mt-24 lg:mt-48 lg:mx-32"/>
+      <ContactWithImg className="mt-24 lg:mt-48 lg:mx-32" />
     </div>
   );
 }

@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import AddressBook from "../../icons/AddressBook";
 import Airplane from "../../icons/Airplaine";
 import ArrowRight from "../../icons/ArrowRight";
@@ -16,6 +15,7 @@ import Services from "../Pricing";
 import Testimonials from "../Testimonials";
 import WebsiteCheck from "../WebsiteCheck";
 import LinkSeoCheck from "../LinkSeoCheck";
+import LinkGeoCheck from "../LinkGeoCheck";
 
 export default function DesktopContent() {
   return (
@@ -221,9 +221,7 @@ export default function DesktopContent() {
             </div>
 
             <button className="px-4 py-2 bg-custom-red text-custom-white rounded w-full flex items-center justify-between">
-              <Link to={"/kostenloser-geo-check/"}>
-                Kostenloser KI SEO Check
-              </Link>
+              <LinkGeoCheck />
               <ArrowRight />
             </button>
           </div>

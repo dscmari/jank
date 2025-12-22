@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import ArrowRight from "../../icons/ArrowRight";
 import Code from "../../icons/Code";
 import Diamond from "../../icons/Diamond";
@@ -13,6 +12,7 @@ import Pricing from "../Pricing";
 import Testimonials from "../Testimonials";
 import WebsiteCheck from "../WebsiteCheck";
 import LinkSeoCheck from "../LinkSeoCheck";
+import LinkGeoCheck from "../LinkGeoCheck";
 
 export default function MobileContent() {
   return (
@@ -180,7 +180,7 @@ export default function MobileContent() {
             </div>
           </div>
           <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded-4xl w-full flex items-center justify-between">
-            <Link to={"/kostenloser-geo-check/"}>Kostenloser KI GEO Check</Link>
+            <LinkGeoCheck/>
             <ArrowRight />
           </button>
         </div>

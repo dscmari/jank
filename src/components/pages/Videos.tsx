@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import ArrowRight from "../../icons/ArrowRight";
 import ArrowTopRight from "../../icons/ArrowTopRight";
 import ContactWithImg from "../ContactWithImg";

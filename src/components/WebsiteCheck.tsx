@@ -11,14 +11,14 @@ export default function WebsiteCheck({ isGeo }: Props) {
         <div className="flex-1 lg:flex lg:flex-col 2xl:justify-center lg:px-16 lg:py-8  lg:bg-custom-red lg:max-w-1/2">
           <h2 className="!text-3xl/10">
             {isGeo
-              ? "Kostenloser GEO-Check (KI-SEO)"
+              ? "Kostenloser KI GEO Check"
               : "Kostenloser Website Check"}
           </h2>
           {isGeo ? (
             <p className="lg:font-semibold">
               Du willst bei ChatGPT, Gemini und Copilot in den Antworten
               erscheinen und mehr Anfragen generieren? Ich schaue mir Deine
-              Website an und schicke Dir ein paar GEO-Optimierungsvorschläge als
+              Website an und schicke Dir ein paar GEO Optimierungsvorschläge als
               Datei per Mail zu. Komplett kostenlos.
             </p>
           ) : (

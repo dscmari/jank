@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import ArrowRight from "../icons/ArrowRight";
 import useWindowDimensions from "../utils/useWindowDimensions";
-import { Link } from "react-router-dom";
 import LinkSeoCheck from "./LinkSeoCheck";
 
 export default function ATF() {

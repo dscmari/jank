@@ -20,8 +20,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/preise" element={<Pricing />} />
           <Route path="/referenzen" element={<References />} />
-          <Route path="/kostenloser-seo-check/" element={<SEOCheck />} />
-          <Route path="/kostenloser-geo-check/" element={<GEOCheck />} />
+          <Route path="/seo-berater/kostenloser-seo-check/" element={<SEOCheck />} />
+          <Route path="/geo-berater/kostenloser-geo-check/" element={<GEOCheck />} />
           <Route path="/videos" element={<Blog />} />
           <Route path="/impressum" element={<Impressum />} />
           <Route path="/datenschutz" element={<Privacy />} />
