@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
 import ArrowTop from "../icons/ArrowTop";
 import scrollToTop from "../utils/scrollToTop"
+import { useLocation } from "react-router-dom";
  
 export default function ScrollToTopBtn() {
   const [isVisible, setIsVisible] = useState(false);
-  console.log(isVisible);
+  const routePath = useLocation();
 
 
   const handleScroll = () => {
@@ -21,6 +22,10 @@ export default function ScrollToTopBtn() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  useEffect(() => {
+    scrollToTop()
+  },[routePath])
 
   return (
     <>

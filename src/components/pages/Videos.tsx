@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import ArrowRight from "../../icons/ArrowRight";
 import ArrowTopRight from "../../icons/ArrowTopRight";
 import ContactWithImg from "../ContactWithImg";
@@ -16,7 +17,7 @@ export default function Videos() {
       </div>
       <div>
         <button className="mt-8 ml-8 lg:ml-32 px-4 py-2 lg:p-4 bg-custom-red text-custom-white rounded-4xl lg:rounded flex items-center gap-8 justify-between">
-          <span>Zum Kostenlosen SEO-Check </span>
+          <Link to={"/kostenloser-seo-check/"}>Kostenloser SEO-Check</Link>
           <ArrowRight />
         </button>
       </div>
@@ -118,7 +119,7 @@ export default function Videos() {
           </div>
         </div>
       </div>
-      <ContactWithImg className="mt-24 lg:mt-48 lg:mx-32"/>
+      <ContactWithImg className="mt-24 lg:mt-48 lg:mx-32" />
     </div>
   );
 }
