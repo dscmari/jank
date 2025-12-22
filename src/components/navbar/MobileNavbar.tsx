@@ -91,27 +91,15 @@ export default function Navbar() {
                         <LinkGeoCheck />
                       </div>
                     </div>
-                    <ol className="flex flex-col gap-2">
-                      <h3 className="font-semibold mt-4">Google Werbung</h3>
-                      <li>
-                        {" "}
-                        <a href="#" className="mb-1 block text-neutral-400">
-                          SEO Berater für Google Rankings
-                        </a>
-                      </li>
-                      <li>
-                        {" "}
-                        <a href="#" className="block text-neutral-400">
-                          Google SEO Optimierung
-                        </a>
-                      </li>
-                      <li>
-                        {" "}
-                        <div className="text-neutral-400">
-                          <LinkSeoCheck />
-                        </div>
-                      </li>
-                    </ol>
+                    <div className="flex flex-col gap-2">
+                      <h3 className="mt-4 font-semibold">Google Werbung</h3>
+                      <a href="#" className="block text-neutral-400">
+                        Google Ads Berater für Google-Klicks
+                      </a>
+                      <a href="#" className="block text-neutral-400">
+                        Kostenloser Google-Ads-Kurs
+                      </a>
+                    </div>
                   </motion.ol>
                 )}
               </AnimatePresence>
