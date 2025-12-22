@@ -1,18 +1,42 @@
+import { Link } from "react-router-dom";
 import StaticForms from "./StaticForms";
 
 type Props = {
   isGeo?: boolean;
+  className?: string;
 };
 
-export default function WebsiteCheck({ isGeo }: Props) {
+export default function WebsiteCheck({ isGeo, className }: Props) {
   return (
-    <section className="p-8 lg:p-0 mt-24 lg:mt-32 bg-custom-red lg:bg-white text-custom-white max-w-[1400px] 2xl:mx-auto">
-      <div className="lg:flex">
-        <div className="flex-1 lg:flex lg:flex-col 2xl:justify-center lg:px-16 lg:py-8  lg:bg-custom-red lg:max-w-1/2">
+    <section
+      className={`border-y-2 border-slate-200 bg-custom-red lg:bg-white text-custom-white lg:text-custom-black lg:border-none p-8 pt-12 lg:p-0 max-w-[1280px] 2xl:mx-auto ${className}`}
+    >
+      <div className="lg:flex lg:gap-16">
+        <div className="hidden lg:block max-w-[640px] relative">
+          <img
+            src="/images/portraits/portrait_turned_side.jpg"
+            alt=""
+            className="w-full rounded-tr-4xl rounded-b-4xl"
+          />
+          <div className="absolute w-2/3 text-custom-white left-16 bottom-4 -translate-y-1/2 leading-8 font-semibold">
+            <Link to={"/"}>
+              {" "}
+              <img
+                src="/images/logo_white_bg_transparent.png"
+                alt="Jan Krösche Logo"
+                style={{ width: "100px" }}
+                className=""
+              />
+            </Link>
+            <p>
+              "Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Eligendi at quis fuga doloremque ex" Zitatende. Gänsehosen.
+            </p>
+          </div>
+        </div>
+        <div className="lg:flex lg:flex-col 2xl:justify-center lg:py-8 lg:max-w-1/2">
           <h2 className="!text-3xl/10">
-            {isGeo
-              ? "Kostenloser KI GEO Check"
-              : "Kostenloser Website Check"}
+            {isGeo ? "Kostenloser KI GEO Check" : "Kostenloser Website Check"}
           </h2>
           {isGeo ? (
             <p className="lg:font-semibold">
@@ -30,13 +54,6 @@ export default function WebsiteCheck({ isGeo }: Props) {
             </p>
           )}
           <StaticForms />
-        </div>
-        <div className="hidden lg:block flex-1">
-          <img
-            src="/images/portraits/square_portrait.jpeg"
-            alt=""
-            className="w-full"
-          />
         </div>
       </div>
     </section>

@@ -311,7 +311,7 @@ export default function MobileContent() {
           </p>
         </div>
       </section>
-      <WebsiteCheck />
+      <WebsiteCheck className="mt-24"/>
       <section className="mt-24 dark:pt-8">
         <h2 className="mx-8">
           Keine Lust mehr, hinter Deinem größten Wettbewerber hinterherzulaufen?
