@@ -8,6 +8,9 @@ import { FiChevronDown } from "react-icons/fi";
 import { motion, AnimatePresence } from "framer-motion";
 import LinkSeoCheck from "../LinkSeoCheck";
 import LinkGeoCheck from "../LinkGeoCheck";
+import Magnifier from "../../icons/Magnifier";
+import Code from "../../icons/Code";
+import ArrowTrendingUp from "../../icons/ArrowTrendingUp";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -41,7 +44,7 @@ export default function Navbar() {
               <div
                 className={`pt-4 rounded-t flex items-center justify-between ${
                   isSelected
-                    ? "bg-slate-200 px-8"
+                    ? "border-t border-slate-200 px-8"
                     : "mx-8 border-b-2 border-slate-200"
                 }`}
                 onClick={() => setIsSelected((prev) => !prev)}
@@ -62,11 +65,15 @@ export default function Navbar() {
                       exit={{ height: 0, opacity: 0 }}
                       transition={{ duration: 0.3, ease: "easeInOut" }}
                       className={`pl-8 pb-8 !font-medium ${
-                        isSelected ? "bg-slate-200" : ""
+                        isSelected ? "border-b-2 border-slate-200" : ""
                       }`}
                     >
                       <div className="flex flex-col gap-1">
-                        <h3 className="font-semibold pt-4">Google Platz 1</h3>
+                        <div className="flex gap-4 items-center mt-4">
+                          <h3 className="font-semibold">Google Platz 1</h3>
+                          <Magnifier className="size-6" />
+                        </div>
+
                         <a href="#" className="block text-neutral-400">
                           SEO Berater für Google Rankings
                         </a>
@@ -81,7 +88,12 @@ export default function Navbar() {
                         </div>
                       </div>
                       <div className="flex flex-col gap-1">
-                        <h3 className="mt-4 font-semibold">ChatGPT Platz 1</h3>
+                        <div className="flex gap-4 items-center mt-4">
+                          {" "}
+                          <h3 className="font-semibold">ChatGPT Platz 1</h3>
+                          <Code className="size-6"/>
+                        </div>
+
                         <a href="#" className="block text-neutral-400">
                           GEO-Berater für KI Sichtbarkeit
                         </a>
@@ -99,7 +111,11 @@ export default function Navbar() {
                         </div>
                       </div>
                       <div className="flex flex-col gap-1">
-                        <h3 className="mt-4 font-semibold">Google Werbung</h3>
+                           <div className="flex gap-4 items-center mt-4">
+                          {" "}
+                          <h3 className="font-semibold">Google Werbung</h3>
+                          <ArrowTrendingUp className="size-6"/>
+                        </div>
                         <a href="#" className="block text-neutral-400">
                           Google Ads Berater für Google-Klicks
                         </a>
