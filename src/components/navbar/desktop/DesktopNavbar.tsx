@@ -2,6 +2,7 @@ import Mail from "../../../icons/Mail";
 import Phone from "../../../icons/Phone";
 import { Link } from "react-router-dom";
 import { ShiftingDropDown } from "./ShiftingDropDown";
+import Breadcrumbs from "../../Breadcrumps";
 // import ChevronDown from "../../../icons/ChevronDown";
 
 export default function DesktopNavbar() {
@@ -17,7 +18,7 @@ export default function DesktopNavbar() {
           <a href="mailto:max.mustermann@ihre-domain.de">jan@jankroesche.de</a>
         </div>
       </div>
-      <div className="flex items-center justify-around">
+      <div className="flex items-center justify-around pt-4">
         <Link to={"/"}>
           {" "}
           <img
@@ -26,27 +27,9 @@ export default function DesktopNavbar() {
             style={{ width: "200px" }}
           />
         </Link>
-        <ShiftingDropDown/>
-
-        {/* <ol className="flex gap-8 text-lg font-semibold">
-          <span className="flex gap-2 items-center">
-            {" "}
-            <Link to={"/preise"}>Preispakete</Link> <ChevronDown />
-          </span>
-          <span className="flex gap-2 items-center">
-            <Link to={"/referenzen"}>Referenzen</Link>
-            <ChevronDown />
-          </span>
-          <span className="flex gap-2 items-center">
-            <Link to={"/ki-tracker"}>KI-Tracker</Link>
-            <ChevronDown />
-          </span>
-          <span className="flex gap-2 items-center">
-            <Link to={"/videos"}>Videos</Link>
-            <ChevronDown />
-          </span>
-        </ol> */}
+        <ShiftingDropDown />
       </div>
+      <Breadcrumbs />
     </div>
   );
 }

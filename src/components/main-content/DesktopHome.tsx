@@ -15,12 +15,14 @@ import Testimonials from "../Testimonials";
 import WebsiteCheck from "../WebsiteCheck";
 import LinkSeoCheck from "../LinkSeoCheck";
 import LinkGeoCheck from "../LinkGeoCheck";
+import Breadcrumbs from "../Breadcrumps";
 
 export default function DesktopContent() {
   return (
     <>
       {" "}
       <ATF />
+      <Breadcrumbs/>
       <section className="px-32 pb-48 pt-32">
         <div className="max-w-2/3 ">
           <p className="pb-8 text-3xl/10 tracking-wide font-semibold">

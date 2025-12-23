@@ -9,8 +9,11 @@ import ScrollToTopBtn from "./components/ScrollToTopBtn";
 import References from "./components/pages/References";
 import Navbar from "./components/navbar/Navbar";
 import SEOCheck from "./components/pages/SEOCheck";
-import GEOCheck from "./components/pages/GEOCheck";
-import GEOKurs from "./components/pages/GEOKurs";
+import GEOCheck from "./components/pages/geo/GEOCheck";
+import GEOKurs from "./components/pages/geo/GEOKurs";
+import SEOBerater from "./components/pages/SEOBerater";
+import GEOBerater from "./components/pages/geo/GEOBerater";
+import GEOLayout from "./components/pages/geo/GEOLayout";
 
 function App() {
   return (
@@ -21,9 +24,23 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/preise" element={<Pricing />} />
           <Route path="/referenzen" element={<References />} />
-          <Route path="/seo-berater/kostenloser-seo-check/" element={<SEOCheck />} />
-          <Route path="/geo-berater/kostenloser-geo-check/" element={<GEOCheck />} />
-          <Route path="/geo-berater/kostenloser-geo-kurs/" element={<GEOKurs />} />
+          <Route path="/seo-berater/" element={<SEOBerater />} />
+          <Route path="/seo-berater/kostenloser-seo-check/"element={<SEOCheck />} />
+          <Route path="/geo-berater/" element={<GEOBerater />} />
+          {/* <Route
+            path="/geo-berater/kostenloser-geo-check/"
+            element={<GEOCheck />}
+          />
+          <Route
+            path="/geo-berater/kostenloser-geo-kurs/"
+            element={<GEOKurs />}
+          /> */}
+          <Route path="/geo-berater/" element={<GEOLayout />}>
+            {/* Diese Route gilt für /geo-berater direkt */}
+            <Route index element={<GEOBerater />} />
+            <Route path="kostenloser-geo-check/" element={<GEOCheck />} />
+            <Route path="kostenloser-geo-kurs/" element={<GEOKurs />} />
+          </Route>
           <Route path="/videos" element={<Blog />} />
           <Route path="/impressum" element={<Impressum />} />
           <Route path="/datenschutz" element={<Privacy />} />

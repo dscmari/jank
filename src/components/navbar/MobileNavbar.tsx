@@ -24,21 +24,25 @@ export default function Navbar() {
                         ${isMenuOpen ? "-translate-x-full" : ""}
                       `}
         >
-          <div
-            className="flex items-center justify-between p-4 dark:bg-white"
-            onClick={() => setIsMenuOpen((prev) => !prev)}
-          >
-            <Link to={"/"}>
-              {" "}
-              <img
-                src="/images/logo_transparent.png"
-                alt="Jan Krösche Logo"
-                style={{ width: "200px" }}
-                className="ml-4"
-              />
-            </Link>
-            <CircleX />
+          <div>
+            <div
+              className="flex items-center justify-between p-4 dark:bg-white"
+              onClick={() => setIsMenuOpen((prev) => !prev)}
+            >
+              <Link to={"/"}>
+                {" "}
+                <img
+                  src="/images/logo_transparent.png"
+                  alt="Jan Krösche Logo"
+                  style={{ width: "200px" }}
+                  className="ml-4"
+                />
+              </Link>
+              <CircleX />
+            </div>
+            {/* <Breadcrumbs /> */}
           </div>
+
           <div className="">
             <ol>
               <div
