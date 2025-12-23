@@ -111,7 +111,7 @@ export default function Navbar() {
                           <LinkGeoCheck />
                         </div>
                       </div>
-                      <div className="flex flex-col gap-1">
+                      <div className="flex flex-col gap-1 mr-8">
                         <h3 className="font-semibold mt-2">Google Werbung</h3>
                         <a href="#" className="block pb-1 text-neutral-400 border-b-2 border-slate-200">
                           Google Ads Berater für Google-Klicks
