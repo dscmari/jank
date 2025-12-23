@@ -50,7 +50,7 @@ export default function Navbar() {
                 }`}
                 onClick={() => setIsSelected((prev) => !prev)}
               >
-                <span className="font-semibold text-lg pb-2">Leistungen</span>
+                <span className="font-semibold pb-2">Leistungen</span>
                 <FiChevronDown
                   className={`transition-transform size-6 ${
                     isSelected ? "rotate-180 text-custom-red" : ""
@@ -65,12 +65,12 @@ export default function Navbar() {
                       animate={{ height: "auto", opacity: 1 }}
                       exit={{ height: 0, opacity: 0 }}
                       transition={{ duration: 0.3, ease: "easeInOut" }}
-                      className={`pl-8 pb-8 flex flex-col gap-4 !font-medium text-lg ${
-                        isSelected ? "border-b-2 border-slate-200" : ""
+                      className={`pl-8 pb-8 flex flex-col gap-4 !font-medium  ${
+                        isSelected ? "" : ""
                       }`}
                     >
                       <div className="flex flex-col gap-1 mr-8">
-                        <h3 className="font-semibold mt-4">Google Platz 1</h3>
+                        <h3 className="font-semibold mt-2">Google Platz 1</h3>
                         <a href="#" className="block pb-1 text-neutral-400 border-b-2 border-slate-200">
                           SEO Berater für Google Rankings
                         </a>
@@ -85,7 +85,7 @@ export default function Navbar() {
                         </div>
                       </div>
                       <div className="flex flex-col gap-1 mr-8">
-                        <h3 className="font-semibold mt-4">ChatGPT Platz 1</h3>
+                        <h3 className="font-semibold mt-2">ChatGPT Platz 1</h3>
 
                                  <a href="#" className="block pb-1 text-neutral-400 border-b-2 border-slate-200">
                           GEO Berater für KI Sichtbarkeit
@@ -112,7 +112,7 @@ export default function Navbar() {
                         </div>
                       </div>
                       <div className="flex flex-col gap-1">
-                        <h3 className="font-semibold mt-4">Google Werbung</h3>
+                        <h3 className="font-semibold mt-2">Google Werbung</h3>
                         <a href="#" className="block pb-1 text-neutral-400 border-b-2 border-slate-200">
                           Google Ads Berater für Google-Klicks
                         </a>
