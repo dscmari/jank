@@ -18,7 +18,7 @@ export default function MobileContent() {
   return (
     <div>
       <ATF />
-      <section className="bg-custom-white mx-8 mt-8 leading-8 p-8 shadow-2xl rounded-lg dark">
+      <section className="bg-custom-white mx-8 mt-8 leading-8 p-8 shadow-md rounded-lg">
         <h2>
           Seit 2017 haben wir über{" "}
           <span className="underline">500 Firmen-Websites</span> auf Platz 1 bei
@@ -39,13 +39,13 @@ export default function MobileContent() {
           src="/images/portraits/39321-3981.jpg"
           alt="Portrait Jan Krösche"
         />
-        <p className="mx-8 mt-2 text-sm text-thin text-center dark:pb-4">
+        <p className="mx-8 mt-2 text-sm text-thin text-center">
           Jan Krösche hat bis 2025 eine der größten Onlinemarketing-Agenturen in
           Deutschland aufgebaut und geleitet. Seit 2025 arbeitet er mit einem
           spezialisierten Team selbständig.
         </p>
       </section>
-      <section className="mt-24 bg-custom-white p-8 mt-8 rounded-lg flex flex-col gap-4 dark">
+      <section className="mt-24 bg-custom-white px-8 py-12 mt-8 rounded-lg flex flex-col gap-4">
         <h2 className="">In 3 Schritten bringen wir Dich auf Platz 1</h2>
         <div>
           <h2>Schritt 1</h2>
@@ -72,7 +72,7 @@ export default function MobileContent() {
       </section>
       <Contact className="mt-24" />
       <Testimonials className="mt-24" />
-      <section className="px-8 dark:p-8 mt-24 flex flex-col gap-4">
+      <section className="px-8 mt-24 flex flex-col gap-4">
         <h2 className="!mb-0">
           Wir bringen Dich bei Google & ChatGPT ganz nach vorne
         </h2>
@@ -117,10 +117,10 @@ export default function MobileContent() {
         </ul>
       </section>
       <section>
-        <h2 className="mx-8 !mb-12 mt-24 dark:pt-8">
+        <h2 className="mx-8 !mb-12 mt-24 ">
           Das machen wir alles für Dich
         </h2>
-        <div className="bg-custom-white mx-8 leading-8 p-8 shadow-2xl rounded-lg dark">
+        <div className="bg-custom-white mx-8 leading-8 p-8 shadow-md rounded-lg">
           <h2 className="text-center !mb-8">Google Platz 1</h2>
           <div className="flex flex-col gap-4 pl-4 text-xl">
             <div className="flex items-center gap-4">
@@ -151,7 +151,7 @@ export default function MobileContent() {
         </div>
       </section>
       <section className="mt-24">
-        <div className="bg-custom-white mx-8 leading-8 p-8 shadow-2xl rounded-lg dark">
+        <div className="bg-custom-white mx-8 leading-8 p-8 shadow-md rounded-lg">
           <h2 className="text-center !mb-8">Chat GPT Platz 1</h2>
           <div className="flex flex-col gap-4 pl-4 text-xl">
             <div className="flex items-center gap-4">
@@ -176,7 +176,7 @@ export default function MobileContent() {
             </div>
             <div className="flex items-center gap-4">
               <Head />
-              <span>Krösche-KI-Tracker</span>
+              <span>GEO Tracker</span>
             </div>
           </div>
           <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded-4xl w-full flex items-center justify-between">
@@ -186,7 +186,7 @@ export default function MobileContent() {
         </div>
       </section>
       <section className="mt-24">
-        <div className="bg-custom-white mx-8 leading-8 p-8 shadow-2xl rounded-lg dark">
+        <div className="bg-custom-white mx-8 leading-8 p-8 shadow-md rounded-lg">
           <h2 className="text-center !mb-8">Bezahlte Werbeanzeigen</h2>
           <div className="flex flex-col gap-4 pl-4 text-xl">
             <div className="flex items-center gap-4">
@@ -227,7 +227,7 @@ export default function MobileContent() {
       <div className="mt-24">
         <Pricing />
       </div>
-      <section className="mt-24 bg-custom-white p-8 dark">
+      <section className="mt-24 bg-custom-white px-8 py-12">
         <h2>
           Wir geben unsere Expertise weiter und schulen Firmen aus der ganzen
           DACH-Region
@@ -312,7 +312,7 @@ export default function MobileContent() {
         </div>
       </section>
       <WebsiteCheck className="mt-24" />
-      <section className="mt-24 dark:pt-8">
+      <section className="mt-24">
         <h2 className="mx-8">
           Keine Lust mehr, hinter Deinem größten Wettbewerber hinterherzulaufen?
         </h2>
@@ -322,7 +322,7 @@ export default function MobileContent() {
           stehen. Die Firmen, die daher auf Platz 1 ranken, gewinnen die meisten
           Website-Besucher und ergattern sich die meisten Neukunden.
         </p>
-        <div className="mt-12 bg-custom-white mx-8 leading-8 p-8 shadow-2xl rounded-lg dark">
+        <div className="mt-12 bg-custom-white mx-8 leading-8 p-8 shadow-md rounded-lg">
           <h2 className="text-center !mb-8">
             Wir helfen Dir und Deiner Firma, damit Du
           </h2>
@@ -365,7 +365,7 @@ export default function MobileContent() {
           gefunden werden kannst. Wir kennen die Algorithmen und haben das „SEO
           Spiel“ seit 2017 schon Hundertfach durchgespielt.{" "}
         </p>
-        <div className="mt-12 bg-custom-white mx-8 leading-8 p-8 shadow-2xl rounded-lg dark">
+        <div className="mt-12 bg-custom-white mx-8 leading-8 p-8 shadow-md rounded-lg">
           <h2 className="text-center !mb-8">
             Unsere Leistungen auf einen Blick
           </h2>
@@ -402,7 +402,7 @@ export default function MobileContent() {
         </div>
       </section>
       <section className="flex flex-col lg:flex-row-reverse justify-center gap-24 lg:gap-16 mt-24 lg:m-32">
-        <div className="flex-1 bg-custom-white leading-8 p-8 rounded-lg dark mx-8 lg:mx-0">
+        <div className="flex-1 bg-custom-white leading-8 p-8 rounded-lg mx-8 lg:mx-0">
           <div className="flex items-center justify-around max-w-screen">
             <img
               src="/images/website_boosting.jpg"
