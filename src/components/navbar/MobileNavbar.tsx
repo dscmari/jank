@@ -8,9 +8,6 @@ import { FiChevronDown } from "react-icons/fi";
 import { motion, AnimatePresence } from "framer-motion";
 import LinkSeoCheck from "../LinkSeoCheck";
 import LinkGeoCheck from "../LinkGeoCheck";
-import Magnifier from "../../icons/Magnifier";
-import Code from "../../icons/Code";
-import ArrowTrendingUp from "../../icons/ArrowTrendingUp";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -56,11 +53,11 @@ export default function Navbar() {
                 <span className="font-semibold text-lg pb-2">Leistungen</span>
                 <FiChevronDown
                   className={`transition-transform size-6 ${
-                    isSelected ? "rotate-180" : ""
+                    isSelected ? "rotate-180 text-custom-red" : ""
                   }`}
                 />
               </div>
-              <div className="flex flex-col font-semibold text-lg">
+              <div className="flex flex-col font-semibold ">
                 <AnimatePresence>
                   {isSelected && (
                     <motion.ol
@@ -68,47 +65,39 @@ export default function Navbar() {
                       animate={{ height: "auto", opacity: 1 }}
                       exit={{ height: 0, opacity: 0 }}
                       transition={{ duration: 0.3, ease: "easeInOut" }}
-                      className={`pl-8 pb-8 flex flex-col gap-4 !font-medium ${
+                      className={`pl-8 pb-8 flex flex-col gap-4 !font-medium text-lg ${
                         isSelected ? "border-b-2 border-slate-200" : ""
                       }`}
                     >
-                      <div className="flex flex-col gap-1">
-                        <div className="flex gap-4 items-center mt-4">
-                          <Magnifier className="size-6" />
-                          <h3 className="font-semibold">Google Platz 1</h3>
-                        </div>
-
-                        <a href="#" className="block text-neutral-400">
+                      <div className="flex flex-col gap-1 mr-8">
+                        <h3 className="font-semibold mt-4">Google Platz 1</h3>
+                        <a href="#" className="block pb-1 text-neutral-400 border-b-2 border-slate-200">
                           SEO Berater für Google Rankings
                         </a>
-                        <a href="#" className="block text-neutral-400">
+                        <a href="#" className="block pb-1 text-neutral-400 border-b-2 border-slate-200">
                           Google SEO Optimierung
                         </a>
                         <div
-                          className="text-neutral-400"
+                          className="pb-1 text-neutral-400 border-b-2 border-slate-200"
                           onClick={() => setIsMenuOpen((prev) => !prev)}
                         >
                           <LinkSeoCheck />
                         </div>
                       </div>
-                      <div className="flex flex-col gap-1">
-                        <div className="flex gap-4 items-center mt-4">
-                          {" "}
-                          <Code className="size-6" />
-                          <h3 className="font-semibold">ChatGPT Platz 1</h3>
-                        </div>
+                      <div className="flex flex-col gap-1 mr-8">
+                        <h3 className="font-semibold mt-4">ChatGPT Platz 1</h3>
 
-                        <a href="#" className="block text-neutral-400">
+                                 <a href="#" className="block pb-1 text-neutral-400 border-b-2 border-slate-200">
                           GEO Berater für KI Sichtbarkeit
                         </a>
-                        <a href="#" className="block text-neutral-400">
+                                 <a href="#" className="block pb-1 text-neutral-400 border-b-2 border-slate-200">
                           ChatGPT SEO
                         </a>
-                        <a href="#" className="block text-neutral-400">
+                                <a href="#" className="block pb-1 text-neutral-400 border-b-2 border-slate-200">
                           GEO Tracker
                         </a>
                         <div
-                          className="text-neutral-400"
+                          className="pb-1 text-neutral-400 border-b-2 border-slate-200"
                           onClick={() => setIsMenuOpen((prev) => !prev)}
                         >
                           <Link to="/geo-berater/kostenloser-geo-kurs/">
@@ -116,22 +105,18 @@ export default function Navbar() {
                           </Link>
                         </div>
                         <div
-                          className="text-neutral-400"
+                          className="pb-1 text-neutral-400 border-b-2 border-slate-200"
                           onClick={() => setIsMenuOpen((prev) => !prev)}
                         >
                           <LinkGeoCheck />
                         </div>
                       </div>
                       <div className="flex flex-col gap-1">
-                        <div className="flex gap-4 items-center mt-4">
-                          {" "}
-                          <ArrowTrendingUp className="size-6" />
-                          <h3 className="font-semibold">Google Werbung</h3>
-                        </div>
-                        <a href="#" className="block text-neutral-400">
+                        <h3 className="font-semibold mt-4">Google Werbung</h3>
+                        <a href="#" className="block pb-1 text-neutral-400 border-b-2 border-slate-200">
                           Google Ads Berater für Google-Klicks
                         </a>
-                        <a href="#" className="block text-neutral-400">
+                        <a href="#" className="block pb-1 text-neutral-400 border-b-2 border-slate-200">
                           Kostenloser Google-Ads-Kurs
                         </a>
                       </div>
