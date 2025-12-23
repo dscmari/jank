@@ -26,7 +26,7 @@ export default function ATF() {
             alt="Portrait von Jan Krösche"
             className="w-full"
           />
-          <h1 className=" !text-xl/8 tracking-wide p-8 pt-4">
+          <h1 className="text-center !text-xl/8 tracking-wide p-8 pt-4">
             Endlich Platz 1 bei Google & ChatGPT mit Deiner Website!
           </h1>
         </div>

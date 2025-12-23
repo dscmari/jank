@@ -18,18 +18,17 @@ export default function MobileContent() {
   return (
     <div>
       <ATF />
-      <section className="bg-custom-white mx-8 mt-8 leading-8 p-8 shadow-md rounded-lg">
+      <section className="bg-custom-red-op mx-4 mt-8 p-8 rounded-lg">
         <h2>
           Seit 2017 haben wir über{" "}
           <span className="underline">500 Firmen-Websites</span> auf Platz 1 bei
           Google katapultiert.
         </h2>
-        <p className="text-base/8 py-4">
-          Jan Krösche & Team sind Deine SEO, GEO und Ads Spezialisten, damit Du
-          bei Google und ChatGPT die sichtbarste Firma Deiner Branche wirst. Und
-          endlich mehr Neukunden-Anfragen über die Website erhälst.
+        <p className="pt-4">
+          Jan Krösche & Team sind Deine SEO, GEO und ADS Spezialisten, damit Du
+          bei Google und ChatGPT die sichtbarste Firma Deiner Branche wirst.   Und endlich mehr Neukunden-Anfragen über die Website erhälst.
         </p>
-        <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded-4xl w-full flex items-center justify-between">
+        <button className="mt-8 px-4 py-2 bg-custom-red text-custom-white rounded-4xl w-full flex items-center justify-between">
           <LinkSeoCheck />
           <ArrowRight />
         </button>
@@ -45,7 +44,7 @@ export default function MobileContent() {
           spezialisierten Team selbständig.
         </p>
       </section>
-      <section className="mt-24 bg-custom-white px-8 py-12 mt-8 rounded-lg flex flex-col gap-4">
+      <section className="mt-24 bg-custom-white px-4 py-12 mt-8 rounded-lg flex flex-col gap-4">
         <h2 className="">In 3 Schritten bringen wir Dich auf Platz 1</h2>
         <div>
           <h2>Schritt 1</h2>
@@ -72,7 +71,7 @@ export default function MobileContent() {
       </section>
       <Contact className="mt-24" />
       <Testimonials className="mt-24" />
-      <section className="px-8 mt-24 flex flex-col gap-4">
+      <section className="px-4 mt-24 flex flex-col gap-4">
         <h2 className="!mb-0">
           Wir bringen Dich bei Google & ChatGPT ganz nach vorne
         </h2>
