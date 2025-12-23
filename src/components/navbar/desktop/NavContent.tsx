@@ -32,7 +32,7 @@ const NavContent = ({
     Component: NavVideos,
   },
   {
-    title: "KI-Tracker",
+    title: "GEO Tracker",
     Component: NavKITracker,
   },
 ].map((n, idx) => ({ ...n, id: idx + 1 }));

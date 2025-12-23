@@ -8,7 +8,7 @@ import Video from "../../icons/Video";
 import ATF from "../ATF";
 import Contact from "../Contact";
 import ContactWithImg from "../ContactWithImg";
-import Pricing from "../Pricing";
+import Pricing from "../pages/Pricing";
 import Testimonials from "../Testimonials";
 import WebsiteCheck from "../WebsiteCheck";
 import LinkSeoCheck from "../LinkSeoCheck";
@@ -180,7 +180,7 @@ export default function MobileContent() {
             </div>
           </div>
           <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded-4xl w-full flex items-center justify-between">
-            <LinkGeoCheck/>
+            <LinkGeoCheck />
             <ArrowRight />
           </button>
         </div>
@@ -311,7 +311,7 @@ export default function MobileContent() {
           </p>
         </div>
       </section>
-      <WebsiteCheck className="mt-24"/>
+      <WebsiteCheck className="mt-24" />
       <section className="mt-24 dark:pt-8">
         <h2 className="mx-8">
           Keine Lust mehr, hinter Deinem größten Wettbewerber hinterherzulaufen?
@@ -401,21 +401,23 @@ export default function MobileContent() {
           </button>
         </div>
       </section>
-      <section className="bg-custom-white mx-8 mt-24 leading-8 p-8 shadow-2xl rounded-lg dark">
-        <div className="flex items-center justify-around max-w-screen">
-          <img
-            src="/images/website_boosting.jpg"
-            alt="Website Boosting Logo"
-            className="max-w-1/3"
-          />
-          <img src="/images/vdi.jpg" alt="VDI Logo" className="w-1/3" />
+      <section className="flex flex-col lg:flex-row-reverse justify-center gap-24 lg:gap-16 mt-24 lg:m-32">
+        <div className="flex-1 bg-custom-white leading-8 p-8 rounded-lg dark mx-8 lg:mx-0">
+          <div className="flex items-center justify-around max-w-screen">
+            <img
+              src="/images/website_boosting.jpg"
+              alt="Website Boosting Logo"
+              className="max-w-1/3"
+            />
+            <img src="/images/vdi.jpg" alt="VDI Logo" className="w-1/3" />
+          </div>
+          <p className="mt-8 text-center">
+            Jan Krösche veröffentlicht regelmäßig im Fachmagazin „Website
+            Boosting“ und hält Vorträge beim Verein Deutscher Ingenieure.
+          </p>
         </div>
-        <p className="mt-8 text-center">
-          Jan Krösche veröffentlicht regelmäßig im Fachmagazin „Website
-          Boosting“ und hält Vorträge beim Verein Deutscher Ingenieure.
-        </p>
+        <ContactWithImg />
       </section>
-      <ContactWithImg className="mt-24" />
     </div>
   );
 }

@@ -70,9 +70,8 @@ export default function Navbar() {
                     >
                       <div className="flex flex-col gap-1">
                         <div className="flex gap-4 items-center mt-4">
-                             <Magnifier className="size-6" />
+                          <Magnifier className="size-6" />
                           <h3 className="font-semibold">Google Platz 1</h3>
-                       
                         </div>
 
                         <a href="#" className="block text-neutral-400">
@@ -91,20 +90,27 @@ export default function Navbar() {
                       <div className="flex flex-col gap-1">
                         <div className="flex gap-4 items-center mt-4">
                           {" "}
-                              <Code className="size-6"/>
+                          <Code className="size-6" />
                           <h3 className="font-semibold">ChatGPT Platz 1</h3>
-                      
                         </div>
 
                         <a href="#" className="block text-neutral-400">
-                          GEO-Berater für KI Sichtbarkeit
+                          GEO Berater für KI Sichtbarkeit
                         </a>
                         <a href="#" className="block text-neutral-400">
                           ChatGPT SEO
                         </a>
                         <a href="#" className="block text-neutral-400">
-                          KI Sichtbarkeit
+                          GEO Tracker
                         </a>
+                        <div
+                          className="text-neutral-400"
+                          onClick={() => setIsMenuOpen((prev) => !prev)}
+                        >
+                          <Link to="/geo-berater/kostenloser-geo-kurs/">
+                            Kostenloser GEO Kurs
+                          </Link>
+                        </div>
                         <div
                           className="text-neutral-400"
                           onClick={() => setIsMenuOpen((prev) => !prev)}
@@ -113,11 +119,10 @@ export default function Navbar() {
                         </div>
                       </div>
                       <div className="flex flex-col gap-1">
-                           <div className="flex gap-4 items-center mt-4">
+                        <div className="flex gap-4 items-center mt-4">
                           {" "}
-                                 <ArrowTrendingUp className="size-6"/>
+                          <ArrowTrendingUp className="size-6" />
                           <h3 className="font-semibold">Google Werbung</h3>
-                   
                         </div>
                         <a href="#" className="block text-neutral-400">
                           Google Ads Berater für Google-Klicks
@@ -131,31 +136,31 @@ export default function Navbar() {
                 </AnimatePresence>
 
                 <Link
-                  to={"/Preise"}
+                  to={"/preise"}
                   onClick={() => setIsMenuOpen((prev) => !prev)}
                   className="pt-6 pb-2 mx-8 border-b-2 border-slate-200"
                 >
                   Preispakete
                 </Link>
                 <Link
-                  to={"/Referenzen"}
+                  to={"/referenzen"}
                   onClick={() => setIsMenuOpen((prev) => !prev)}
                   className="pt-4 pb-2 mx-8 border-b-2 border-slate-200"
                 >
                   Referenzen
                 </Link>
                 <Link
-                  to={"/Videos"}
+                  to={"/videos"}
                   onClick={() => setIsMenuOpen((prev) => !prev)}
                   className="pt-4 pb-2 mx-8 border-b-2 border-slate-200"
                 >
                   Videos
                 </Link>
                 <Link
-                  to={"/KI-Tracker"}
+                  to={"#"}
                   className="pt-4 pb-2 mx-8 border-b-2 border-slate-200"
                 >
-                  KI-Tracker
+                  GEO Tracker
                 </Link>
               </div>
             </ol>

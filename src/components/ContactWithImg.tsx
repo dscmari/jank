@@ -4,7 +4,7 @@ type Props = {
 };
 
 export default function ContactWithImg({className}: Props) {
-  const classes = `relative border-b-1 border-slate-200 dark:translate-y-8 ${className}`
+  const classes = `flex-1 relative border-b-1 border-slate-200 dark:translate-y-8 ${className}`
   return (
     <section className={classes}>
       <div>
@@ -14,7 +14,7 @@ export default function ContactWithImg({className}: Props) {
           className="h-96 object-cover"
         />
 
-        <div className="p-4 bg-white absolute z-10 right-left bottom-0 flex flex-col items-center justify-center rounded-tr-xl h-1/2">
+        <div className="p-4 bg-white absolute z-10 right-left bottom-0 flex flex-col rounded-tr-4xl h-1/2">
           <div>
             <img
               src="/images/jank_logo.jpg"
@@ -22,7 +22,7 @@ export default function ContactWithImg({className}: Props) {
               style={{ width: "200px" }}
             />
           </div>
-          <div className="flex flex-col pb-4 text-xl">
+          <div className="flex flex-col pb-4">
             <span className="block">Jan Krösche</span>
             <span className="block"></span>0176 55 10 9383
             <span className="block">jan@jankroesche.de</span>

@@ -43,7 +43,7 @@ const TABS = [
     link: "videos/"
   },
     {
-    title: "KI-Tracker",
+    title: "GEO Tracker",
     Component: NavKITracker,
   },
 ].map((n, idx) => ({ ...n, id: idx + 1 }));

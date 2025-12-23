@@ -1,7 +1,7 @@
 import { FiArrowRight } from "react-icons/fi";
 import LinkSeoCheck from "../../LinkSeoCheck";
 import LinkGeoCheck from "../../LinkGeoCheck";
-
+import { Link } from "react-router-dom";
 
 const NavServices = () => {
   return (
@@ -16,22 +16,27 @@ const NavServices = () => {
             Google SEO Optimierung
           </a>
           <div className="text-neutral-400">
-            <LinkSeoCheck/>
+            <LinkSeoCheck />
           </div>
         </div>
         <div className="flex flex-col gap-2">
           <h3 className="text-xl mb-2 font-medium">ChatGPT Platz 1</h3>
           <a href="#" className="mb-1 block text-neutral-400">
-            GEO-Berater für KI Sichtbarkeit
+            GEO Berater für KI Sichtbarkeit
           </a>
           <a href="#" className="mb-1 block text-neutral-400">
             ChatGPT SEO
           </a>
           <a href="#" className="block text-neutral-400">
-            KI Sichtbarkeit
+            GEO Tracker
           </a>
           <div className="text-neutral-400">
-            <LinkGeoCheck/>
+            <Link to="/geo-berater/kostenloser-geo-kurs/">
+              Kostenloser GEO Kurs
+            </Link>
+          </div>
+          <div className="text-neutral-400">
+            <LinkGeoCheck />
           </div>
         </div>
         <div className="flex flex-col gap-2">

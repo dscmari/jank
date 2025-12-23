@@ -4,14 +4,13 @@ import ArrowRight from "../../icons/ArrowRight";
 import Code from "../../icons/Code";
 import Diamond from "../../icons/Diamond";
 import Gear from "../../icons/Gear";
-import Head from "../../icons/Head";
 import Magnifier from "../../icons/Magnifier";
 import Mail from "../../icons/Mail";
 import Maps from "../../icons/Maps";
 import Phone from "../../icons/Phone";
 import Video from "../../icons/Video";
 import ATF from "../ATF";
-import Services from "../Pricing";
+import Services from "../pages/Pricing";
 import Testimonials from "../Testimonials";
 import WebsiteCheck from "../WebsiteCheck";
 import LinkSeoCheck from "../LinkSeoCheck";
@@ -212,10 +211,6 @@ export default function DesktopContent() {
                 <div className="flex items-center gap-4">
                   <Diamond className="h-4 flex-shrink-0" />
                   <span>Copilot Optimierung</span>
-                </div>
-                <div className="flex items-center gap-4">
-                  <Head />
-                  <span>Krösche-KI-Tracker</span>
                 </div>
               </div>
             </div>
@@ -500,7 +495,7 @@ export default function DesktopContent() {
             alt="Portrait Jan Krösche"
             className="h-96 object-cover"
           />
-          <div className="p-4 bg-white absolute z-10 right-left bottom-0 flex flex-col items-center justify-center rounded-tr-xl h-1/2">
+          <div className="p-4 bg-white absolute z-10 right-left bottom-0 flex flex-col justify-center rounded-tr-xl h-1/2">
             <div>
               <img
                 src="/images/jank_logo.jpg"
@@ -508,7 +503,7 @@ export default function DesktopContent() {
                 style={{ width: "200px" }}
               />
             </div>
-            <div className="flex flex-col pb-4 text-xl">
+            <div className="flex flex-col pb-4">
               <span className="block">Jan Krösche</span>
               <span className="block"></span>0176 55 10 9383
               <span className="block">jan@jankroesche.de</span>

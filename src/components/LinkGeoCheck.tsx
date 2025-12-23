@@ -2,5 +2,5 @@
 import { Link } from "react-router-dom";
 
 export default function LinkGeoCheck() {
-  return <Link to={"/geo-berater/kostenloser-geo-check/"}>Kostenloser KI GEO Check</Link>;
+  return <Link to={"/geo-berater/kostenloser-geo-check/"}>Kostenloser GEO Check</Link>;
 }

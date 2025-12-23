@@ -1,9 +1,12 @@
-import Diamond from "../icons/Diamond";
+import Diamond from "../../icons/Diamond";
+import ContactWithImg from "../ContactWithImg";
 
 export default function Pricing() {
   return (
     <div className="lg:mb-24 lg:mx-8 2xl:mx-32">
-      <h2 className="text-center !mb-8 lg:!text-3xl lg:mt-16 lg:!pb-8">Unsere 3 Preispakete</h2>
+      <h2 className="text-center !mb-8 lg:!text-3xl lg:mt-16 lg:!pb-8">
+        Unsere 3 Preispakete
+      </h2>
       <div className="flex flex-col lg:flex-row gap-24 lg:gap-8 lg:justify-around">
         <div className="lg:flex-1 bg-custom-white mx-8 lg:m-0 p-8 shadow-2xl rounded-lg dark">
           <h2 className="text-center">Paket 1: Google Platz 1</h2>
@@ -174,6 +177,23 @@ export default function Pricing() {
           </span>
         </div>
       </div>
+      <section className="flex flex-col lg:flex-row-reverse justify-center gap-24 lg:gap-16 mt-24 lg:m-32">
+        <div className="flex-1 bg-custom-white leading-8 p-8 rounded-lg dark mx-8 lg:mx-0">
+          <div className="flex items-center justify-around max-w-screen">
+            <img
+              src="/images/website_boosting.jpg"
+              alt="Website Boosting Logo"
+              className="max-w-1/3"
+            />
+            <img src="/images/vdi.jpg" alt="VDI Logo" className="w-1/3" />
+          </div>
+          <p className="mt-8 text-center">
+            Jan Krösche veröffentlicht regelmäßig im Fachmagazin „Website
+            Boosting“ und hält Vorträge beim Verein Deutscher Ingenieure.
+          </p>
+        </div>
+        <ContactWithImg />
+      </section>
     </div>
   );
 }

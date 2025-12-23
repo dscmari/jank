@@ -1,3 +1,5 @@
+//Title Tag der Startseite ist: Google Berater Jan Krösche | Platz 1 bei Google & ChatGPT
+
 import { useEffect, useState } from "react";
 import useWindowDimensions from "../../utils/useWindowDimensions";
 import MobileHome from "./MobileHome";
