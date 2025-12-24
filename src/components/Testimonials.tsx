@@ -6,7 +6,7 @@ type Props = {
 
 export default function Testimonials({className} : Props) {
   return (
-    <section className={`p-8 dark lg:py-32 ${className}`}>
+    <section className={`px-4 py-8 dark lg:px-8 lg:py-32 ${className}`}>
       <h2 className="lg:text-center lg:!text-2xl tracking-wide">
         Wir haben über 500 Firmenwebsites auf Platz 1 optimiert
       </h2>

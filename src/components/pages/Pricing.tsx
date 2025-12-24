@@ -4,11 +4,11 @@ import ContactWithImg from "../ContactWithImg";
 export default function Pricing() {
   return (
     <div className="lg:mb-24 lg:mx-8 2xl:mx-32">
-      <h2 className="text-center !mb-8 lg:!text-3xl lg:mt-16 lg:!pb-8">
+      <h2 className="mx-4 lg:mx-0 text-center !mb-8 lg:!text-3xl lg:mt-16 lg:!pb-8">
         Unsere 3 Preispakete
       </h2>
       <div className="flex flex-col lg:flex-row gap-24 lg:gap-8 lg:justify-around">
-        <div className="lg:flex-1 bg-custom-white mx-8 lg:m-0 p-8 shadow-2xl rounded-lg dark">
+        <div className="lg:flex-1 bg-custom-white lg:m-0 p-8 shadow-2xl rounded-lg dark">
           <h2 className="text-center">Paket 1: Google Platz 1</h2>
           <p>
             Website-Optimierungen, damit Du in der Google-Suche & bei Google
@@ -64,7 +64,7 @@ export default function Pricing() {
             jan@jankroesche.de
           </span>
         </div>
-        <div className="lg:flex-1 bg-custom-white mx-8 lg:m-0 p-8 shadow-2xl rounded-lg dark">
+        <div className="lg:flex-1 bg-custom-white lg:m-0 p-8 shadow-2xl rounded-lg dark">
           <h2 className="text-center">Paket 2: Chat GPT Platz 1</h2>
           <p>
             Website-Optimierungen, damit Deine Firma in den Antworten der
@@ -120,7 +120,7 @@ export default function Pricing() {
             jan@jankroesche.de
           </span>
         </div>
-        <div className="lg:flex-1 bg-custom-white mx-8 lg:m-0 p-8 shadow-2xl rounded-lg dark">
+        <div className="lg:flex-1 bg-custom-white lg:m-0 p-8 shadow-2xl rounded-lg dark">
           <h2 className="text-center">Paket 3: Google Ads</h2>
           <p>
             Kurzfristige Steigerung Deiner Google Sichtbarkeit durch
@@ -178,7 +178,7 @@ export default function Pricing() {
         </div>
       </div>
       <section className="flex flex-col lg:flex-row-reverse justify-center gap-24 lg:gap-16 mt-24 lg:m-32">
-        <div className="flex-1 bg-custom-white leading-8 p-8 rounded-lg dark mx-8 lg:mx-0">
+        <div className="flex-1 bg-custom-white leading-8 p-8 rounded-lg lg:mx-0">
           <div className="flex items-center justify-around max-w-screen">
             <img
               src="/images/website_boosting.jpg"

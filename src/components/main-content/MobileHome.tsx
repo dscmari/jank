@@ -18,7 +18,7 @@ export default function MobileContent() {
   return (
     <div>
       <ATF />
-      <section className="bg-custom-red-op mx-4 mt-8 p-8 rounded-lg">
+      <section className="bg-custom-white mx-4 mt-8 p-8 rounded-lg">
         <h2>
           Seit 2017 haben wir über{" "}
           <span className="underline">500 Firmen-Websites</span> auf Platz 1 bei
@@ -38,13 +38,13 @@ export default function MobileContent() {
           src="/images/portraits/39321-3981.jpg"
           alt="Portrait Jan Krösche"
         />
-        <p className="mx-8 mt-2 text-sm text-thin text-center">
+        <p className="mx-4 mt-2 text-sm text-thin text-center">
           Jan Krösche hat bis 2025 eine der größten Onlinemarketing-Agenturen in
           Deutschland aufgebaut und geleitet. Seit 2025 arbeitet er mit einem
           spezialisierten Team selbständig.
         </p>
       </section>
-      <section className="mt-24 bg-custom-white px-4 py-12 mt-8 rounded-lg flex flex-col gap-4">
+      <section className="mt-24 bg-custom-white px-8 py-12 mt-8 rounded-lg flex flex-col gap-4">
         <h2 className="">In 3 Schritten bringen wir Dich auf Platz 1</h2>
         <div>
           <h2>Schritt 1</h2>
@@ -71,7 +71,7 @@ export default function MobileContent() {
       </section>
       <Contact className="mt-24" />
       <Testimonials className="mt-24" />
-      <section className="px-4 mt-24 flex flex-col gap-4">
+      <section className="px-8 mt-24 flex flex-col gap-4">
         <h2 className="!mb-0">
           Wir bringen Dich bei Google & ChatGPT ganz nach vorne
         </h2>
@@ -116,10 +116,7 @@ export default function MobileContent() {
         </ul>
       </section>
       <section>
-        <h2 className="mx-8 !mb-12 mt-24 ">
-          Das machen wir alles für Dich
-        </h2>
-        <div className="bg-custom-white mx-8 leading-8 p-8 shadow-md rounded-lg">
+        <div className="mt-24 bg-custom-white mx-4 leading-8 p-8 shadow-md rounded-lg">
           <h2 className="text-center !mb-8">Google Platz 1</h2>
           <div className="flex flex-col gap-4 pl-4 text-xl">
             <div className="flex items-center gap-4">
@@ -150,7 +147,7 @@ export default function MobileContent() {
         </div>
       </section>
       <section className="mt-24">
-        <div className="bg-custom-white mx-8 leading-8 p-8 shadow-md rounded-lg">
+        <div className="bg-custom-white mx-4 leading-8 p-8 shadow-md rounded-lg">
           <h2 className="text-center !mb-8">Chat GPT Platz 1</h2>
           <div className="flex flex-col gap-4 pl-4 text-xl">
             <div className="flex items-center gap-4">
@@ -185,7 +182,7 @@ export default function MobileContent() {
         </div>
       </section>
       <section className="mt-24">
-        <div className="bg-custom-white mx-8 leading-8 p-8 shadow-md rounded-lg">
+        <div className="bg-custom-white mx-4 leading-8 p-8 shadow-md rounded-lg">
           <h2 className="text-center !mb-8">Bezahlte Werbeanzeigen</h2>
           <div className="flex flex-col gap-4 pl-4 text-xl">
             <div className="flex items-center gap-4">
@@ -321,7 +318,7 @@ export default function MobileContent() {
           stehen. Die Firmen, die daher auf Platz 1 ranken, gewinnen die meisten
           Website-Besucher und ergattern sich die meisten Neukunden.
         </p>
-        <div className="mt-12 bg-custom-white mx-8 leading-8 p-8 shadow-md rounded-lg">
+        <div className="mt-12 bg-custom-white mx-4 leading-8 p-8 shadow-md rounded-lg">
           <h2 className="text-center !mb-8">
             Wir helfen Dir und Deiner Firma, damit Du
           </h2>
@@ -364,7 +361,7 @@ export default function MobileContent() {
           gefunden werden kannst. Wir kennen die Algorithmen und haben das „SEO
           Spiel“ seit 2017 schon Hundertfach durchgespielt.{" "}
         </p>
-        <div className="mt-12 bg-custom-white mx-8 leading-8 p-8 shadow-md rounded-lg">
+        <div className="mt-12 bg-custom-white mx-4 leading-8 p-8 shadow-md rounded-lg">
           <h2 className="text-center !mb-8">
             Unsere Leistungen auf einen Blick
           </h2>
@@ -401,7 +398,7 @@ export default function MobileContent() {
         </div>
       </section>
       <section className="flex flex-col lg:flex-row-reverse justify-center gap-24 lg:gap-16 mt-24 lg:m-32">
-        <div className="flex-1 bg-custom-white leading-8 p-8 rounded-lg mx-8 lg:mx-0">
+        <div className="flex-1 bg-custom-white leading-8 px-4 py-8 rounded-lg mx-4 lg:mx-0">
           <div className="flex items-center justify-around max-w-screen">
             <img
               src="/images/website_boosting.jpg"
