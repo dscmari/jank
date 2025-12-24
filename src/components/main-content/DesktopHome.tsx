@@ -88,7 +88,7 @@ export default function DesktopContent() {
           </div>
         </div>
       </section>
-      <section className=" bg-custom-red-op flex gap-12 p-32 py-24 2xl:gap-32 2xl:justify-center ">
+      <section className=" bg-custom-white flex gap-12 p-32 py-24 2xl:gap-32 2xl:justify-center ">
         <div className="min-w-1/2 2xl:min-w-1/3 relative">
           <div className="absolute -top-48">
             <img
@@ -236,7 +236,7 @@ export default function DesktopContent() {
           </div>
         </div>
       </section>
-      <section className="p-32 mt-32 bg-custom-red-op">
+      <section className="p-32 mt-32 bg-custom-white">
         <h1>noch anpassen!</h1>
         <div className="ml-auto max-w-2/3 ">
           <p className="pb-8 text-3xl/10 tracking-wide font-semibold text-right">

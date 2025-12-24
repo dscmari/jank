@@ -14,12 +14,7 @@ export default function OneTwoBoxDesign() {
       <div className="grid grid-cols-3 gap-2 mt-12">
         <div className="row-span-2 flex flex-col justify-between bg-custom-white leading-8 p-8 rounded-lg dark">
           <div>
-            <p className="mt-4 font-semibold text-lg">
-              Das Spiel im Internet ist ganz einfach. Menschen suchen etwas bei
-              Google oder ChatGPT und klicken auf die Websites, die ganz oben
-              stehen.
-            </p>
-            <div className="mt-8">
+            <div className="">
               <h2 className="!text-2xl tracking-wide !mb-4">Google Platz 1</h2>
               <div className="flex flex-col gap-4 text-xl py-4">
                 <div className="flex items-center gap-4">
@@ -44,19 +39,19 @@ export default function OneTwoBoxDesign() {
                   <span>GEO Tracker</span>
                 </div>
               </div>
-              <div className="mt-8 flex justify-center items-center gap-12">
+              <div className="mt-8 flex items-center gap-8">
                 <div className="">
                   <img
                     src="/images/google_logo.png"
                     alt="Google Logo"
-                    className="h-8"
+                    className="h-4"
                   />
                 </div>
                 <div className="">
                   <img
                     src="/images/YouTube_Logo_2017.png"
                     alt="YouTube Logo"
-                    className="h-8"
+                    className="h-4"
                   />
                 </div>
               </div>
@@ -89,27 +84,27 @@ export default function OneTwoBoxDesign() {
               </div>
             </div>
           </div>
-          <div className="flex items-center justify-between gap-12">
+          <div className="mt-8 flex items-center justify-between gap-12">
             <div className="flex items-center gap-8">
               <div className="">
                 <img
                   src="/images/chatGPT_logo.webp"
                   alt="Google Ads"
-                  className="h-6"
+                  className="h-4"
                 />
               </div>
               <div className="">
                 <img
                   src="/images/gemini_logo.png"
                   alt="Microsoft Bing Logo"
-                  className="h-6"
+                  className="h-4"
                 />
               </div>
               <div className="">
                 <img
                   src="images/Perplexity_AI_logo.svg.png"
                   alt="Microsoft Bing Logo"
-                  className="h-6"
+                  className="h-4"
                 />
               </div>
             </div>
@@ -144,20 +139,20 @@ export default function OneTwoBoxDesign() {
               </div>
             </div>
           </div>
-          <div className="flex items-center justify-between gap-12">
+          <div className="mt-8 flex items-center justify-between gap-12">
             <div className="flex items-center gap-8">
               <div className="">
                 <img
                   src="/images/ads_logo.png"
                   alt="Google Ads"
-                  className="h-6"
+                  className="h-4"
                 />
               </div>
               <div className="">
                 <img
                   src="/images/bing.svg"
                   alt="Microsoft Bing Logo"
-                  className="h-6"
+                  className="h-4"
                 />
               </div>
             </div>
