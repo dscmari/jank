@@ -1,7 +1,7 @@
 
 export default function WebsiteBoostingBox() {
   return (
-    <div className="flex-1 bg-custom-white leading-8 p-8 rounded-lg lg:mx-0">
+    <div className="flex-1 bg-custom-white leading-8 p-8 rounded-lg lg:mx-0 flex flex-col justify-center">
       <div className="flex justify-around max-w-screen">
         <img
           src="/images/website_boosting.jpg"

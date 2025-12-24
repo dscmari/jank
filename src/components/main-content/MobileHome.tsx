@@ -7,7 +7,6 @@ import Maps from "../../icons/Maps";
 import Video from "../../icons/Video";
 import ATF from "../ATF";
 import Contact from "../Contact";
-import ContactWithImg from "../footer/ContactWithImg";
 import Pricing from "../pages/Pricing";
 import Testimonials from "../Testimonials";
 import WebsiteCheck from "../WebsiteCheck";

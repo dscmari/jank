@@ -1,6 +1,4 @@
 import Diamond from "../../icons/Diamond";
-import PreFooter from "../footer/PreFooter";
-
 
 export default function Pricing() {
   return (
@@ -178,7 +176,6 @@ export default function Pricing() {
           </span>
         </div>
       </div>
-      <PreFooter/>
     </div>
   );
 }

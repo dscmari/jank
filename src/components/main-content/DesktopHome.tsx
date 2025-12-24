@@ -1,30 +1,30 @@
 import AddressBook from "../../icons/AddressBook";
 import Airplane from "../../icons/Airplaine";
 import ArrowRight from "../../icons/ArrowRight";
-import Code from "../../icons/Code";
 import Diamond from "../../icons/Diamond";
 import Gear from "../../icons/Gear";
 import Magnifier from "../../icons/Magnifier";
 import Mail from "../../icons/Mail";
-import Maps from "../../icons/Maps";
 import Phone from "../../icons/Phone";
-import Video from "../../icons/Video";
 import ATF from "../ATF";
 import Services from "../pages/Pricing";
 import Testimonials from "../Testimonials";
 import WebsiteCheck from "../WebsiteCheck";
 import LinkSeoCheck from "../LinkSeoCheck";
-import LinkGeoCheck from "../LinkGeoCheck";
-import Breadcrumbs from "../Breadcrumps";
+import OneTwoBoxDesign from "../OneTwoBoxDesign";
 
 export default function DesktopContent() {
   return (
     <>
       {" "}
       <ATF />
-      <Breadcrumbs/>
-      <section className="px-32 pb-48 pt-32">
-        <div className="max-w-2/3 ">
+      <section className="px-32 pb-48 pt-32 relative ">
+           <div className="absolute right-12 top-12">
+          <img src="images/list-magnifying-glass.svg" alt="Symbol für eine Lupe über einer Liste" />
+        </div>
+
+        <div className="max-w-2/3">
+
           <p className="pb-8 text-3xl/10 tracking-wide font-semibold">
             {" "}
             Jan Krösche hat bis 2025 eine der{" "}
@@ -44,7 +44,7 @@ export default function DesktopContent() {
             <h3 className="text-xl font-semibold tracking-wide mb-4">
               Schritt 1 (Besser sprechende Namen)
             </h3>
-            <p className="text-base/8">
+            <p className="">
               Wir analysieren die Suchbegriffe, die genau Deine Kunden bei
               Google & ChatGPT eingeben
             </p>
@@ -53,7 +53,7 @@ export default function DesktopContent() {
             <h3 className="text-xl font-semibold tracking-wide mb-4">
               Schritt 2 (Besser sprechende Namen)
             </h3>
-            <p className="text-base/8">
+            <p className="">
               Wir optimieren Deine Website und setzen bei Bedarf Deine Google
               Werbeanzeigen auf
             </p>
@@ -62,14 +62,14 @@ export default function DesktopContent() {
             <h3 className="text-xl font-semibold tracking-wide mb-4">
               Schritt 3 (Besser sprechende Namen)
             </h3>
-            <p className="text-base/8">
+            <p className="">
               Wir bleiben am Ball und verbessern deine Website und Deine Anzeige
               laufend, damit du sichtbarer wirst und an deinen Wettbewerbern
               vorbeiziehst. Und immer mehr Kunden gewinnst
             </p>
           </div>
         </div>
-        <div className="flex flex-col gap-4 items-center text-xl font-semibold bg-custom-red text-custom-white py-8 mt-16">
+        <div className="flex flex-col gap-4 items-center text-xl font-semibold bg-custom-red text-custom-white py-8 mt-24">
           <div>
             <p>Schnelle Kontaktaufnahme zu Jan Krösche</p>
           </div>
@@ -88,7 +88,7 @@ export default function DesktopContent() {
           </div>
         </div>
       </section>
-      <section className="bg-custom-white flex gap-12 p-32 py-24 2xl:gap-32 2xl:justify-center ">
+      <section className=" bg-custom-red-op flex gap-12 p-32 py-24 2xl:gap-32 2xl:justify-center ">
         <div className="min-w-1/2 2xl:min-w-1/3 relative">
           <div className="absolute -top-48">
             <img
@@ -156,114 +156,8 @@ export default function DesktopContent() {
           </button>
         </div>
       </section>
-      <section className="my-32">
-        <h2 className="text-center !text-2xl">Das machen wir alles für Dich</h2>
-        <div className="flex gap-4 mt-12">
-          <div className="flex-1 flex flex-col justify-between bg-custom-white mx-8 leading-8 p-8 shadow-2xl rounded-lg dark">
-            <div>
-              <h2 className="text-center !mb-8">Google Platz 1</h2>
-              <div className="flex flex-col gap-4 text-xl">
-                <div className="flex items-center gap-4">
-                  <Magnifier />
-                  <span>Google Optimierung</span>
-                </div>
-                <div className="flex items-center gap-4">
-                  <Maps />
-                  <span>Maps Optimierung</span>
-                </div>
-                <div className="flex items-center gap-4">
-                  <Video />
-                  <span>Youtube Kanal Optimierung</span>
-                </div>
-                <div className="flex items-center gap-4">
-                  <Magnifier />
-                  <span>Bing Optimierung</span>
-                </div>
-                <div className="flex items-center gap-4">
-                  <Code />
-                  <span>Krösche-Ranking-Tracker</span>
-                </div>
-              </div>
-            </div>
-            <button className="px-4 py-2 bg-custom-red text-custom-white rounded w-full flex items-center justify-between">
-              <LinkSeoCheck />
-              <ArrowRight />
-            </button>
-          </div>
-          <div className="flex-1 flex flex-col justify-between bg-custom-white mx-8 leading-8 p-8 shadow-2xl rounded-lg dark">
-            <div>
-              <h2 className="text-center !mb-8">Chat GPT Platz 1</h2>
-              <div className="flex flex-col gap-4 text-xl">
-                <div className="flex items-center gap-4">
-                  <Diamond className="h-4 flex-shrink-0" />
-                  <span>Chat GPT Optimierung</span>
-                </div>
-                <div className="flex items-center gap-4">
-                  <Diamond className="h-4 flex-shrink-0" />
-                  <span>Google KI-Modus Optimierung</span>
-                </div>
-                <div className="flex items-center gap-4">
-                  <Diamond className="h-4 flex-shrink-0" />
-                  <span>Gemini Optimierung</span>
-                </div>
-                <div className="flex items-center gap-4">
-                  <Diamond className="h-4 flex-shrink-0" />
-                  <span>Perplexity Optimierung</span>
-                </div>
-                <div className="flex items-center gap-4">
-                  <Diamond className="h-4 flex-shrink-0" />
-                  <span>Copilot Optimierung</span>
-                </div>
-              </div>
-            </div>
-
-            <button className="px-4 py-2 bg-custom-red text-custom-white rounded w-full flex items-center justify-between">
-              <LinkGeoCheck />
-              <ArrowRight />
-            </button>
-          </div>
-          <div className="flex-1 flex flex-col justify-between bg-custom-white mx-8 leading-8 p-8 shadow-2xl rounded-lg dark">
-            <div>
-              <h2 className="text-center !mb-8">Bezahlte Werbeanzeigen</h2>
-              <div className="flex flex-col gap-4 text-xl">
-                <div className="flex items-center gap-4">
-                  <Diamond className="h-4 flex-shrink-0" />
-                  <span>Google Werbung (Google Ads)</span>
-                </div>
-                <div className="flex items-center gap-4">
-                  <Diamond className="h-4 flex-shrink-0" />
-                  <span>Bing Werbung (Bing Ads)</span>
-                </div>
-                <div className="flex items-center gap-4">
-                  <Diamond className="h-4 flex-shrink-0" />
-                  <span>KI Ads</span>
-                </div>
-                <div className="flex items-center gap-4">
-                  <Diamond className="h-4 flex-shrink-0" />
-                  <span>ChatGPT Ads</span>
-                </div>
-                <div className="flex items-center gap-4">
-                  <Diamond className="h-4 flex-shrink-0" />
-                  <span>Copilot Ads</span>
-                </div>
-                <div className="flex items-center gap-4">
-                  <Diamond className="h-4 flex-shrink-0" />
-                  <span>Perplexity Ads</span>
-                </div>
-                <div className="flex items-center gap-4">
-                  <Diamond className="h-4 flex-shrink-0" />
-                  <span>ChatGPT Shopping</span>
-                </div>
-              </div>
-            </div>
-            <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded w-full flex items-center justify-between">
-              <span>Mehr zu Google Ads</span>
-              <ArrowRight />
-            </button>
-          </div>
-        </div>
-      </section>
-      <Testimonials className="mt-24 bg-custom-white" />
+      <OneTwoBoxDesign/>
+      <Testimonials className="mt-24" />
       <Services />
       <section className="px-32 pt-32">
         <div className="">
@@ -342,7 +236,8 @@ export default function DesktopContent() {
           </div>
         </div>
       </section>
-      <section className="p-32 mt-32 bg-custom-white">
+      <section className="p-32 mt-32 bg-custom-red-op">
+        <h1>noch anpassen!</h1>
         <div className="ml-auto max-w-2/3 ">
           <p className="pb-8 text-3xl/10 tracking-wide font-semibold text-right">
             {" "}
@@ -407,8 +302,8 @@ export default function DesktopContent() {
         <h2 className="text-center !text-2xl !mb-12">
           Keine Lust mehr, hinter Deinem größten Wettbewerber hinterherzulaufen?
         </h2>
-        <div className="flex gap-12 ">
-          <div className="flex-1 flex flex-col gap-8 justify-between bg-custom-white leading-8 p-12 shadow-2xl rounded-lg dark">
+        <div className="flex gap-12">
+          <div className="flex-1 flex flex-col gap-8 justify-between leading-8 p-12 rounded-lg border-4 border-custom-white">
             <h2 className="text-center">Wir helfen Dir und Deiner Firma</h2>
             <p className="leading-6">
               Das Spiel im Internet ist ganz einfach. Menschen suchen etwas bei
@@ -449,7 +344,7 @@ export default function DesktopContent() {
               <ArrowRight />
             </button>
           </div>
-          <div className="flex-1 flex flex-col gap-8 justify-between bg-custom-white leading-8 p-12 shadow-2xl rounded-lg dark">
+          <div className="flex-1 flex flex-col gap-8 justify-between leading-8 p-12 rounded-lg border-4 border-custom-white">
             <h2 className="text-center">Unsere Leistungen auf einen Blick</h2>
             <p className="leading-6">
               Unsere Aufgabe ist einfach: Wir optimieren Deinen Webauftritt,

@@ -1,8 +1,6 @@
 import sections from "../../utils/referencesList";
 import Diamond from "../../icons/Diamond";
 import RatingStar from "../../icons/RatingStar";
-import ContactWithImg from "../footer/ContactWithImg";
-import PreFooter from "../footer/PreFooter";
 
 export default function References() {
   return (
@@ -58,7 +56,6 @@ export default function References() {
           </section>
         ))}
       </div>
-      <PreFooter/>
     </div>
   );
 }
