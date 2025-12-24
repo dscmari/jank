@@ -57,7 +57,7 @@ export default function OneTwoBoxDesign() {
               </div>
             </div>
           </div>
-          <button className="mt-8 px-4 py-2 bg-custom-red text-custom-white rounded w-full flex items-center justify-between">
+          <button className="mt-8 px-4 py-1 bg-custom-red text-custom-white rounded w-full flex items-center justify-between">
             <LinkSeoCheck />
             <ArrowRight />
           </button>
@@ -109,7 +109,7 @@ export default function OneTwoBoxDesign() {
               </div>
             </div>
 
-            <button className="px-4 py-2 bg-custom-red text-custom-white rounded w-1/2 flex items-center justify-between">
+            <button className="px-4 py-1 bg-custom-red text-custom-white rounded w-1/2 flex items-center justify-between">
              <LinkGeoCheck/>
               <ArrowRight />
             </button>
@@ -157,7 +157,7 @@ export default function OneTwoBoxDesign() {
               </div>
             </div>
 
-            <button className="px-4 py-2 bg-custom-red text-custom-white rounded w-1/2 flex items-center justify-between">
+            <button className="px-4 py-1 bg-custom-red text-custom-white rounded w-1/2 flex items-center justify-between">
               <span>Mehr zu Ads</span>
               <ArrowRight />
             </button>
