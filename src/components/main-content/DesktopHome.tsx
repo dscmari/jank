@@ -490,44 +490,6 @@ export default function DesktopContent() {
           </div>
         </div>
       </section>
-      <section className="flex justify-center gap-16 m-32">
-        <div className="flex-1 relative border-b-1 border-slate-200 dark:translate-y-8">
-          <img
-            src="/images/portraits/39321-4000_02.jpg"
-            alt="Portrait Jan Krösche"
-            className="h-96 object-cover"
-          />
-          <div className="p-4 bg-white absolute z-10 right-left bottom-0 flex flex-col justify-center rounded-tr-xl h-1/2">
-            <div>
-              <img
-                src="/images/jank_logo.jpg"
-                alt="Jan Krösche Logo"
-                style={{ width: "200px" }}
-              />
-            </div>
-            <div className="flex flex-col pb-4">
-              <span className="block">Jan Krösche</span>
-              <span className="block"></span>+49 176 55109383
-              <span className="block">jan@jankroesche.de</span>
-            </div>
-          </div>
-          <div className="absolute bg-white w-full h-12 z-1 bottom-0"></div>
-        </div>
-        <div className="flex-1 bg-custom-white leading-8 p-8 rounded-lg dark">
-          <div className="flex items-center justify-around max-w-screen">
-            <img
-              src="/images/website_boosting.jpg"
-              alt="Website Boosting Logo"
-              className="max-w-1/3"
-            />
-            <img src="/images/vdi.jpg" alt="VDI Logo" className="w-1/3" />
-          </div>
-          <p className="mt-8 text-center">
-            Jan Krösche veröffentlicht regelmäßig im Fachmagazin „Website
-            Boosting“ und hält Vorträge beim Verein Deutscher Ingenieure.
-          </p>
-        </div>
-      </section>
     </>
   );
 }

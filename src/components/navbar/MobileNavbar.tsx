@@ -155,10 +155,10 @@ export default function Navbar() {
             </ol>
             <div className="pt-8 pl-8 flex items-center gap-4">
               <Phone color="black" className="size-5" />
-              <span>+49 176 55 10 93 83</span>
+              <span>+49 176 55109383</span>
             </div>
             <div className="mt-4 pl-8 flex items-center gap-4">
-              <Mail color="" className="size-5" />
+              <Mail className="size-5" />
               <span>jan@jankroesche.de</span>
             </div>
             <div className="mx-8 my-12">

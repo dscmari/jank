@@ -4,7 +4,7 @@ type Props = {
 };
 
 export default function ContactWithImg({className}: Props) {
-  const classes = `flex-1 relative border-b-1 border-slate-200 dark:translate-y-8 ${className}`
+  const classes = `flex-1 relative border-b-1 border-slate-200 ${className}`
   return (
     <section className={classes}>
       <div>

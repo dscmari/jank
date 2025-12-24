@@ -1,6 +1,6 @@
 import ArrowRight from "../../icons/ArrowRight";
 import ArrowTopRight from "../../icons/ArrowTopRight";
-import ContactWithImg from "../ContactWithImg";
+import ContactWithImg from "../footer/ContactWithImg";
 import LinkSeoCheck from "../LinkSeoCheck";
 
 export default function Videos() {

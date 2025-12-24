@@ -1,4 +1,4 @@
-import ContactWithImg from "../../ContactWithImg";
+import ContactWithImg from "../../footer/ContactWithImg";
 import WebsiteCheck from "../../WebsiteCheck";
 
 export default function GEOCheck() {
