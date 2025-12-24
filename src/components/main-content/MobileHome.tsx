@@ -283,7 +283,7 @@ export default function MobileContent() {
         <div>
           <h2>1. Kontaktaufnahme und Gespräch</h2>
           <p>
-            Du meldest Dich bei mir per Telefon unter 0176 55 10 93 83 oder per
+            Du meldest Dich bei mir per Telefon unter +49 176 55 10 93 83 oder per
             Mail unter jan@jankroesche.de – wir vereinbaren ein kostenloses
             Kennenlernen per Telefon, Teams oder vor Ort und besprechen Deine
             Ziele.

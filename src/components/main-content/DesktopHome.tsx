@@ -75,7 +75,7 @@ export default function DesktopContent() {
           </div>
           <div className="flex gap-4 items-center">
             <Phone color="#f5f6fa" className="size-6" />
-            <span>+49 0176 55109383</span>
+            <span>+49 176 55109383</span>
           </div>
           <div className="flex gap-4 items-center">
             <Mail color1="rgb(231,0,53)" color2="#f5f6fa" className="size-6" />
@@ -329,7 +329,7 @@ export default function DesktopContent() {
         <div className="flex gap-8 text-custom-red p-2 mt-12">
           <div className="flex gap-2 items-center">
             <Phone color="rgb(231,0,53)" className="size-4" />
-            <span className="text-xl font-semibold">+49 0176 55109383</span>
+            <span className="text-xl font-semibold">+49 176 55109383</span>
           </div>
           <div className="flex gap-2 items-center">
             <Mail color1="rgb(231,0,53)" color2="#f5f6fa" className="size-4" />
@@ -358,7 +358,7 @@ export default function DesktopContent() {
               Kontaktaufnahme und Gespräch
             </h3>
             <p className="text-base/8">
-              Du meldest Dich bei mir per Telefon unter 0176 55 10 93 83 oder
+              Du meldest Dich bei mir per Telefon unter +49 176 55109383 oder
               per Mail unter jan@jankroesche.de – wir vereinbaren ein
               kostenloses Kennenlernen per Telefon, Teams oder vor Ort und
               besprechen Deine Ziele
@@ -389,7 +389,7 @@ export default function DesktopContent() {
         <div className="flex justify-end gap-8 text-custom-red p-2 mt-12">
           <div className="flex gap-2 items-center">
             <Phone color="rgb(231,0,53)" className="size-4" />
-            <span className="text-xl font-semibold">+49 0176 55109383</span>
+            <span className="text-xl font-semibold">+49 176 55109383</span>
           </div>
           <div className="flex gap-2 items-center">
             <Mail color1="rgb(231,0,53)" color2="#f5f6fa" className="size-4" />
@@ -507,7 +507,7 @@ export default function DesktopContent() {
             </div>
             <div className="flex flex-col pb-4">
               <span className="block">Jan Krösche</span>
-              <span className="block"></span>0176 55 10 9383
+              <span className="block"></span>+49 176 55109383
               <span className="block">jan@jankroesche.de</span>
             </div>
           </div>

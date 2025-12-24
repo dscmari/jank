@@ -12,7 +12,7 @@ export default function Contact({ className }: Props) {
       <p className="text-center">Schnelle Kontaktaufnahme zu Jan Krösche</p>
       <div className="flex items-center gap-4">
         <Phone className="size-6" />
-        <span className="text-lg">+49 176 55 10 93 83</span>
+        <span className="text-lg">+49 176 55109383</span>
       </div>
       <div className="flex items-center gap-4">
         <Mail className="size-6" />

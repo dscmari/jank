@@ -24,7 +24,7 @@ export default function ContactWithImg({className}: Props) {
           </div>
           <div className="flex flex-col pb-4">
             <span className="block">Jan Krösche</span>
-            <span className="block"></span>0176 55 10 9383
+            <span className="block"></span>+49 17655109383
             <span className="block">jan@jankroesche.de</span>
           </div>
         </div>
