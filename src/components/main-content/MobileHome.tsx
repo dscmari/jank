@@ -14,9 +14,14 @@ import LinkSeoCheck from "../LinkSeoCheck";
 import LinkGeoCheck from "../LinkGeoCheck";
 
 export default function MobileContent() {
+  const titleATF = "Endlich Platz 1 bei Google & ChatGPT mit Deiner Website!";
+  const subtitleATF =
+    "Seit 2017 haben wir über 500 Firmen-Websites auf Platz 1 bei Google katapultiert";
+  const textATF =
+    "Jan Krösche & Team sind Deine SEO und SEA-Spezialisten, damit  Du die Nr. 1 im Netz wirst. Und mehr Neukunden gewinnst als Deine Wettbewerber.";
   return (
     <div>
-      <ATF />
+      <ATF title={titleATF} subtitle={subtitleATF} text={textATF} LinkComponent={<LinkSeoCheck />} />
       <section className="bg-custom-white mx-4 mt-8 p-8 rounded-lg">
         <h2>
           Seit 2017 haben wir über{" "}
@@ -25,7 +30,8 @@ export default function MobileContent() {
         </h2>
         <p className="pt-4">
           Jan Krösche & Team sind Deine SEO, GEO und ADS Spezialisten, damit Du
-          bei Google und ChatGPT die sichtbarste Firma Deiner Branche wirst.   Und endlich mehr Neukunden-Anfragen über die Website erhälst.
+          bei Google und ChatGPT die sichtbarste Firma Deiner Branche wirst. Und
+          endlich mehr Neukunden-Anfragen über die Website erhälst.
         </p>
         <button className="mt-8 px-4 py-2 bg-custom-red text-custom-white rounded-4xl w-full flex items-center justify-between">
           <LinkSeoCheck />
@@ -282,8 +288,8 @@ export default function MobileContent() {
         <div>
           <h2>1. Kontaktaufnahme und Gespräch</h2>
           <p>
-            Du meldest Dich bei mir per Telefon unter +49 176 55 10 93 83 oder per
-            Mail unter jan@jankroesche.de – wir vereinbaren ein kostenloses
+            Du meldest Dich bei mir per Telefon unter +49 176 55 10 93 83 oder
+            per Mail unter jan@jankroesche.de – wir vereinbaren ein kostenloses
             Kennenlernen per Telefon, Teams oder vor Ort und besprechen Deine
             Ziele.
           </p>

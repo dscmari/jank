@@ -14,17 +14,22 @@ import LinkSeoCheck from "../LinkSeoCheck";
 import OneTwoBoxDesign from "../OneTwoBoxDesign";
 
 export default function DesktopContent() {
+  const titleATF = "Endlich Platz 1 bei Google & ChatGPT mit Deiner Website!";
+  const subtitleATF =
+    "Seit 2017 haben wir über 500 Firmen-Websites auf Platz 1 bei Google katapultiert";
+  const textATF =
+    "Jan Krösche & Team sind Deine SEO und SEA-Spezialisten, damit  Du die Nr. 1 im Netz wirst. Und mehr Neukunden gewinnst als Deine Wettbewerber.";
   return (
     <>
       {" "}
-      <ATF />
-      <section className="px-32 pb-48 pt-32 relative ">
-           <div className="absolute right-12 top-12">
-          <img src="images/list-magnifying-glass.svg" alt="Symbol für eine Lupe über einer Liste" />
-        </div>
-
+      <ATF
+        title={titleATF}
+        subtitle={subtitleATF}
+        text={textATF}
+        LinkComponent={<LinkSeoCheck />}
+      />
+      <section className="px-32 pb-48 pt-32">
         <div className="max-w-2/3">
-
           <p className="pb-8 text-3xl/10 tracking-wide font-semibold">
             {" "}
             Jan Krösche hat bis 2025 eine der{" "}
@@ -96,7 +101,7 @@ export default function DesktopContent() {
               style={{ width: "600px" }}
               alt="Portrait Jan Kroesche"
             />
-            <p className="p-8 italic mx-auto text-lg">
+            <p className="p-8 italic mx-auto text-center">
               "Wir helfen Unternehmen dabei, die Nummer 1 ihrer Branche werden"
             </p>
           </div>
@@ -156,7 +161,7 @@ export default function DesktopContent() {
           </button>
         </div>
       </section>
-      <OneTwoBoxDesign/>
+      <OneTwoBoxDesign />
       <Testimonials className="mt-24" />
       <Services />
       <section className="px-32 pt-32">

@@ -71,11 +71,11 @@ export default function Navbar() {
                     >
                       <div className="flex flex-col gap-1 mr-8">
                         <h3 className="font-semibold mt-2">Google Platz 1</h3>
-                        <a href="#" className="block pb-1 text-neutral-400 border-b-2 border-slate-200">
+                        <a
+                          href="#"
+                          className="block pb-1 text-neutral-400 border-b-2 border-slate-200"
+                        >
                           SEO Berater für Google Rankings
-                        </a>
-                        <a href="#" className="block pb-1 text-neutral-400 border-b-2 border-slate-200">
-                          Google SEO Optimierung
                         </a>
                         <div
                           className="pb-1 text-neutral-400 border-b-2 border-slate-200"
@@ -87,13 +87,18 @@ export default function Navbar() {
                       <div className="flex flex-col gap-1 mr-8">
                         <h3 className="font-semibold mt-2">ChatGPT Platz 1</h3>
 
-                                 <a href="#" className="block pb-1 text-neutral-400 border-b-2 border-slate-200">
-                          GEO Berater für KI Sichtbarkeit
-                        </a>
-                                 <a href="#" className="block pb-1 text-neutral-400 border-b-2 border-slate-200">
-                          ChatGPT SEO
-                        </a>
-                                <a href="#" className="block pb-1 text-neutral-400 border-b-2 border-slate-200">
+                        <div
+                          className="pb-1 text-neutral-400 border-b-2 border-slate-200"
+                          onClick={() => setIsMenuOpen((prev) => !prev)}
+                        >
+                          <Link to="/geo-berater/">
+                            GEO Berater für KI Sichtbarkeit
+                          </Link>
+                        </div>
+                        <a
+                          href="#"
+                          className="block pb-1 text-neutral-400 border-b-2 border-slate-200"
+                        >
                           GEO Tracker
                         </a>
                         <div
@@ -113,10 +118,16 @@ export default function Navbar() {
                       </div>
                       <div className="flex flex-col gap-1 mr-8">
                         <h3 className="font-semibold mt-2">Google Werbung</h3>
-                        <a href="#" className="block pb-1 text-neutral-400 border-b-2 border-slate-200">
+                        <a
+                          href="#"
+                          className="block pb-1 text-neutral-400 border-b-2 border-slate-200"
+                        >
                           Google Ads Berater für Google-Klicks
                         </a>
-                        <a href="#" className="block pb-1 text-neutral-400 border-b-2 border-slate-200">
+                        <a
+                          href="#"
+                          className="block pb-1 text-neutral-400 border-b-2 border-slate-200"
+                        >
                           Kostenloser Google-Ads-Kurs
                         </a>
                       </div>

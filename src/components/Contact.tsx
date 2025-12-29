@@ -2,10 +2,10 @@ import Mail from "../icons/Mail";
 import Phone from "../icons/Phone";
 
 type Props = {
-  className?: string;
+  className?: string,
 };
 
-export default function Contact({ className }: Props) {
+export default function Contact({ className}: Props) {
   const classes = `p-8 py-12 flex flex-col items-center gap-4 bg-custom-red font-semibold text-lg text-custom-white ${className}`;
   return (
     <div className={classes}>
@@ -15,7 +15,7 @@ export default function Contact({ className }: Props) {
         <span className="text-lg">+49 176 55109383</span>
       </div>
       <div className="flex items-center gap-4">
-        <Mail className="size-6" />
+        <Mail  color1="#f5f6fa" color2="rgb(231,0,53)" className="size-6" />
         <span className="text-lg">jan@jankroesche.de</span>
       </div>
     </div>

@@ -34,9 +34,9 @@ function App() {
               <Route path="kostenloser-geo-check/" element={<GEOCheck />} />
               <Route path="kostenloser-geo-kurs/" element={<GEOKurs />} />
             </Route>
-            <Route path="seo-berater" element={<SEOLayout />}>
+            <Route path="seo-berater/" element={<SEOLayout />}>
               <Route index element={<SEOBerater />} />
-              <Route path="/seo-berater/kostenloser-seo-check/" element={<SEOCheck />} />
+              <Route path="seo-berater/kostenloser-seo-check/" element={<SEOCheck />} />
             </Route>
           </Route>
           {/* Routes Without prefooter */}

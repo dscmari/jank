@@ -12,21 +12,15 @@ const NavServices = () => {
           <a href="#" className="mb-1 block text-neutral-400">
             SEO Berater für Google Rankings
           </a>
-          <a href="#" className="block text-neutral-400">
-            Google SEO Optimierung
-          </a>
           <div className="text-neutral-400">
             <LinkSeoCheck />
           </div>
         </div>
         <div className="flex flex-col gap-2">
           <h3 className="text-xl mb-2 font-medium">ChatGPT Platz 1</h3>
-          <a href="#" className="mb-1 block text-neutral-400">
-            GEO Berater für KI Sichtbarkeit
-          </a>
-          <a href="#" className="mb-1 block text-neutral-400">
-            ChatGPT SEO
-          </a>
+          <div className="text-neutral-400">
+            <Link to="/geo-berater/">GEO Berater für KI Sichtbarkeit</Link>
+          </div>
           <a href="#" className="block text-neutral-400">
             GEO Tracker
           </a>
