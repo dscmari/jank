@@ -8,7 +8,7 @@ export default function Testimonials({className} : Props) {
   return (
     <section className={`px-4 py-8 dark lg:px-8 lg:py-32 ${className}`}>
       <h2 className="lg:text-center lg:!text-2xl tracking-wide">
-        Wir haben über 500 Firmenwebsites auf Platz 1 optimiert
+        Wir haben über <span className="text-custom-red">500 Firmenwebsites auf Platz 1</span> optimiert
       </h2>
       <div className="flex flex-col lg:items-center gap-12 pt-8">
         <div className="lg:bg-white p-4 lg:p-8 lg:w-2/3 rounded shadow-lg">

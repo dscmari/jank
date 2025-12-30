@@ -7,7 +7,7 @@ import Magnifier from "../../icons/Magnifier";
 import Mail from "../../icons/Mail";
 import Phone from "../../icons/Phone";
 import ATF from "../ATF";
-import Services from "../pages/Pricing";
+import Services from "../Pricing";
 import Testimonials from "../Testimonials";
 import WebsiteCheck from "../WebsiteCheck";
 import LinkSeoCheck from "../LinkSeoCheck";
@@ -30,22 +30,69 @@ export default function DesktopContent() {
         imgPath="/images/portraits/39321-4000_02.jpg"
       />
       <section className="px-32 pb-48 pt-32">
-        <div className="max-w-2/3">
-          <p className="pb-8 text-3xl/10 tracking-wide font-semibold">
+        <div className="max-w-2/3 mx-auto text-center">
+          <h2 className="!text-3xl/10 tracking-wide ">
             {" "}
             Jan Krösche hat bis 2025 eine der{" "}
             <span className="text-custom-red">
               größten Onlinemarketing-Agenturen{" "}
             </span>
             in Deutschland aufgebaut und geleitet. Seit 2025 arbeitet er mit
-            einem spezialisierten Team selbständig
-          </p>
-          <p className="text-3xl/10 tracking-wide font-semibold">
-            In 3 Schritten bringen wir Dich auf Platz 1
-          </p>
+            einem spezialisierten Team selbständig.
+          </h2>
+        </div>
+        <button className="mx-auto block mt-16 bg-custom-purple px-4 py-2 text-custom-black rounded-lg cursor-pointer hover:bg-custom-red hover:text-custom-white">
+          Über uns
+        </button>
+        <h2 className="mt-4 text-center">
+          Bewährte Prozesse, echte Ergebnisse
+        </h2>
+        <div className="mt-16 flex justify-center gap-12 items-center ">
+          <div className="h-80 w-80 rounded-full flex flex-col gap-8 items-center  border-4 border-custom-red-op">
+            <div className="mt-12 bg-custom-red w-12 h-12 rounded-full flex items-center justify-center text-white font-semibold">
+              <span className="block text-xl">1</span>
+            </div>
+            <div>
+              <h2 className="text-center text-custom-red">Analyse</h2>
+              <p className="w-3/4 mx-auto text-center">
+                {" "}
+                Wir analysieren die Suchbegriffe, die genau Deine Kunden bei
+                Google & ChatGPT eingeben
+              </p>
+            </div>
+          </div>
+          <div className="h-80 w-80 rounded-full flex flex-col gap-8 items-center  border-4 border-custom-red-op">
+            <div className="relative mt-12 bg-custom-red w-12 h-12 rounded-full flex items-center justify-center text-white font-semibold">
+              <div className="absolute h-2 w-[720px] border-t-3 border-dashed border-custom-red"></div>
+              <span className="block text-xl z-10">2</span>
+            </div>
+            <div>
+              <h2 className="text-center text-custom-red">Optimierung</h2>
+              <p className="w-3/4 mx-auto text-center">
+                {" "}
+                Wir optimieren Deine Website und setzen bei Bedarf Deine Google
+                Werbeanzeigen auf
+              </p>
+            </div>
+          </div>
+          <div className="h-80 w-80 rounded-full flex flex-col gap-8 items-center  border-4 border-custom-red-op">
+            <div className="mt-12 bg-custom-red w-12 h-12 rounded-full flex items-center justify-center text-white font-semibold">
+              <span className="block text-xl">3</span>
+            </div>
+            <div>
+              <h2 className="text-center text-custom-red">
+                Betreuung & Updates
+              </h2>
+              <p className="w-3/4 mx-auto text-center">
+                {" "}
+                Wir verbessern deine Website und Deine
+                Anzeigen laufend, damit du an deinen Wettbewerbern vorbeiziehst
+              </p>
+            </div>
+          </div>
         </div>
 
-        <div className="flex gap-12 pt-12">
+        {/* <div className="flex gap-12 pt-12">
           <div className="flex flex-col flex-1">
             <h3 className="text-xl font-semibold tracking-wide mb-4">
               Schritt 1 (Besser sprechende Namen)
@@ -74,7 +121,7 @@ export default function DesktopContent() {
               vorbeiziehst. Und immer mehr Kunden gewinnst
             </p>
           </div>
-        </div>
+        </div> */}
         <div className="flex flex-col gap-4 items-center text-xl font-semibold bg-custom-red text-custom-white py-8 mt-24">
           <div>
             <p>Schnelle Kontaktaufnahme zu Jan Krösche</p>
@@ -94,7 +141,7 @@ export default function DesktopContent() {
           </div>
         </div>
       </section>
-      <section className=" bg-custom-white flex gap-12 p-32 py-24 2xl:gap-32 2xl:justify-center ">
+      <section className="mt-24 bg-custom-white flex gap-12 p-32 py-24 2xl:gap-32 2xl:justify-center ">
         <div className="min-w-1/2 2xl:min-w-1/3 relative">
           <div className="absolute -top-48">
             <img

@@ -7,21 +7,33 @@ import Maps from "../../icons/Maps";
 import Video from "../../icons/Video";
 import ATF from "../ATF";
 import Contact from "../Contact";
-import Pricing from "../pages/Pricing";
+import Pricing from "../Pricing";
 import Testimonials from "../Testimonials";
 import WebsiteCheck from "../WebsiteCheck";
 import LinkSeoCheck from "../LinkSeoCheck";
 import LinkGeoCheck from "../LinkGeoCheck";
 
 export default function MobileContent() {
-  const titleATF = "Endlich Platz 1 bei Google & ChatGPT mit Deiner Website!";
+  const titleATF = (
+    <h2 className="mx-4 mt-8">
+      Endlich{" "}
+      <span className="text-custom-red">Platz 1 bei Google & ChatGPT</span> mit
+      Deiner Website!
+    </h2>
+  );
   const subtitleATF =
     "Seit 2017 haben wir über 500 Firmen-Websites auf Platz 1 bei Google katapultiert";
   const textATF =
     "Jan Krösche & Team sind Deine SEO und SEA-Spezialisten, damit  Du die Nr. 1 im Netz wirst. Und mehr Neukunden gewinnst als Deine Wettbewerber.";
   return (
     <div>
-      <ATF title={titleATF} subtitle={subtitleATF} text={textATF} LinkComponent={<LinkSeoCheck />} imgPath="/images/portraits/39321-4133web.jpg"  />
+      <ATF
+        title={titleATF}
+        subtitle={subtitleATF}
+        text={textATF}
+        LinkComponent={<LinkSeoCheck />}
+        imgPath="/images/portraits/39321-4133web.jpg"
+      />
       <section className="bg-custom-white mx-4 mt-8 p-8 rounded-lg">
         <h2>
           Seit 2017 haben wir über{" "}
@@ -49,36 +61,64 @@ export default function MobileContent() {
           spezialisierten Team selbständig.
         </p>
       </section>
-      <section className="mt-24 bg-custom-white px-8 py-12 mt-8 rounded-lg flex flex-col gap-4">
-        <h2 className="">In 3 Schritten bringen wir Dich auf Platz 1</h2>
-        <div>
-          <h2>Schritt 1</h2>
-          <p>
-            Wir analysieren die Suchbegriffe, die genau Deine Kunden bei Google
-            & ChatGPT eingeben
-          </p>
-        </div>
-        <div>
-          <h2>Schritt 2</h2>
-          <p>
-            Wir optimieren Deine Website und/oder setzen Deine Google
-            Werbeanzeigen auf
-          </p>
-        </div>
-        <div>
-          <h2>Schritt 3</h2>
-          <p>
-            Wir bleiben am Ball und verbessern deine Website und Deine Anzeige
-            laufend, damit du sichtbarer wirst und an deinen Wettbewerbern
-            vorbeiziehst. Und immer mehr Kunden gewinnst
-          </p>
+      <section>
+        <button className="mx-auto block mt-16 bg-custom-purple px-4 py-2 text-custom-black rounded-lg cursor-pointer hover:bg-custom-red hover:text-custom-white">
+          Über uns
+        </button>
+        <h2 className="mt-4 text-center">
+          Bewährte Prozesse, echte Ergebnisse
+        </h2>
+        <div className="mt-16 flex flex-col justify-center gap-12 items-center ">
+          <div className="bg-white z-100 h-80 w-80 rounded-full flex flex-col gap-8 items-center  border-4 border-custom-red-op">
+            <div className="mt-12 bg-custom-red w-12 h-12 rounded-full flex items-center justify-center text-white font-semibold">
+              <span className="block text-xl">1</span>
+            </div>
+            <div>
+              <h2 className="text-center text-custom-red">Analyse</h2>
+              <p className="w-3/4 mx-auto text-center">
+                {" "}
+                Wir analysieren die Suchbegriffe, die genau Deine Kunden bei
+                Google & ChatGPT eingeben
+              </p>
+            </div>
+          </div>
+           <div className="absolute w-[1px] left-1/2 -translate-x-1/2 h-[720px] border-l-3 border-dashed border-custom-red"></div>
+          <div className="bg-white z-10 h-80 w-80 rounded-full flex flex-col gap-8 items-center  border-4 border-custom-red-op">
+            <div className="relative mt-12 bg-custom-red w-12 h-12 rounded-full flex items-center justify-center text-white font-semibold">
+             
+              <span className="block text-xl z-10">2</span>
+            </div>
+            <div className="z-10">
+              <h2 className="text-center text-custom-red z-100">Optimierung</h2>
+              <p className="w-3/4 mx-auto text-center">
+                {" "}
+                Wir optimieren Deine Website und setzen bei Bedarf Deine Google
+                Werbeanzeigen auf
+              </p>
+            </div>
+          </div>
+          <div className="bg-white z-100 h-80 w-80 rounded-full flex flex-col gap-8 items-center  border-4 border-custom-red-op">
+            <div className="mt-12 bg-custom-red w-12 h-12 rounded-full flex items-center justify-center text-white font-semibold">
+              <span className="block text-xl">3</span>
+            </div>
+            <div>
+              <h2 className="text-center text-custom-red">
+                Betreuung & Updates
+              </h2>
+              <p className="w-3/4 mx-auto text-center">
+                {" "}
+                Wir verbessern deine Website und Deine Anzeigen laufend, damit
+                du an deinen Wettbewerbern vorbeiziehst
+              </p>
+            </div>
+          </div>
         </div>
       </section>
       <Contact className="mt-24" />
       <Testimonials className="mt-24" />
       <section className="px-8 mt-24 flex flex-col gap-4">
         <h2 className="!mb-0">
-          Wir bringen Dich bei Google & ChatGPT ganz nach vorne
+          Wir bringen Dich bei <span className="text-custom-red">Google & ChatGPT </span>ganz nach vorne
         </h2>
         <ul className="list-disc px-4 flex flex-col gap-2">
           <li>

@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import Footer from "./components/footer/Footer";
 import Home from "./components/main-content/Home";
 import Blog from "./components/pages/Videos";
-import Pricing from "./components/pages/Pricing";
+import Pricing from "./components/Pricing";
 import Impressum from "./components/pages/Impressum";
 import Privacy from "./components/pages/Privacy";
 import ScrollToTopBtn from "./components/ScrollToTopBtn";

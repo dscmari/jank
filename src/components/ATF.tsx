@@ -3,7 +3,7 @@ import ArrowRight from "../icons/ArrowRight";
 import useWindowDimensions from "../utils/useWindowDimensions";
 
 type Props = {
-  title: string;
+  title: React.ReactNode;
   subtitle: string;
   text: string;
   LinkComponent: React.ReactNode;
@@ -33,9 +33,7 @@ export default function ATF({ title, subtitle, text, LinkComponent, imgPath }: P
             alt="Portrait von Jan Krösche"
             className="w-full"
           />
-          <h1 className="text-center !text-xl/8 tracking-wide p-8 pt-4">
-            {title}
-          </h1>
+         {title}
         </div>
       ) : (
         <div>

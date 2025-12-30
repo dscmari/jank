@@ -88,19 +88,18 @@ export default function GEOBerater() {
         imgPath={isMobile ? "/images/portraits/39321-4194.jpg" : "/images/portraits/39321-4127_01.jpg"}
       />
       <section className="flex flex-col 2xl:flex-row 2xl:items-center px-4 pt-8 lg:gap-12 lg:p-32 lg:py-32 2xl:gap-32 2xl:justify-center">
-        <div className="flex-1 flex flex-col gap-4">
+        <div className="flex-1 flex flex-col">
           <h2 className="lg:!text-3xl/10 tracking-wide font-semibold">
             Mit unserer <span className="text-custom-red">GEO Beratung</span>{" "}
             wirst Du bei ChatGPT, Gemini & Co. am häufigsten zitiert
           </h2>
           <p>
-            {" "}
             Unter „GEO“ versteht man die Optimierung für generative
             Suchmaschinen. Einfach ausgedrückt: Man optimiert Firmen-Websites
             dahingehend, dass sie extrem häufig bei ChatGPT, Gemini, Copilot und
             anderen KI-Chatsystemen auftauchen.
           </p>
-          <p>
+          <p className="py-4">
             Unseren Kunden „Schwabinger Wahrheit“ – ein Hotel in München –
             optimieren wir seit 2022 mit dem Ziel, in der KI sichtbarer zu sein.
             Für die Suchphrase (= Prompt) „Bestes Familienhotel in Schwabing“
@@ -327,15 +326,15 @@ export default function GEOBerater() {
               key={index}
               className="lg:aspect-square flex flex-col justify-between p-8 bg-custom-white lg:bg-white rounded-xl lg:shadow-lg"
             >
-              <div>
+              <div className="flex flex-col pt-4">
                 {e.icon}
                 <h2 className="pt-8">{e.title}</h2>
                 <p className="lg:text-sm">{e.text}</p>
               </div>
 
-              <button className="self-start rounded-xl text-custom-red bg-custom-red-op px-4 py-2 mt-8 text-sm">
+              {/* <button className="self-start rounded-xl text-custom-red bg-custom-red-op px-4 py-2 mt-8 text-sm">
                 Mehr Infos
-              </button>
+              </button> */}
             </div>
           ))}
         </div>
