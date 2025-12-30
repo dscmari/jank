@@ -7,9 +7,10 @@ type Props = {
   subtitle: string;
   text: string;
   LinkComponent: React.ReactNode;
+  imgPath: string
 };
 
-export default function ATF({ title, subtitle, text, LinkComponent }: Props) {
+export default function ATF({ title, subtitle, text, LinkComponent, imgPath }: Props) {
   const windowDimensions = useWindowDimensions();
   const [isMobile, setIsMobile] = useState(windowDimensions.width < 768);
   const [isTablet, setIsTablet] = useState(
@@ -28,7 +29,7 @@ export default function ATF({ title, subtitle, text, LinkComponent }: Props) {
       {isMobile ? (
         <div className="">
           <img
-            src="/images/portraits/39321-4133web.jpg"
+            src={imgPath}
             alt="Portrait von Jan Krösche"
             className="w-full"
           />
@@ -41,7 +42,7 @@ export default function ATF({ title, subtitle, text, LinkComponent }: Props) {
           {isTablet ? (
             <div>tablet</div>
           ) : (
-            <div className="desktop-atf h-screen relative">
+            <div className="h-screen relative bg-cover bg-center" style={{ backgroundImage: `url(${imgPath})` }}>
               <div className="p-8 rounded text-custom-white max-w-2/5 absolute top-1/2 -translate-y-1/2 left-1/8">
                 <h1 className="mb-8 !text-5xl/14 tracking-wide">{title}</h1>
                 <h2>{subtitle}</h2>

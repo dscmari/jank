@@ -21,7 +21,7 @@ export default function MobileContent() {
     "Jan Krösche & Team sind Deine SEO und SEA-Spezialisten, damit  Du die Nr. 1 im Netz wirst. Und mehr Neukunden gewinnst als Deine Wettbewerber.";
   return (
     <div>
-      <ATF title={titleATF} subtitle={subtitleATF} text={textATF} LinkComponent={<LinkSeoCheck />} />
+      <ATF title={titleATF} subtitle={subtitleATF} text={textATF} LinkComponent={<LinkSeoCheck />} imgPath="/images/portraits/39321-4133web.jpg"  />
       <section className="bg-custom-white mx-4 mt-8 p-8 rounded-lg">
         <h2>
           Seit 2017 haben wir über{" "}
@@ -33,7 +33,7 @@ export default function MobileContent() {
           bei Google und ChatGPT die sichtbarste Firma Deiner Branche wirst. Und
           endlich mehr Neukunden-Anfragen über die Website erhälst.
         </p>
-        <button className="mt-8 px-4 py-2 bg-custom-red text-custom-white rounded-4xl w-full flex items-center justify-between">
+        <button className="mt-8 px-4 py-2 bg-custom-red text-custom-white rounded-lg w-full flex items-center justify-between">
           <LinkSeoCheck />
           <ArrowRight />
         </button>
@@ -145,7 +145,7 @@ export default function MobileContent() {
               <span>Krösche-Ranking-Tracker</span>
             </div>
           </div>
-          <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded-4xl w-full flex items-center justify-between">
+          <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded-lg w-full flex items-center justify-between">
             <LinkSeoCheck />
             <ArrowRight />
           </button>
@@ -180,7 +180,7 @@ export default function MobileContent() {
               <span>GEO Tracker</span>
             </div>
           </div>
-          <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded-4xl w-full flex items-center justify-between">
+          <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded-lg w-full flex items-center justify-between">
             <LinkGeoCheck />
             <ArrowRight />
           </button>
@@ -219,7 +219,7 @@ export default function MobileContent() {
               <span>ChatGPT Shopping</span>
             </div>
           </div>
-          <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded-4xl w-full flex items-center justify-between">
+          <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded-lg w-full flex items-center justify-between">
             <span>Mehr zu Google Ads</span>
             <ArrowRight />
           </button>
@@ -355,7 +355,7 @@ export default function MobileContent() {
               <span>Deine Website endlich „funktioniert“</span>
             </div>
           </div>
-          <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded-4xl w-full flex items-center justify-between">
+          <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded-lg w-full flex items-center justify-between">
             <LinkSeoCheck />
             <ArrowRight />
           </button>
@@ -396,7 +396,7 @@ export default function MobileContent() {
               <span>Bing Werbung schalten (Bing Ads)</span>
             </div>
           </div>
-          <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded-4xl w-full flex items-center justify-between">
+          <button className="mt-16 px-4 py-2 bg-custom-red text-custom-white rounded-lg w-full flex items-center justify-between">
             <LinkSeoCheck />
             <ArrowRight />
           </button>

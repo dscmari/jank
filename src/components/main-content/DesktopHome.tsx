@@ -27,6 +27,7 @@ export default function DesktopContent() {
         subtitle={subtitleATF}
         text={textATF}
         LinkComponent={<LinkSeoCheck />}
+        imgPath="/images/portraits/39321-4000_02.jpg"
       />
       <section className="px-32 pb-48 pt-32">
         <div className="max-w-2/3">
