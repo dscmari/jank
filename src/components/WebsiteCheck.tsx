@@ -9,7 +9,7 @@ type Props = {
 export default function WebsiteCheck({ isGeo, className }: Props) {
   return (
     <section
-      className={`bg-custom-red lg:bg-white text-custom-white lg:text-custom-black p-8 pt-12 xl:mx-auto   ${className}`}
+      className={`bg-custom-red lg:bg-white text-custom-white lg:text-custom-black p-8 pt-12 xl:mx-auto ${className}`}
     >
       <div className="lg:flex lg:gap-16">
         <div className="hidden lg:block max-w-[640px] relative">
